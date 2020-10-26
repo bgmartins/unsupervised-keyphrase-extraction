@@ -91,6 +91,5 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
                     if not( np.isnan(embeddings).any() ): 
                         tmp.append( embeddings.copy() )
                         tmp.append( tmp[0].copy() )
-                        tmp.append( tmp[0].copy() )
             saida.append( np.mean(np.array(tmp), axis=0) )
         return saida
