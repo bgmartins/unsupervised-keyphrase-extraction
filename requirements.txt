@@ -5,3 +5,5 @@ scikit-learn==0.19.0
 scipy==0.19.1
 six==1.10.0
 requests==2.21.0
+transformers==3.4.0
+spacy==2.3.0
