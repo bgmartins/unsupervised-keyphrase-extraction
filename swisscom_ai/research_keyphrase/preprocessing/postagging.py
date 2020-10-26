@@ -18,12 +18,19 @@ import swisscom_ai.research_keyphrase.preprocessing.custom_stanford as custom_st
 from swisscom_ai.research_keyphrase.util.fileIO import read_file, write_string
 
 # If you want to use spacy , install it and uncomment the following import
-# import spacy
+import spacy
+from spacy.lang.char_classes import ALPHA, ALPHA_LOWER, ALPHA_UPPER
+from spacy.lang.char_classes import CONCAT_QUOTES, LIST_ELLIPSES, LIST_ICONS
+from spacy.util import compile_infix_regex
+
+import stanza
+
 
 
 class PosTagging(ABC):
     @abstractmethod
     def pos_tag_raw_text(self, text, as_tuple_list=True):
+
         """
         Tokenize and POS tag a string
         Sentence level is kept in the result :
@@ -145,12 +152,13 @@ class PosTaggingStanford(PosTagging):
         self.separator = separator
 
     def pos_tag_raw_text(self, text, as_tuple_list=True):
+
         """
         Implementation of abstract method from PosTagging
         @see PosTagging
         """
         tagged_text = self.tagger.tag_sents([self.sent_tokenizer.sentences_from_text(text)])
-
+        
         if as_tuple_list:
             return tagged_text
         return '[ENDSENT]'.join(
@@ -165,26 +173,144 @@ class PosTaggingSpacy(PosTagging):
     def __init__(self, nlp=None, separator='|' ,lang='en'):
         if not nlp:
             print('Loading Spacy model')
-            #  self.nlp = spacy.load(lang, entity=False)
+            #mudei
+            if lang == 'en':
+                self.nlp = spacy.load("en_core_web_sm", entity=False)
+            elif lang == 'pt':
+                self.nlp = spacy.load("pt_core_news_sm")
+
+
             print('Spacy model loaded ' + lang)
         else:
             self.nlp = nlp
         self.separator = separator
-
+    
+    
+    
     def pos_tag_raw_text(self, text, as_tuple_list=True):
         """
             Implementation of abstract method from PosTagging
             @see PosTagging
         """
+        
+        #mudei
+#        print (text)
+        def spacy_tokenizer(text_spacy):
 
+            # modify tokenizer infix patterns
+            infixes = (
+                LIST_ELLIPSES
+                + LIST_ICONS
+                + [
+                    r"(?<=[0-9])[+\-\*^](?=[0-9-])",
+                    r"(?<=[{al}{q}])\.(?=[{au}{q}])".format(
+                        al=ALPHA_LOWER, au=ALPHA_UPPER, q=CONCAT_QUOTES
+                    ),
+                    r"(?<=[{a}]),(?=[{a}])".format(a=ALPHA),
+                    # EDIT: commented out regex that splits on hyphens between letters:
+                    #r"(?<=[{a}])(?:{h})(?=[{a}])".format(a=ALPHA, h=HYPHENS),
+                    r"(?<=[{a}0-9])[:<>=/](?=[{a}])".format(a=ALPHA),
+                ]
+            )
+
+            infix_re = compile_infix_regex(infixes)
+            self.nlp.tokenizer.infix_finditer = infix_re.finditer
+            doc = self.nlp(text_spacy)
+            #mudei
+#            return [(t.text, t.tag_) for t in doc]
+#            print ([(t.text, t.pos_) for t in doc])
+            return [(t.text, t.pos_) for t in doc]
+        
+        
         # This step is not necessary int the stanford tokenizer.
         # This is used to avoid such tags :  ('      ', 'SP')
         text = re.sub('[ ]+', ' ', text).strip()  # Convert multiple whitespaces into one
 
         doc = self.nlp(text)
+                
         if as_tuple_list:
-            return [[(token.text, token.tag_) for token in sent] for sent in doc.sents]
+            #mudei
+#            return [[(token.text, token.pos_) for token in sent] for sent in doc.sents]
+#            print(spacy_tokenizer(sent) for sent in doc.sents)
+#            for w in doc.sents:
+#                print (w)
+#                print (str(w))
+#                print (spacy_tokenizer(str(w)))  
+               
+#            return  spacy_tokenizer(doc.sents)
+#            spacy_new = []
+#            [spacy_new.append(spacy_tokenizer(str(sent))) for sent in doc.sents]
+#            print ("passou aqui!!")
+#            print([(spacy_tokenizer(str(sent))) for sent in doc.sents])
+            return [(spacy_tokenizer(str(sent))) for sent in doc.sents]
+#            return [spacy_new]    
+#            print ("-----------------")
+#            print ([[(token.text, token.tag_) for token in sent] for sent in doc.sents])
+#            return [[(token.text, token.tag_) for token in sent] for sent in doc.sents]
+#        print ('[ENDSENT]'.join(' '.join(self.separator.join([token.text, token.tag_]) for token in sent) for sent in doc.sents))
+#        print ("passou aqui!!")
         return '[ENDSENT]'.join(' '.join(self.separator.join([token.text, token.tag_]) for token in sent) for sent in doc.sents)
+
+
+class PosTaggingStanza(PosTagging):
+
+
+    def pos_tag_raw_text(self, text, as_tuple_list=True):
+        def spacy_tokenizer(text_spacy):
+            nlp = spacy.load("en_core_web_sm", entity=False)
+            infixes = (
+                LIST_ELLIPSES
+                + LIST_ICONS
+                + [
+                    r"(?<=[0-9])[+\-\*^](?=[0-9-])",
+                    r"(?<=[{al}{q}])\.(?=[{au}{q}])".format(
+                        al=ALPHA_LOWER, au=ALPHA_UPPER, q=CONCAT_QUOTES
+                    ),
+                    r"(?<=[{a}]),(?=[{a}])".format(a=ALPHA),
+                    r"(?<=[{a}0-9])[:<>=/](?=[{a}])".format(a=ALPHA),
+                ]
+            )
+
+            infix_re = compile_infix_regex(infixes)
+            nlp.tokenizer.infix_finditer = infix_re.finditer
+            doc = nlp(text_spacy)
+
+            return [t for t in doc]
+
+        
+#        texto = 'this two-minutes!'
+
+        text = re.sub('[ ]+', ' ', text).strip()  # Convert multiple whitespaces into one
+
+#        stanza.download('en', processors={'tokenize': 'mwt'})
+
+        nlp = stanza.Pipeline(lang='en', processors='tokenize,pos',tokenize_pretokenized = False)
+        doc = nlp(text)
+        pool_sentences = [w.text for w in doc.sentences]
+#        print (pool_sentences)
+
+        nlp = stanza.Pipeline(lang='en', processors='tokenize,pos',tokenize_pretokenized = True)
+
+        a =[]
+        j=[]
+        for sentence in pool_sentences:
+        #	print (sentence.text)
+#            print ("------------")
+            for x in spacy_tokenizer(sentence):
+                doc = nlp(str(x))
+                for w in doc.sentences[0].words:
+                    b = (w.text,w.upos)
+                    a.append(b)
+                
+            j.append(a)
+            a=[]
+
+#        print (j)
+        return j
+        #        return '[ENDSENT]'.join(' '.join(self.separator.join([token.text, token.tag_]) for token in sent) for sent in doc.sents)
+
+
+
     
 
 class PosTaggingCoreNLP(PosTagging):
@@ -201,6 +327,7 @@ class PosTaggingCoreNLP(PosTagging):
         # Unfortunately for the moment there is no method to do sentence split + pos tagging in nltk.parse.corenlp
         # Ony raw_tag_sents is available but assumes a list of str (so it assumes the sentence are already split)
         # We create a small custom function highly inspired from raw_tag_sents to do both
+        
 
         def raw_tag_text():
             """
@@ -210,9 +337,12 @@ class PosTaggingCoreNLP(PosTagging):
             properties = {'annotators':'tokenize,ssplit,pos'}
             tagged_data = self.parser.api_call(text, properties=properties)
             for tagged_sentence in tagged_data['sentences']:
+#                print ([(token['word']) for token in tagged_sentence['tokens']])
+#                print ("----------")
                 yield [(token['word'], token['pos']) for token in tagged_sentence['tokens']]
         
         tagged_text = list(raw_tag_text())
+#        print (tagged_text)
 
         if as_tuple_list:
             return tagged_text
@@ -230,6 +360,7 @@ if __name__ == '__main__':
     parser.add_argument('listing_file_path', help='path to a text file '
                                                   'containing in each row a path to a file to POS tag')
     args = parser.parse_args()
+
 
     if args.tagger == 'stanford':
         pt = PosTaggingStanford()

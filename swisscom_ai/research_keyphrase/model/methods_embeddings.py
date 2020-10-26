@@ -7,7 +7,6 @@ import numpy as np
 
 from swisscom_ai.research_keyphrase.model.extractor import extract_candidates, extract_sent_candidates
 
-
 def extract_doc_embedding(embedding_distrib, inp_rpr, use_filtered=False):
     """
     Return the embedding of the full document
@@ -17,20 +16,15 @@ def extract_doc_embedding(embedding_distrib, inp_rpr, use_filtered=False):
     :param use_filtered: if true keep only candidate words in the raw text before computing the embedding
     :return: numpy array of shape (1, dimension of embeddings) that contains the document embedding
     """
-    if use_filtered:
-        tagged = inp_rpr.filtered_pos_tagged
-    else:
-        tagged = inp_rpr.pos_tagged
-
-    tokenized_doc_text = ' '.join(token[0].lower() for sent in tagged for token in sent)
+    if use_filtered: tagged = inp_rpr.filtered_pos_tagged
+    else: tagged = inp_rpr.pos_tagged
+    tokenized_doc_text = ' '.join(token[0] for sent in tagged for token in sent)
     return embedding_distrib.get_tokenized_sents_embeddings([tokenized_doc_text])
-
 
 def extract_candidates_embedding_for_doc(embedding_distrib, inp_rpr):
     """
-
     Return the list of candidate phrases as well as the associated numpy array that contains their embeddings.
-    Note that candidates phrases extracted by PosTag rules  which are uknown (in term of embeddings)
+    Note that candidates phrases extracted by PosTag rules which are uknown (in term of embeddings)
     will be removed from the candidates.
 
     :param embedding_distrib: embedding distributor see @EmbeddingDistributor
@@ -40,13 +34,14 @@ def extract_candidates_embedding_for_doc(embedding_distrib, inp_rpr):
     each row is the embedding of one candidate phrase
     """
     candidates = np.array(extract_candidates(inp_rpr))  # List of candidates based on PosTag rules
+    tokenized_doc_text = ' '.join(token[0] for sent in inp_rpr.pos_tagged for token in sent)
     if len(candidates) > 0:
-        embeddings = np.array(embedding_distrib.get_tokenized_sents_embeddings(candidates))  # Associated embeddings
+        embeddings = np.array(embedding_distrib.get_tokenized_sents_embeddings(candidates,tokenized_doc_text))  # Associated embeddings
         valid_candidates_mask = ~np.all(embeddings == 0, axis=1)  # Only candidates which are not unknown.
-        return candidates[valid_candidates_mask], embeddings[valid_candidates_mask, :]
+#        return candidates[valid_candidates_mask], embeddings[valid_candidates_mask, :]
+        return candidates, embeddings
     else:
         return np.array([]), np.array([])
-
 
 def extract_sent_candidates_embedding_for_doc(embedding_distrib, inp_rpr):
     """
@@ -60,7 +55,8 @@ def extract_sent_candidates_embedding_for_doc(embedding_distrib, inp_rpr):
     each row is the embedding of one candidate sentence
     """
     candidates = np.array(extract_sent_candidates(inp_rpr))
-    embeddings = np.array(embedding_distrib.get_tokenized_sents_embeddings(candidates))
-
+    tokenized_doc_text = ' '.join(token[0] for sent in inp_rpr.pos_tagged for token in sent)
+    embeddings = np.array(embedding_distrib.get_tokenized_sents_embeddings(candidates,tokenized_doc_text))
     valid_candidates_mask = ~np.all(embeddings == 0, axis=1)
-    return candidates[valid_candidates_mask], embeddings[valid_candidates_mask, :]
+    # return candidates[valid_candidates_mask], embeddings[valid_candidates_mask, :]
+    return candidates, embeddings

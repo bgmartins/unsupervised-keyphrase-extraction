@@ -6,13 +6,14 @@
 import warnings
 
 import numpy as np
+import networkx as nx
+import sklearn
+from sklearn.decomposition import FastICA, PCA, TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import normalize
+from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, extract_doc_embedding, extract_sent_candidates_embedding_for_doc
 
-from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, \
-    extract_doc_embedding, extract_sent_candidates_embedding_for_doc
-
-
-def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold):
+def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.25):
     """
     Core method using Maximal Marginal Relevance in charge to return the top-N candidates
 
@@ -28,49 +29,71 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     2)list of associated relevance scores (list of float)
     3)list containing for each keyphrase a list of alias (list of list of string)
     """
-
     N = min(N, len(candidates))
     doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding
-    doc_sim = cosine_similarity(X, doc_embedd.reshape(1, -1))
+    aux = np.array( list(doc_embedd) + list(X) )
+    #aux = (aux + np.min(aux, axis=0))
 
+    PVN_dims = 5
+    aux = aux - np.mean(aux, axis=0)
+    pca = PCA(n_components=300)
+    pca.fit(aux)
+    U1 = pca.components_
+    explained_variance = pca.explained_variance_
+    aux = []
+    for i, x in enumerate(np_vector):
+	for j,u in enumerate(U1[0:PVN_dims]):
+		ratio = (explained_variance[j]-explained_variance[PVN_dims]) / explained_variance[j]
+		x = x - ratio * np.dot(u.transpose(),x) * u
+    aux.append(x)
+    aux = np.asarray(aux)
+    doc_embedd = [aux[0]]
+    X = aux[1 : len(X) + 1,:]
+    
+    doc_sim = cosine_similarity(X, doc_embedd)
     doc_sim_norm = doc_sim/np.max(doc_sim)
     doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)
-
     sim_between = cosine_similarity(X)
     np.fill_diagonal(sim_between, np.NaN)
+    sim_between_norm = sim_between / np.nanmax(sim_between, axis=0)
+    sim_between_norm = 0.5 + (sim_between_norm - np.nanmean(sim_between_norm, axis=0)) / np.nanstd(sim_between_norm, axis=0)
 
-    sim_between_norm = sim_between/np.nanmax(sim_between, axis=0)
-    sim_between_norm = \
-        0.5 + (sim_between_norm - np.nanmean(sim_between_norm, axis=0)) / np.nanstd(sim_between_norm, axis=0)
-
+    #graph = nx.DiGraph()
+    #aux = []
+    #for pos1, w in enumerate(candidates):
+    #    for pos2, y in enumerate(candidates): 
+    #        if pos1 != pos2: aux.append((w,y, 1.0 + (sim_between_norm[pos1,pos2])))
+    #graph.add_weighted_edges_from(aux)
+    #aux = { }
+    #for pos, w in enumerate(candidates): aux[w] = 1.0 + doc_sim_norm[pos]
+    #try:
+    #    pr = nx.pagerank(graph, personalization=aux, alpha=0.2, max_iter=500, tol=1e-06)
+    #    for pos, w in enumerate(candidates):
+    #        doc_sim[pos] = pr[w]
+    #        doc_sim_norm[pos] = pr[w]
+    #except: doc_sim = doc_sim
+    
     selected_candidates = []
-    unselected_candidates = [c for c in range(len(candidates))]
-
+    unselected_candidates = [c for c in range(len(candidates))]    
     j = np.argmax(doc_sim)
     selected_candidates.append(j)
     unselected_candidates.remove(j)
-
     for _ in range(N - 1):
         selec_array = np.array(selected_candidates)
         unselec_array = np.array(unselected_candidates)
-
         distance_to_doc = doc_sim_norm[unselec_array, :]
         dist_between = sim_between_norm[unselec_array][:, selec_array]
-        if dist_between.ndim == 1:
-            dist_between = dist_between[:, np.newaxis]
+        if dist_between.ndim == 1: dist_between = dist_between[:, np.newaxis]
         j = np.argmax(beta * distance_to_doc - (1 - beta) * np.max(dist_between, axis=1).reshape(-1, 1))
         item_idx = unselected_candidates[j]
         selected_candidates.append(item_idx)
         unselected_candidates.remove(item_idx)
-
     # Not using normalized version of doc_sim for computing relevance
     relevance_list = max_normalization(doc_sim[selected_candidates]).tolist()
     aliases_list = get_aliases(sim_between[selected_candidates, :], candidates, alias_threshold)
-
     return candidates[selected_candidates].tolist(), relevance_list, aliases_list
 
-
-def MMRPhrase(embdistrib, text_obj, beta=0.65, N=10, use_filtered=True, alias_threshold=0.8):
+def MMRPhrase(embdistrib, text_obj, beta=0.65, N=20, use_filtered=False, alias_threshold=0.8):
     """
     Extract N keyphrases
 
@@ -85,11 +108,9 @@ def MMRPhrase(embdistrib, text_obj, beta=0.65, N=10, use_filtered=True, alias_th
     3)list containing for each keyphrase a list of alias (list of list of string)
     """
     candidates, X = extract_candidates_embedding_for_doc(embdistrib, text_obj)
-
     if len(candidates) == 0:
         warnings.warn('No keyphrase extracted for this document')
         return None, None, None
-
     return _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold)
 
 
@@ -106,11 +127,9 @@ def MMRSent(embdistrib, text_obj, beta=0.5, N=10, use_filtered=True):
     :return: list of N key sentences (or less if there are not enough candidates)
     """
     candidates, X = extract_sent_candidates_embedding_for_doc(embdistrib, text_obj)
-
     if len(candidates) == 0:
         warnings.warn('No keysentence extracted for this document')
         return []
-
     return _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered)
 
 
@@ -122,7 +141,6 @@ def max_normalization(array):
     """
     return 1/np.max(array) * array.squeeze(axis=1)
 
-
 def get_aliases(kp_sim_between, candidates, threshold):
     """
     Find candidates which are very similar to the keyphrases (aliases)
@@ -133,7 +151,6 @@ def get_aliases(kp_sim_between, candidates, threshold):
     :return: list containing for each keyphrase a list that contain candidates which are aliases
     (very similar) (list of list of string)
     """
-
     kp_sim_between = np.nan_to_num(kp_sim_between, 0)
     idx_sorted = np.flip(np.argsort(kp_sim_between), 1)
     aliases = []
@@ -145,5 +162,4 @@ def get_aliases(kp_sim_between, candidates, threshold):
             else:
                 break
         aliases.append(alias_for_item)
-
     return aliases
