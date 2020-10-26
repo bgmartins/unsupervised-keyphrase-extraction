@@ -36,17 +36,17 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
         aux = np.array( list(doc_embedd) + list(X) )
         PVN_dims = 5
         aux = aux - np.mean(aux, axis=0)
-        pca = PCA(n_components=300)
+        pca = PCA(n_components=min(aux.shape[0], aux.shape[1], 200))
         pca.fit(aux)
         U1 = pca.components_
         explained_variance = pca.explained_variance_
-        aux = []
-        for i, x in enumerate(np_vector):
+        X = []
+        for i, x in enumerate(aux):
             for j,u in enumerate(U1[0:PVN_dims]):
                 ratio = (explained_variance[j]-explained_variance[PVN_dims]) / explained_variance[j]
                 x = x - ratio * np.dot(u.transpose(),x) * u
-        aux.append(x)
-        aux = np.asarray(aux)
+            X.append(x)
+        aux = np.asarray(X)
         #aux = (aux + np.min(aux, axis=0))
         doc_embedd = [aux[0]]
         X = aux[1 : len(X) + 1,:]
