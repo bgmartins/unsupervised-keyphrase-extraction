@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import normalize
 from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, extract_doc_embedding, extract_sent_candidates_embedding_for_doc
 
-def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.25):
+def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.25, post_processing=True):
     """
     Core method using Maximal Marginal Relevance in charge to return the top-N candidates
 
@@ -30,26 +30,26 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     3)list containing for each keyphrase a list of alias (list of list of string)
     """
     N = min(N, len(candidates))
-    doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding
-    aux = np.array( list(doc_embedd) + list(X) )
-    #aux = (aux + np.min(aux, axis=0))
-
-    PVN_dims = 5
-    aux = aux - np.mean(aux, axis=0)
-    pca = PCA(n_components=300)
-    pca.fit(aux)
-    U1 = pca.components_
-    explained_variance = pca.explained_variance_
-    aux = []
-    for i, x in enumerate(np_vector):
-	for j,u in enumerate(U1[0:PVN_dims]):
+    doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding    
+    # Pos-processing from https://arxiv.org/abs/1808.06305
+    if post_processing:
+        aux = np.array( list(doc_embedd) + list(X) )
+        PVN_dims = 5
+        aux = aux - np.mean(aux, axis=0)
+        pca = PCA(n_components=300)
+        pca.fit(aux)
+        U1 = pca.components_
+        explained_variance = pca.explained_variance_
+        aux = []
+        for i, x in enumerate(np_vector):
+	    for j,u in enumerate(U1[0:PVN_dims]):
 		ratio = (explained_variance[j]-explained_variance[PVN_dims]) / explained_variance[j]
 		x = x - ratio * np.dot(u.transpose(),x) * u
-    aux.append(x)
-    aux = np.asarray(aux)
-    doc_embedd = [aux[0]]
-    X = aux[1 : len(X) + 1,:]
-    
+        aux.append(x)
+        aux = np.asarray(aux)
+        #aux = (aux + np.min(aux, axis=0))
+        doc_embedd = [aux[0]]
+        X = aux[1 : len(X) + 1,:]
     doc_sim = cosine_similarity(X, doc_embedd)
     doc_sim_norm = doc_sim/np.max(doc_sim)
     doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)

@@ -26,80 +26,24 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
     
     """
     def __init__(self, fasttext_model):
+        # Original implementation with sent2vec
         #self.models = sent2vec.Sent2vecModel()
         #self.models.load_model(fasttext_model)
         #self.model_type = 2
-                
-        #self.model = AutoModel.from_pretrained("johngiorgi/declutr-small")               
-        #self.tokenizer = AutoTokenizer.from_pretrained("johngiorgi/declutr-small")
-        #self.model_type = 1
         
-        #self.model = AutoModel.from_pretrained("johngiorgi/declutr-base")               
-        #self.tokenizer = AutoTokenizer.from_pretrained("johngiorgi/declutr-base")
-        #self.model_type = 1
-        
-        self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/bert-base-nli-stsb-mean-tokens")
-        self.model = AutoModel.from_pretrained("sentence-transformers/bert-base-nli-stsb-mean-tokens")
+        # Any Transformer model can be used here. Examples include:
+        #
+        # johngiorgi/declutr-small or johngiorgi/declutr-base
+        # sentence-transformers/bert-large-nli-mean-tokens , sentence-transformers/roberta-large-nli-stsb-mean-tokens , sentence-transformers/bert-base-nli-stsb-mean-tokens
+        # bert-base-multilingual-cased
+        # xlm-mlm-100-1280
+        # xlm-roberta-large
+        # SpanBERT/spanbert-large-cased"
+        # albert-xxlarge-v2
+        #
+        self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens")
+        self.model = AutoModel.from_pretrained("sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens")
         self.model_type = 1
-        
-        #self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/bert-large-nli-mean-tokens")
-        #self.model = AutoModel.from_pretrained("sentence-transformers/bert-large-nli-mean-tokens")
-        #self.model_type = 1
-        
-        #self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/roberta-large-nli-stsb-mean-tokens")
-        #self.model = AutoModel.from_pretrained("sentence-transformers/roberta-large-nli-stsb-mean-tokens")
-        #self.model_type = 1
-        
-        #self.tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens")
-        #self.model = AutoModel.from_pretrained("sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens")
-        #self.model_type = 1
-
-        #self.tokenizer = AutoTokenizer.from_pretrained("xlm-roberta-large")
-        #self.model = AutoModel.from_pretrained("xlm-roberta-large")
-        #self.model_type = 1
-
-        #self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
-        #self.model = AutoModel.from_pretrained("bert-base-multilingual-cased")
-        #self.model_type = 1
-        
-        #self.tokenizer = AutoTokenizer.from_pretrained("xlm-mlm-100-1280")
-        #self.model = AutoModel.from_pretrained("xlm-mlm-100-1280")
-        #self.model_type = 1        
-                
-        #self.tokenizer = AutoTokenizer.from_pretrained("albert-xxlarge-v2")
-        #self.model = AutoModel.from_pretrained("albert-xxlarge-v2")
-        #self.model_type = 1
-        
-        #self.tokenizer = AutoTokenizer.from_pretrained("SpanBERT/spanbert-large-cased")
-        #self.model = AutoModel.from_pretrained("SpanBERT/spanbert-large-cased")
-        #self.model_type = 1
-
-        #self.tokenizer = AutoTokenizer.from_pretrained("mrm8488/spanbert-large-finetuned-tacred")
-        #self.model = AutoModel.from_pretrained("mrm8488/spanbert-large-finetuned-tacred")
-        #self.model_type = 1
-        
-        #self.model = AutoModel.from_pretrained("/home/bgmartins/keyphrases/burt-base-model/0_BERT")
-        #self.tokenizer = AutoTokenizer.from_pretrained("/home/bgmartins/keyphrases/burt-base-model/0_BERT")
-        #self.model_type = 1
-        
-        #tf_checkpoint_path = '/home/bgmartins/keyphrases/bert2joint.openkp/bert2joint.openkp.roberta.checkpoint'
-        #bert_config_file = '/home/bgmartins/keyphrases/bert2joint.openkp/config.json'
-        #pytorch_dump_output = '/home/bgmartins/keyphrases/bert2joint.openkp/pytorch_model2.bin'
-        #filename = tf_checkpoint_path
-        #saved_params = torch.load(filename, map_location=lambda storage, loc:storage)
-        #args = saved_params['args']
-        #epoch = saved_params['epoch']
-        #state_dict = saved_params['state_dict']
-        #args.model_class = 'bert2joint'
-        #network = networks.get_class(args)
-        #args.num_labels = 2
-        #args.cache_dir = '/home/bgmartins/keyphrases/bert2joint.openkp'
-        #model_config = config_class[args.pretrain_model_type].from_pretrained(args.cache_dir, num_labels=args.num_labels)
-        #network = network.from_pretrained(args.cache_dir, config=model_config)
-        #if state_dict is not None: network.load_state_dict(state_dict)
-        #self.model = network.roberta
-        #self.tokenizer = AutoTokenizer.from_pretrained("roberta-base")
-        #self.model_type = 1
         
     def seq_in_seq(self, subseq, seq):
         p = 0
