@@ -1,0 +1,995 @@
+tweet.train.tok.en-278-CrowdCountskey℗: Nothing is more despicable than respect based on fear .℗respect!despicable!fear!based
+tweet.train.tok.en-995-CrowdCountskey℗So Glee was cute . I love . He was fabulous .℗Glee!fabulous!cute
+tweet.train.tok.en-980-CrowdCountskey℗Thanks for the tonsil advice everyone I have to see the ENT specialist first , then we'll see if I have to get those babies removed .℗tonsil!advice!removed!specialist!Thanks
+tweet.train.tok.en-424-CrowdCountskey℗-__- BOOF℗!!@OsoSpoety
+tweet.train.tok.en-431-CrowdCountskey℗We Built This City - Jefferson Starship℗Built!Jefferson!City!Starship
+tweet.train.tok.en-679-CrowdCountskey℗Want to win Thunder tickets ? To enter , go to our Facebook page and leave a comment about why you would love an Authentic Custom Home .℗Thunder!tickets!Home!comment!Authentic!Facebook!Custom!win!love
+tweet.train.tok.en-818-CrowdCountskey℗Motion Sickness : Iâve just spent 26 of the last 40 hours on the road . My body still feels like Iâm driving 75mph . ... ,℗Motion!Sickness!body!road!hours!like!spent
+tweet.train.tok.en-126-CrowdCountskey℗Wait But Why Tho ?℗Wait
+tweet.train.tok.en-133-CrowdCountskey℗damm that cut deep , i just noticed daht .....℗deep!cut!noticed
+tweet.train.tok.en-883-CrowdCountskey℗Check out the application : , Could your org build a similar dashboard for your constituents ?℗your!dashboard!@barackobama!Check!constituents
+tweet.train.tok.en-532-CrowdCountskey℗niggas be lieing about they don eat pussy but when it comes down to it they do it℗pussy!eat!niggas!lieing
+tweet.train.tok.en-527-CrowdCountskey℗Public and private jobs | Angry Bear : The wife and I used to work retail for the California State Parks . If our pa ... ,℗private!jobs!Public!California!Parks!Angry!State!wife!Bear!retail
+tweet.train.tok.en-32-CrowdCountskey℗Biocon to invest 161 million dollars in Malaysia ,℗Biocon!Malaysia!invest!million!dollars
+tweet.train.tok.en-27-CrowdCountskey℗LOL I know right℗know!right!@iamcomedy
+tweet.train.tok.en-209-CrowdCountskey℗at step practice ; you know ' (:℗practice!step
+tweet.train.tok.en-608-CrowdCountskey℗can i have your email so i can invite you to a sample sale℗sale!sample!email!invite
+tweet.train.tok.en-440-CrowdCountskey℗really enjoyed the 8th grade class today . Looking forward to the next 6 weeks with them℗grade!class!enjoyed!weeks!Looking!forward!today!really
+tweet.train.tok.en-455-CrowdCountskey℗going to stuff my face with a huge bowl of cereal .℗cereal!stuff!face!bowl!huge
+tweet.train.tok.en-384-CrowdCountskey℗I take it you don't like wearing them either ? ;)℗wearing!like
+tweet.train.tok.en-391-CrowdCountskey℗last day of getting the rest of my things done for tally Hair appiontment tomorrow .℗appiontment!Hair!tomorrow!tally!things
+tweet.train.tok.en-869-CrowdCountskey℗: Whad up my dude ... The album is actually on the way soon , we'll keep you posted homie . We really PRECIATE the ...℗album!posted
+tweet.train.tok.en-790-CrowdCountskey℗lol I am innocent℗innocent!@biggstep
+tweet.train.tok.en-785-CrowdCountskey℗Well my hair is Auburn too ... one of the reason I loved my ex was is very pretty orange car .℗orange!car!Auburn!hair!pretty!ex!reason!loved
+tweet.train.tok.en-142-CrowdCountskey℗Goodmorning :)℗Goodmorning
+tweet.train.tok.en-157-CrowdCountskey℗Chicagoan early voters in Uptown even get brownies and entertainment while waiting for a dozen people to do 15 page ballots .℗brownies!entertainment!Chicagoan!waiting!voters!people!dozen
+tweet.train.tok.en-556-CrowdCountskey℗: Chck out I CAN RAP , & the TAKEOVER , ...℗...!the!@deenoGreen
+tweet.train.tok.en-543-CrowdCountskey℗Gothtober℗Gothtober
+tweet.train.tok.en-292-CrowdCountskey℗you did the same for us by singing to us love℗singing!us!love
+tweet.train.tok.en-287-CrowdCountskey℗U old Half dead mufuggah scared to get the bread mufuggah retweetin everything he/she said mufuggah℗bread!scared!Half!retweetin!old!mufuggah!dead
+tweet.train.tok.en-56-CrowdCountskey℗She whispered don't you have a place to go ? Why are you even in California ?℗California!place!whispered
+tweet.train.tok.en-43-CrowdCountskey℗I tear up every time I hear that one . Reminds me of my niece who is my world <3℗niece!tear!hear
+tweet.train.tok.en-686-CrowdCountskey℗: I wish We'd get some hot lesbians at our school . I'm tired of seeing fat ugly ones kiss .℗lesbians!ugly!school!fat!hot!kiss
+tweet.train.tok.en-693-CrowdCountskey℗Just You Try and Play Dominoes With Your Fancy Ebooks Now [ Video ]: It ... ,℗Dominoes!Ebooks!Play!Fancy!Try
+tweet.train.tok.en-962-CrowdCountskey℗Comcast CEO : iPad , tablets give us ability to ' start from scratch ' on TV interface ,℗to!scratch!start!interface!tablets!Comcast!iPad
+tweet.train.tok.en-977-CrowdCountskey℗: everything that looks good on the outside is usually SHIT inside ?℗good!that!looks
+tweet.train.tok.en-703-CrowdCountskey℗omg . Enough Uhggg℗Enough!Uhggg
+tweet.train.tok.en-716-CrowdCountskey℗BEST ALTERNATIVE PARAMORE℗PARAMORE
+tweet.train.tok.en-317-CrowdCountskey℗I need to go home man . Got some thangs I wanna try . Lol .℗home!thangs!need
+tweet.train.tok.en-302-CrowdCountskey℗Cool , meet us at Kieran's if you can . Court , too ? Others ?℗Kieran's!meet!us!Court
+tweet.train.tok.en-798-CrowdCountskey℗Google : Different Algorithms Can Apply To Different Sites At Different Times , via℗Algorithms!Google!Sites!Times!Apply
+tweet.train.tok.en-399-CrowdCountskey℗The Onion weighs in on the Wisconsin Senate race , via℗Senate!race!Onion!Wisconsin
+tweet.train.tok.en-874-CrowdCountskey℗: 6 Productivity Principles to Live By ( My Personal Productivity Manifesto ) ,℗Productivity!Principles!Live
+tweet.train.tok.en-861-CrowdCountskey℗hhahahah your trippppin im coming back tuesss℗coming!trippppin
+tweet.train.tok.en-615-CrowdCountskey℗hey℗hey!@JordansSexiMofo
+tweet.train.tok.en-600-CrowdCountskey℗IP MAN ( why )℗)!#nowwatching
+tweet.train.tok.en-448-CrowdCountskey℗Cartoons of the Day , via℗Cartoons
+tweet.train.tok.en-201-CrowdCountskey℗Hungryyyyy (@ Jasmine 26 ) ,℗Hungryyyyy
+tweet.train.tok.en-214-CrowdCountskey℗Going to sleep with you on my mind ..℗sleep!mind
+tweet.train.tok.en-906-CrowdCountskey℗: I wonder when they gon put Kobe statue up in front of the Staples Center ?℗Kobe!Staples!statue!Center!wonder
+tweet.train.tok.en-913-CrowdCountskey℗Q5 I love reading and I really want my kids to enjoy it too℗reading!enjoy!love!want
+tweet.train.tok.en-3-CrowdCountskey℗Wednesday 27th october 2010 . ãhave a nice day :)℗nice!day!Wednesday!2010
+tweet.train.tok.en-767-CrowdCountskey℗Its football and baseball first ;℗baseball!football
+tweet.train.tok.en-772-CrowdCountskey℗I bet you could throw a football over them mountains . Or at least a steak into the face of a teammate .℗football!mountains!teammate!face!steak
+tweet.train.tok.en-373-CrowdCountskey℗hey :D please read this for me , i really wanna meet in Montreal <3℗Montreal!read!please!@justinbieber!wanna
+tweet.train.tok.en-366-CrowdCountskey℗Check this video out -- Travie McCoy : Billionaire ft . Bruno Mars ( Audio ) , via℗Travie!McCoy!Bruno!Mars!video!Check!Billionaire
+tweet.train.tok.en-810-CrowdCountskey℗Mayo is some nasty shit why would you have a commercial for that crap ?℗nasty!commercial!crap!shit!Mayo
+tweet.train.tok.en-805-CrowdCountskey℗ha ... a little sum to smoke and ride to℗smoke!@InsolentPuffin!ride!little
+tweet.train.tok.en-439-CrowdCountskey℗Bizzy launch event (@ Roger Smith Hotel with ) ,℗event!launch!Bizzy!Hotel
+tweet.train.tok.en-671-CrowdCountskey℗Finally off to Seattle℗Seattle
+tweet.train.tok.en-664-CrowdCountskey℗The World see US as a future European community . Our politicians like social products Do you ? , Vote 4 Change℗European!politicians!community!as!products!Vote!social!future
+tweet.train.tok.en-265-CrowdCountskey℗" RUN DAT " by ft . DOWNLOAD NOW ,℗!!!!!!NOW
+tweet.train.tok.en-270-CrowdCountskey℗I bet Haha yesterday Clowns : at Philly 2nite , let's go℗yesterday!#teamceltics!bet!#teamheat
+tweet.train.tok.en-988-CrowdCountskey℗Well looks like I'm going to have to take trip to ATL to see℗trip!to!take!looks
+tweet.train.tok.en-20-CrowdCountskey℗It weighs too much this time . My hands are broken . She'll disappear this time .℗weighs!broken!disappear!time
+tweet.train.tok.en-35-CrowdCountskey℗I'm off Thursday . Is that good for you ?℗Thursday!@JoshMiami!good
+tweet.train.tok.en-909-CrowdCountskey℗It's one of those " I can't wait until it's the Kid's bedtime " times .℗bedtime!Kid's!wait
+tweet.train.tok.en-768-CrowdCountskey℗we may have to crash for that - I hate paying for shipping on anything but can't find NY juice locally to try℗juice!crash!paying!shipping!hate
+tweet.train.tok.en-520-CrowdCountskey℗Foo stuffed his WHOLE face with banana smh ,℗banana!face!stuffed
+tweet.train.tok.en-535-CrowdCountskey℗: Shout-out to definition of little webbies i-n-d-e-p-e-n-d-e-n-t --> do you know what means man ??? Â« Ayyye℗man!i-n-d-e-p-e-n-d-e-n-t!webbies!definition!little
+tweet.train.tok.en-891-CrowdCountskey℗Excited and I are going to our 1st meeting today . Can't wait to learn about Sharepoint℗Sharepoint!meeting!learn!Excited
+tweet.train.tok.en-884-CrowdCountskey℗Offer Floating Form Capture Sites to All Sorts of Businesses and Get Paid ,℗Form!Businesses!Capture!Offer!Paid!Sites
+tweet.train.tok.en-369-CrowdCountskey℗You can't find a better deal on Nintendo DS Than in our eBay store , where buyer & seller meet . Read here . ,℗Nintendo!eBay!.!deal!store
+tweet.train.tok.en-134-CrowdCountskey℗iDC we got rings we aint chumps℗chumps!rings
+tweet.train.tok.en-121-CrowdCountskey℗, MORNING FAM℗FAM
+tweet.train.tok.en-436-CrowdCountskey℗ima get me a flip phone for real℗phone!flip!real
+tweet.train.tok.en-423-CrowdCountskey℗Does anyone have a membership ? Is it really worth it ?℗#directbuy!membership!#homerenovation!worth
+tweet.train.tok.en-987-CrowdCountskey℗Alyssaaaa , are you going to see T-Swift November 4 ?? :D if so , I see you there :)℗T-Swift!@AlyssaReid
+tweet.train.tok.en-992-CrowdCountskey℗In November , bring a friend/refer a friend for Botox and both get 20% OFF℗Botox!friend!20%
+tweet.train.tok.en-694-CrowdCountskey℗im about to eat choco chip cookies and drink strawberry kiwi℗chip!cookies!strawberry!choco!kiwi!eat!drink
+tweet.train.tok.en-681-CrowdCountskey℗I'm spiritual , but my sense of humor is urban ... ghetto even .℗spiritual!urban!humor!ghetto!sense
+tweet.train.tok.en-44-CrowdCountskey℗Hello sweet morning ;-)℗sweet!morning
+tweet.train.tok.en-51-CrowdCountskey℗: Who's ever smoked before they took a test at school ? / * raises hand & jumps up & down * me , meee℗smoked!test!school!jumps!@Jadesmokedgreen!hand
+tweet.train.tok.en-978-CrowdCountskey℗: just told to get Awesome℗@BarackObama!Awesome!told!get
+tweet.train.tok.en-280-CrowdCountskey℗happy birthday to me bitches 23 is the lucky number℗birthday!lucky!happy!23!number!bitches
+tweet.train.tok.en-295-CrowdCountskey℗would like to declare that he has felt due shame about his trashed behavior in public last night and is now eternal-sunshining that shit .℗trashed!behavior!shame!declare!public!felt!eternal-sunshining!shit
+tweet.train.tok.en-544-CrowdCountskey℗Say Anything with boyfriend . :))℗boyfriend!Say
+tweet.train.tok.en-551-CrowdCountskey℗Thompson Says PayPal's Growth Outside U.S. Is `Enormous ' : Video : Oct . 27 ( Bloomberg ) -- Scott ... , ,℗...!PayPal's!Growth!Thompson!`Enormous
+tweet.train.tok.en-719-CrowdCountskey℗I seriously need 2 read & listen to your blog more often , you are a wealth of encouragement & knowledge 2 which I have been ignorant℗encouragement!blog!wealth!knowledge!read!ignorant
+tweet.train.tok.en-150-CrowdCountskey℗OMG your from PA ? i am too (: where abouts ?℗am
+tweet.train.tok.en-145-CrowdCountskey℗wait a second ... how late do you eat ? ? It's like dinnertime here℗late!eat!dinnertime
+tweet.train.tok.en-318-CrowdCountskey℗YEEEEEEES LAKERS : The Laker girls danced to FYE at halftime℗Laker!girls!danced!The!halftime
+tweet.train.tok.en-782-CrowdCountskey℗don't worry about what i think .. why don't you ask him℗worry!ask
+tweet.train.tok.en-797-CrowdCountskey℗--- Thank you , and I finally am ...℗finally
+tweet.train.tok.en-396-CrowdCountskey℗Cuz I can and where you been Biden at ?℗Biden
+tweet.train.tok.en-383-CrowdCountskey℗: Talk shit about someone else situation , but yours is worse than theres℗shit!Talk!worse!situation
+tweet.train.tok.en-452-CrowdCountskey℗Big double doors right ??℗doors!Big
+tweet.train.tok.en-447-CrowdCountskey℗DAMN SKIPPY℗!
+tweet.train.tok.en-213-CrowdCountskey℗Motorola Droid OEM Window Mount â Only for the First Generation Motorola Droid : Product DescriptionThe Motorola DR ... ,℗Motorola!Droid!Mount!Window!Generation!...
+tweet.train.tok.en-206-CrowdCountskey℗Bwaahaha that is classic . Scoreboard Ended your season . You got rolled by the team that lost to isu : Husker fan℗Scoreboard!classic!season!Husker!Ended!rolled
+tweet.train.tok.en-607-CrowdCountskey℗Did I burn down the joint ? I DON'T THINK SO . I was making ornaments out of fish hooks .℗ornaments!burn!making!joint!fish!hooks
+tweet.train.tok.en-612-CrowdCountskey℗: Shoutout 2 I'm Performing With All Them Tomorr ...℗Performing!@FKiMusic!@itsLEWISprice!@LawsHipHop
+tweet.train.tok.en-866-CrowdCountskey℗I upload a YouTube video -- You " Light Up The Sky " ,℗Light!video!Sky!YouTube!upload
+tweet.train.tok.en-873-CrowdCountskey℗when is house of candace open ?℗house!candace!open
+tweet.train.tok.en-158-CrowdCountskey℗: . dt should go DOWNTOWN Lol .. --> LMAO Man BIANCA℗Man
+tweet.train.tok.en-305-CrowdCountskey℗Actually sounds like it was too pit .℗sounds!like!pit
+tweet.train.tok.en-310-CrowdCountskey℗: There is No New Media : Itâs All New Consumption by ,℗New!#media!Consumption!No!#newspaper
+tweet.train.tok.en-559-CrowdCountskey℗we gotta test guh My teacher said she gne start taking off points if we late on test dayz ....℗test!teacher!points!late!start!@diamondTIERA!said
+tweet.train.tok.en-711-CrowdCountskey℗if you're a believer , whats the mosy favorite thing about tâ¦ â I love that he is not just for riches and fame he loveâ¦ ,℗riches!believer!fame
+tweet.train.tok.en-704-CrowdCountskey℗: Congratulations on finishing ' is AFTERMATH .. 11 days until we start the recording of our ...℗start!Congratulations!recording!finishing
+tweet.train.tok.en-970-CrowdCountskey℗wait , so are you gonna see justin bieber movie about his true life℗bieber!movie!justin!see!true!life
+tweet.train.tok.en-965-CrowdCountskey℗I am secure .℗secure
+tweet.train.tok.en-288-CrowdCountskey℗Jesus . Shuttlesworth . Ladies and Gentlemen .℗Shuttlesworth!Jesus!Gentlemen!Ladies
+tweet.train.tok.en-689-CrowdCountskey℗Boston Celtics are hungry tonite Miami Heat just looks full . o_O Lol℗Heat!Celtics!hungry!Miami!full!Boston
+tweet.train.tok.en-59-CrowdCountskey℗Iyaz is an ugly mofuhka . Lol iv seen him super up close .℗Iyaz!ugly!close
+tweet.train.tok.en-277-CrowdCountskey℗smh they had to book him fa something .. smh℗book!something
+tweet.train.tok.en-262-CrowdCountskey℗Stupid ass pizza man , gon get lost and shit , ask me 4 a tip I told him get lost℗pizza!lost!Stupid!man!shit!ask
+tweet.train.tok.en-663-CrowdCountskey℗Tyra mail ... how are you ??℗Tyra!mail
+tweet.train.tok.en-676-CrowdCountskey℗With all these questions , I am so curious about what shenanigans you are up to . Next you'll ask for 9 yards of nylon mesh ...℗shenanigans!nylon!questions!curious!mesh!yards
+tweet.train.tok.en-802-CrowdCountskey℗Lauryn Hill has some powerful words . Sheesh℗Lauryn!Hill!powerful!words
+tweet.train.tok.en-817-CrowdCountskey℗I favorited a YouTube video -- Christina Aguilera - Save Me From Myself [ Official Video ] ,℗Christina!Aguilera!Save!video!favorited!YouTube
+tweet.train.tok.en-899-CrowdCountskey℗Ugh , Crystal , you are a STYLIST . It's your job to LISTEN to your client . Dumb BITCH .℗client!Crystal!to
+tweet.train.tok.en-361-CrowdCountskey℗Just finished reorganizing my external hard drives . That felt amazingly refreshing℗hard!external!drives!reorganizing!refreshing!finished
+tweet.train.tok.en-374-CrowdCountskey℗It's physically impossible . : I just attempted to hold my eyelids open whole sneezing . It didn't quite work out as planned .℗sneezing!eyelids!open!attempted
+tweet.train.tok.en-129-CrowdCountskey℗What's the point of a grown man with a mohawk ??℗mohawk!grown!man!point
+tweet.train.tok.en-775-CrowdCountskey℗PAPERCRAFTING IS AWESOME℗!!!!!!
+tweet.train.tok.en-760-CrowdCountskey℗KoryBaker262626 : KoryBaker262626 : Kory Baker KoryBaker262626 : Kory Baker KoryBaker262626â¦ ,℗Baker!KoryBaker262626!http://goo.gl/fb/yMiwT!Kory
+tweet.train.tok.en-4-CrowdCountskey℗: oh , hey THANKS jerk℗jerk
+tweet.train.tok.en-528-CrowdCountskey℗" : Denial has become such a comfort for some that the truth has become an illusion . "℗Denial!comfort!truth!illusion
+tweet.train.tok.en-914-CrowdCountskey℗you see the DM brother℗see!DM!brother
+tweet.train.tok.en-901-CrowdCountskey℗bestieee imy℗bestieee!imy
+tweet.train.tok.en-28-CrowdCountskey℗Bbm yawn face * Man that felt so refreshing .℗refreshing!#napflow!face!felt
+tweet.train.tok.en-688-CrowdCountskey℗Im sooooo fullllllll I need a pillow .℗pillow!need!fullllllll
+tweet.train.tok.en-58-CrowdCountskey℗SHOWOFFRADIO LIVE℗!!!
+tweet.train.tok.en-289-CrowdCountskey℗I want . I need . : As refreshing as Gatorade but much better . Mags ' 09 Lapierre BTG ,℗Gatorade!refreshing!want!need
+tweet.train.tok.en-964-CrowdCountskey℗That's one of my favorite videos : This is going to be part of my morning routine starting tomorrow - ,℗routine!videos!morning!favorite!tomorrow
+tweet.train.tok.en-971-CrowdCountskey℗Sad AND scary so many think like that . Doesn't matter if you're on left or right .℗Sad!scary!right!matter
+tweet.train.tok.en-558-CrowdCountskey℗Northrop Grumman 3Q profit rises , boosts forecast \n ( AP)\n : AP - Defense contractor Northrop Grumman Corp . say ... ,℗Grumman!Northrop!profit!rises!Defense!contractor
+tweet.train.tok.en-705-CrowdCountskey℗i fill like im just blah =[[℗blah!im!fill
+tweet.train.tok.en-710-CrowdCountskey℗Damn how many timeouts does the fucking have ?℗timeouts
+tweet.train.tok.en-159-CrowdCountskey℗I don't get it can people not smell themselves℗smell!people
+tweet.train.tok.en-311-CrowdCountskey℗Weird , is alluding to the Charlie the Unicorn video in their clue titles Shun the non-believer℗Charlie!Unicorn!titles!non-believer!clue!#jeopardy!video
+tweet.train.tok.en-304-CrowdCountskey℗lets do the damn thing :]℗damn!thing
+tweet.train.tok.en-872-CrowdCountskey℗℗#TeamCheeky!#TeamGemini
+tweet.train.tok.en-867-CrowdCountskey℗Lol , we need to get on that : I should as well : Let me open Word so I can start this paper ...℗Word!open!need!paper!start
+tweet.train.tok.en-613-CrowdCountskey℗Sittin and the health center & ease dropping on prescription fill-ups .. y'all definitely need 2 take y'all asses upstairs & get that free testing℗center!health!prescription!dropping!Sittin!fill-ups!testing!free!ease
+tweet.train.tok.en-606-CrowdCountskey℗: I never bought candy bars from those kids on my doorstep so I guess theyâre all in gangs now .℗candy!bars!gangs!doorstep
+tweet.train.tok.en-207-CrowdCountskey℗: I'm currently in love with Bruno Mars ... <3℗Mars!Bruno!love
+tweet.train.tok.en-212-CrowdCountskey℗no worries ... seems like a lot of people are busy℗busy!people!@JamieLynnODell
+tweet.train.tok.en-29-CrowdCountskey℗: don really know where i would be without you and Demi <3 i love youuuu℗Demi!really
+tweet.train.tok.en-900-CrowdCountskey℗Thank , little QNasty℗QNasty
+tweet.train.tok.en-915-CrowdCountskey℗What are Wrinkles ? ,℗Wrinkles
+tweet.train.tok.en-761-CrowdCountskey℗LOL , actually you're the only one who tweets regularly keep up the good work . I was talking about some " other " people :D℗tweets!work!good!people!who
+tweet.train.tok.en-774-CrowdCountskey℗Yeah you right lol burn that picture please . thank you lol℗picture!burn!right
+tweet.train.tok.en-529-CrowdCountskey℗Yeah Im goodie just in the lab working ... Wow I need to be where you at lol let me visit℗lab!working!visit
+tweet.train.tok.en-5-CrowdCountskey℗I like monkeys , but I still hate COSTCO parking lots ..℗parking!lots!hate!like
+tweet.train.tok.en-375-CrowdCountskey℗Beneath The Surface : )℗Surface!#ThesekidsknowDeathCore
+tweet.train.tok.en-360-CrowdCountskey℗... uhmmmmm .. :P Can you please letme change my profile picture ??? Please℗profile!picture!change!please
+tweet.train.tok.en-898-CrowdCountskey℗why gotta go all there ? But yeah .. It was cool . I would like to hear more though℗cool!hear
+tweet.train.tok.en-128-CrowdCountskey℗better late than never right ? thats what they say℗never!late
+tweet.train.tok.en-816-CrowdCountskey℗Democrats exit rally as Clinton drones - Disgusted - Staying Home ? ,℗Democrats!Clinton!rally!Home!Disgusted!drones!Staying
+tweet.train.tok.en-803-CrowdCountskey℗This yearâs almond crop is a great one . And the crop is being shipped fresh to youâ¦Now℗almond!crop!shipped!fresh!great!yearâs
+tweet.train.tok.en-677-CrowdCountskey℗: " Who are you chasing that's dissin you ? Who are you ignoring that's craving your presence ? Go ( continued ) ,℗ignoring!presence!Who!chasing!dissin!craving
+tweet.train.tok.en-662-CrowdCountskey℗Ac would b nice℗nice!Ac
+tweet.train.tok.en-263-CrowdCountskey℗â¥ ÏÐ½Ã¤nÎº ÑÃ¶Ã¼ ââØ§ÙÙÙÙÙââ â¥℗ÏÐ½Ã¤nÎº!ÑÃ¶Ã¼!â¥
+tweet.train.tok.en-276-CrowdCountskey℗Ruling strikes down part of Arizona Voter ID law - Yahoo News ,℗Voter!Arizona!law
+tweet.train.tok.en-993-CrowdCountskey℗They proli like that shit is dumb , but im distraught over this shit .℗distraught!shit!dumb!proli
+tweet.train.tok.en-986-CrowdCountskey℗: Great article ... Every cook/chef should read : Michael Ruhlman blogs about disease ,℗Ruhlman!#GF!article!disease!Michael!#celiac
+tweet.train.tok.en-422-CrowdCountskey℗oke ( Y )℗oke
+tweet.train.tok.en-437-CrowdCountskey℗** NEW MIXTAPE " WELCOME TO THE A " on ,℗on
+tweet.train.tok.en-368-CrowdCountskey℗Cheer for the toronto raptors .℗raptors!toronto!Cheer
+tweet.train.tok.en-885-CrowdCountskey℗Even though I love justin , everytime I hear about canada I think of the people with Flip Top heads on south park xD℗justin!love!canada!Top!Flip!heads!south!park
+tweet.train.tok.en-890-CrowdCountskey℗accept my follow chick lol℗follow!chick!accept
+tweet.train.tok.en-120-CrowdCountskey℗what happened ?℗happened!@3BrosAngel
+tweet.train.tok.en-135-CrowdCountskey℗Tomorrow ... Socacize will be on Rogers TV from 10 â 11:30 a.m. If you missed us we'll be back at 3:00 p.m. , and midnight℗Rogers!Socacize!missed!,
+tweet.train.tok.en-769-CrowdCountskey℗: 4 incredible wines from Kermit Lynch will be poured tomorrow from 6-8 . Oh , and did we say FREE ? yes , you read right-FREE℗wines!Kermit!Lynch!incredible!from!tomorrow!poured
+tweet.train.tok.en-534-CrowdCountskey℗oh yeah i bet . Should be lots of fun for you . lol :-)℗fun!bet!@beachgirl014
+tweet.train.tok.en-521-CrowdCountskey℗Traffic Generation Strategy : How to Make Any Contest a Slam-Dunk : ,℗Slam-Dunk!Generation!Traffic!Strategy!Contest
+tweet.train.tok.en-908-CrowdCountskey℗Was already planning on going℗planning!@barbellawaken
+tweet.train.tok.en-34-CrowdCountskey℗lol , no , we good℗good
+tweet.train.tok.en-21-CrowdCountskey℗was guud shitty ass℗shitty!ass!guud
+tweet.train.tok.en-446-CrowdCountskey℗On a massive sugar high killing spree .℗sugar!high!killing!spree
+tweet.train.tok.en-453-CrowdCountskey℗More clouds today with highs near 70 ... Upper 30s tonight .. Frost possible tomorrow morning and Fri . morning . Weekend still looks warm/dry ..℗clouds!Frost!Fri!tomorrow!morning!30s!Weekend!today!Upper!tonight
+tweet.train.tok.en-382-CrowdCountskey℗Although you may feel more comfortable now if there is less fo ... More for Taurus ,℗comfortable!feel!Taurus
+tweet.train.tok.en-397-CrowdCountskey℗Things that should be illegal : wearing Ed Hardy to the Apple store .℗Apple!Hardy!store
+tweet.train.tok.en-796-CrowdCountskey℗The Pub Quiz starts in 20 minutes on Southport We're there ' until 11 so come on down anytime and still have a chance to win℗Quiz!chance!Southport!win!minutes!20
+tweet.train.tok.en-783-CrowdCountskey℗omg you ran into Kim Kardashian 3 times Next time you do get an autograph for me℗autograph!Kardashian!Kim!ran
+tweet.train.tok.en-144-CrowdCountskey℗ha I seriously can't wait for May Damn , its gonna be fun℗wait!fun
+tweet.train.tok.en-151-CrowdCountskey℗Making moves are you ? , dude this is great find℗moves!Making
+tweet.train.tok.en-319-CrowdCountskey℗1st rule of waking up ... Get your mind right .℗mind!waking!rule!right
+tweet.train.tok.en-550-CrowdCountskey℗most annoying song ever .℗song!annoying!@Fucking_Bear
+tweet.train.tok.en-545-CrowdCountskey℗THE HEAT WON'T BE READY ITIL JANUARY BUT WE WILL℗WILL
+tweet.train.tok.en-718-CrowdCountskey℗Amelllll℗Amelllll
+tweet.train.tok.en-294-CrowdCountskey℗You Like Following Me Huh ? Â¯\_ (ã) _/Â¯ Tell Ya Friends Bless Them With A Follow Today [[ ]]℗Bless!Friends!Today!Like
+tweet.train.tok.en-281-CrowdCountskey℗Are you allowed to vote ? â nope . 3 more years . ,℗vote!years
+tweet.train.tok.en-979-CrowdCountskey℗Innovative , but traditional , too Another fun one to watch on the ,℗traditional!#iPad!Innovative!watch!fun
+tweet.train.tok.en-680-CrowdCountskey℗Sleep , bye℗Sleep!bye
+tweet.train.tok.en-695-CrowdCountskey℗Did you see the post I did about campaign sign vandalism ?℗sign!vandalism!campaign!post
+tweet.train.tok.en-50-CrowdCountskey℗okay im watching you baby & thinking about all the things that i can do baby . on top of the world when im on top of you baby . spâ¦ ,℗baby!top!watching!things!thinking
+tweet.train.tok.en-45-CrowdCountskey℗News : Congress Gives Facebook Privacy Homework Extension : clickz Facebook was ... , ((( please share )))℗Facebook!Congress!Privacy!Homework!Extension
+tweet.train.tok.en-215-CrowdCountskey℗: As Halloween approaches , parents should note this reminder from the Wall Street Journal : ,℗Halloween!Wall!Street!reminder!Journal!approaches!@ScottWesterfeld!parents
+tweet.train.tok.en-200-CrowdCountskey℗Canada Has a Glut of Clean Energy - Yet Madness Rules Utilities ( Co2 Art ): Fascinating to ... ,℗Canada!Clean!Energy!Utilities!Madness
+tweet.train.tok.en-601-CrowdCountskey℗If you can see only one Darfur documentary this year , I recommend The Devil Came on Horseback . ,℗Darfur!documentary!Devil!Horseback
+tweet.train.tok.en-614-CrowdCountskey℗Dig it℗@Maxtson!Dig
+tweet.train.tok.en-449-CrowdCountskey℗JUST IN : Schomburg Center Getting Maya Angelou's Papers ,℗Schomburg!Center!Angelou's!Maya
+tweet.train.tok.en-860-CrowdCountskey℗NO .℗.
+tweet.train.tok.en-875-CrowdCountskey℗T-Mobile HTC HD7 available for pre-order on Amazon ($169 ) and Wirefly ($149 ) ,℗Amazon!T-Mobile!)!HD7!pre-order!Wirefly
+tweet.train.tok.en-398-CrowdCountskey℗They tryna close all the black HS's in Charlotte℗black!Charlotte!close!HS's!tryna
+tweet.train.tok.en-799-CrowdCountskey℗Follow => Attack Attack Indonesia℗Attack!Indonesia
+tweet.train.tok.en-303-CrowdCountskey℗Oh don't get it twisted , imma a big boy with swagg & much jokes I go in on a Goober quickly Lol℗twisted!jokes!big!boy!swagg
+tweet.train.tok.en-316-CrowdCountskey℗I'm not too worried about the Heat ... Lebron never quits in important games versus the Celtics ... oh wait℗Celtics!games!Heat!Lebron!worried!important!quits
+tweet.train.tok.en-717-CrowdCountskey℗: Usually the people that need our help the most are the ones that are hardest 2 get through 2 . Be patient , love on t ...℗help!patient!people
+tweet.train.tok.en-702-CrowdCountskey℗Nothin new in my book When he's stroking in & out ... Tighten yeah pussy muscles when he's going OUT℗pussy!book!muscles!stroking!new!Tighten
+tweet.train.tok.en-976-CrowdCountskey℗its still early . here its 9:40 pm .℗early!9:40
+tweet.train.tok.en-963-CrowdCountskey℗Having a minor panic attack . Hoping that my computer sorts itself out before tonight℗computer!panic!sorts!attack!tonight!Hoping
+tweet.train.tok.en-989-CrowdCountskey℗One down 81 to go good start C's℗good!start
+tweet.train.tok.en-271-CrowdCountskey℗James Bondâs Famous Aston DB5 to be Joined by âDie Another Dayâ Jaguar XKR and More ,℗James!Aston!by!and!Famous!More!Bondâs!be
+tweet.train.tok.en-264-CrowdCountskey℗: : How Jim DeMInt , the Tea Party's favorite senator , has flip-flopped on PACs -- by starting one . , ...℗Party's!Tea!favorite!Jim!senator!DeMInt!has
+tweet.train.tok.en-438-CrowdCountskey℗STHERIOUTHLY .℗@spainzaku
+tweet.train.tok.en-665-CrowdCountskey℗I know xD But it just feels like its all auto tuned now ... :/℗auto!tuned!feels!@brepilon
+tweet.train.tok.en-670-CrowdCountskey℗Um ..... ........ what Happend ?? Haha <== showing that ass what's good ... That's what happened LMAO℗#TeamHeat!#TeamCeltics!what!happened
+tweet.train.tok.en-804-CrowdCountskey℗I upload a YouTube video -- " DEMAND IT " vote for Pop artist Flawless to perform Z10 ... ,℗YouTube!Pop!video!artist!upload!Flawless
+tweet.train.tok.en-811-CrowdCountskey℗herp derp℗derp!herp
+tweet.train.tok.en-367-CrowdCountskey℗: ( 516 ): There are going to be so many Snookis this Halloween that I might dress as the guy that hit her and punch them all in t ...℗Snookis!Halloween!dress
+tweet.train.tok.en-372-CrowdCountskey℗Also fun : setting a landspeed record for illness-induced weight loss . Blech .℗loss!record!weight!landspeed!illness-induced
+tweet.train.tok.en-2-CrowdCountskey℗: what muhfuckaz wearing 4 the lingerie party ?????℗party!lingerie!muhfuckaz
+tweet.train.tok.en-773-CrowdCountskey℗hahah ayayayyaa℗hahah!ayayayyaa
+tweet.train.tok.en-766-CrowdCountskey℗Halo : Mention : Mention dund .℗Mention!dund
+tweet.train.tok.en-912-CrowdCountskey℗is it bad that it irks me when I hear people say " ugh , I'm so tired ? " I just think " take a nap or suck it up . You're darkening my mood . "℗mood!darkening!irks!tired!suck!nap!bad!ugh!people!hear
+tweet.train.tok.en-907-CrowdCountskey℗Clinton : Polls assume the African American vote will drop 40 percent from 2008 .℗African!American!vote!Clinton!Polls!drop!percent
+tweet.train.tok.en-26-CrowdCountskey℗That thing caused about $200 from the mall i wonder would my warranty help℗warranty!$200!help!caused!thing
+tweet.train.tok.en-33-CrowdCountskey℗Because I don't have school on Friday℗school!Friday!@xpleasestaymine
+tweet.train.tok.en-526-CrowdCountskey℗Security Clearance | Systems Admin - Integrated Exploitation Capability ( IEC ) - Lentech , Inc . - St. ... ,℗Security!Exploitation!Clearance!Capability!#jobs!Integrated!Systems!#missouri!Lentech!Inc
+tweet.train.tok.en-533-CrowdCountskey℗Online CAT evokes fear of mouse ,℗mouse!of!Online!fear
+tweet.train.tok.en-132-CrowdCountskey℗that good times episode was fucking hilarious℗episode!hilarious!times!good!fucking
+tweet.train.tok.en-127-CrowdCountskey℗So when Mike Miller comes back the Heat become the favorite again right ? lmfao℗Miller!Mike!Heat!favorite
+tweet.train.tok.en-897-CrowdCountskey℗If it's gonna be a really good experience , then you should go for it . Stuff like this doesn't happen often .℗experience!good!Stuff
+tweet.train.tok.en-882-CrowdCountskey℗Shooting Jenny Sloan tomorrow .. If we were smart we'd plan a camshow together afterward ..... Hmmmmmm℗Sloan!camshow!Jenny!Shooting!smart!plan
+tweet.train.tok.en-819-CrowdCountskey℗I just love a good session .℗#belt!session!love!good
+tweet.train.tok.en-430-CrowdCountskey℗check out Kylie Minogue North American Tour 2011 , via℗Minogue!Kylie!Tour!American!2011!North
+tweet.train.tok.en-425-CrowdCountskey℗UK net economy ' worth billions ' : A study into how much the internet contributes to the UK economy says it is a lar ... ,℗economy!a!net!internet!study!contributes!worth
+tweet.train.tok.en-678-CrowdCountskey℗im good . how you doing love ?℗love!good
+tweet.train.tok.en-981-CrowdCountskey℗LOVE IT : New rule : Every dollar spent on political ads must be matched dollar for dollar by donations to charity .℗political!charity!ads!dollar!donations
+tweet.train.tok.en-994-CrowdCountskey℗Today through Oct 30 get 30% OFF select StriVectin Products any THIS & Follow to Discovery Kit℗Products!StriVectin!30%!select
+tweet.train.tok.en-279-CrowdCountskey℗Now that you're good , I will be too . That's the last tweet about you :)℗tweet!good!last
+tweet.train.tok.en-42-CrowdCountskey℗We made it :) lol ,℗made
+tweet.train.tok.en-57-CrowdCountskey℗you eat sushi ?℗sushi!eat
+tweet.train.tok.en-692-CrowdCountskey℗OMG I got the best news ever AHHHHH My secretly love just had a baby brother He's so darn cute just like his brother * blushes *℗news!love!baby!brother!cute!darn
+tweet.train.tok.en-687-CrowdCountskey℗4sho℗4sho
+tweet.train.tok.en-286-CrowdCountskey℗HA . AHA YOU SO NASTY .. BUT I LIKE IT LMAO℗LMAO!@Fashionisda
+tweet.train.tok.en-293-CrowdCountskey℗* walks away doing the skip , shoulder hustling and throwing up a peace sign .℗peace!sign!skip!walks!throwing!hustling!shoulder
+tweet.train.tok.en-542-CrowdCountskey℗I wanna do something tonight .℗tonight
+tweet.train.tok.en-557-CrowdCountskey℗I am in concurrence ... Lol : ex then lol℗concurrence
+tweet.train.tok.en-156-CrowdCountskey℗the bBr aliases don't add a space℗space!add!aliases
+tweet.train.tok.en-143-CrowdCountskey℗We Talk âMegamindâ with Will and Tina ,℗and!Tina
+tweet.train.tok.en-784-CrowdCountskey℗that was supposed to say * just℗supposed!say
+tweet.train.tok.en-791-CrowdCountskey℗every NFL player does the Dougie℗Dougie!the!player
+tweet.train.tok.en-868-CrowdCountskey℗a chocolate one with oreo's and some cheese fries℗fries!chocolate!cheese!oreo's
+tweet.train.tok.en-390-CrowdCountskey℗Lol .... I know that's right ..... and thank God 4 deliverance .... Hiiiiya℗right!deliverance!know!God
+tweet.train.tok.en-385-CrowdCountskey℗kay℗kay
+tweet.train.tok.en-609-CrowdCountskey℗: Home Opener is 2 days away . Need a costume ? 1st 5000 fans get a Halloween black & orange yth jersey http ...℗fans!Halloween!costume!Opener!black!jersey!Home!5000!orange
+tweet.train.tok.en-454-CrowdCountskey℗Lake Show fo sure we taking it again℗Show!Lake!taking
+tweet.train.tok.en-441-CrowdCountskey℗didn't you read the paper that day son℗paper!read
+tweet.train.tok.en-208-CrowdCountskey℗lol you good just want to give credit where credit is due whensending to radio or television cats needs their royalties no mean℗credit!royalties!radio!television!give!good
+tweet.train.tok.en-910-CrowdCountskey℗Please confirm you've received the code or I will have to cancel it . I have not heard back from you . Thanks .℗code!confirm!cancel!heard!received
+tweet.train.tok.en-905-CrowdCountskey℗Daily News : Absentee voting available through Friday in Latah County ,℗Absentee!voting!Latah!County!Friday!Daily
+tweet.train.tok.en-39-CrowdCountskey℗lol it wasnt blood but thanks .℗blood!thanks
+tweet.train.tok.en-365-CrowdCountskey℗i heart true music that inspires me to intake my beauty , roots , and willingness to take on anything .℗music!beauty!true!roots!intake
+tweet.train.tok.en-370-CrowdCountskey℗I remember having hand calluses when I was little . They hurt . So I stopped climbing monkey bars .℗monkey!bars!calluses!hand!stopped!hurt
+tweet.train.tok.en-888-CrowdCountskey℗Muggin Ugh * my gucci voice * ,℗voice!gucci!Muggin
+tweet.train.tok.en-138-CrowdCountskey℗Idk what this movie on is but I've seen it before and its hilarious℗movie!but!hilarious
+tweet.train.tok.en-771-CrowdCountskey℗Perfect Uninstaller Software for Windows . It removes all those hidden files that you don't know are still there ,℗Software!Windows!Uninstaller!files!removes
+tweet.train.tok.en-764-CrowdCountskey℗I came into the house after a hard day of my first year in middle school . I saw the game sitting at our computer table . I grabbed it℗game!middle!year!school!house!computer!hard!day!table!sitting
+tweet.train.tok.en-539-CrowdCountskey℗swag℗swag!@xNOONiEx
+tweet.train.tok.en-806-CrowdCountskey℗: How would I get in trouble sister ?℗trouble!@PricelessNia!@DestineeLenise
+tweet.train.tok.en-813-CrowdCountskey℗Awww Brandy i thought you was gone beat Lea up :( im kinda glad you didnt lmaoo Kristien took the money℗Brandy!beat!money!Kristien
+tweet.train.tok.en-273-CrowdCountskey℗I may wear my hair in a comb over fashion more often . I feel smart this way .℗hair!fashion!smart!comb!feel!wear
+tweet.train.tok.en-266-CrowdCountskey℗I can hold 75 cents in my belly button , that's a skill I can take straight to the bank .℗button!belly!straight!bank!cents!hold!skill!75
+tweet.train.tok.en-667-CrowdCountskey℗Breezy and 67 F at Jacksonville Municipal Airport , IL Winds are from the Southwest at 23.0 gusting to 31.1 MPH ( 20 gust ,℗Jacksonville!Municipal!Southwest!Breezy!Winds!67
+tweet.train.tok.en-672-CrowdCountskey℗I told you . It's not even my Halloween costume . Trololol <333℗costume!Halloween
+tweet.train.tok.en-299-CrowdCountskey℗you followed me R E T W E E T if you Hate when people do that for no reason .℗reason!Hate!no!followed!people
+tweet.train.tok.en-974-CrowdCountskey℗O_o℗O_o
+tweet.train.tok.en-961-CrowdCountskey℗Options and : mom , special someone , brother/sister , dad , grandparent , or best friend℗friend!best!dad!grandparent!mom
+tweet.train.tok.en-698-CrowdCountskey℗hahaha that happened last time I was there . She kept yelling ' its fan appreciation day ' Over and over and over . Epic fail .℗fan!appreciation!day!yelling!fail!Epic!last!time!happened
+tweet.train.tok.en-48-CrowdCountskey℗Autism Families Given Fresh Hope -- SimpleStepsAutism . Com Launches : American Families Facing the Heart-Breaking D ... ,℗Autism!American!Fresh!Hope!Com!SimpleStepsAutism
+tweet.train.tok.en-149-CrowdCountskey℗Quality time with my bestmate â¥ ,℗Quality!bestmate!time
+tweet.train.tok.en-301-CrowdCountskey℗If you've gotta leave , make sure they never forget you . That's what I do .℗forget!leave!make
+tweet.train.tok.en-314-CrowdCountskey℗: Anybody ever notice how the quick e mart is the only grocery store on the simpson ? lol℗simpson!mart!store!notice
+tweet.train.tok.en-548-CrowdCountskey℗Awww is going to bring a little girl on stage with her to sing :') she's sooo nice :)℗stage!@selenagomez!girl!little!sing!bring
+tweet.train.tok.en-715-CrowdCountskey℗: damm : Isn't Ron Artest auctioning his ring off ? Lebron might as well go buy it . - hahaha℗Ron!Artest!Lebron!auctioning!ring!buy
+tweet.train.tok.en-700-CrowdCountskey℗: Y'all sure Lebron took his talents to South Beach ?℗Lebron!South
+tweet.train.tok.en-862-CrowdCountskey℗GETS ON MY MF LAST NERVES BUT I DEAL WIT IT BIG HEAD℗HEAD
+tweet.train.tok.en-877-CrowdCountskey℗Ima beast at picking out grapes℗grapes!beast!picking
+tweet.train.tok.en-217-CrowdCountskey℗well why the hell you didnt charge it ??℗charge!@slimmazglue
+tweet.train.tok.en-202-CrowdCountskey℗HEY HOW IS IT GOING .. DID U SET IT UP ?℗?!@mizchristine
+tweet.train.tok.en-603-CrowdCountskey℗yeah I was wondering if after they banned the indian we got a new one℗indian!banned!wondering
+tweet.train.tok.en-616-CrowdCountskey℗Ridiculous , isn't it ? Seems the X-mas displays get earlier every year℗displays!X-mas!Ridiculous!year!@stafinois
+tweet.train.tok.en-456-CrowdCountskey℗Haters you except the team to win all 82 games people you need to realize they haven't played together all℗games!team!Haters!win!played!realize!82!together
+tweet.train.tok.en-443-CrowdCountskey℗But on a better note . I just saved alotta money switching to gieco . :)℗gieco!money!saved
+tweet.train.tok.en-786-CrowdCountskey℗there goes my sister âº℗sister!@MommasDesire
+tweet.train.tok.en-793-CrowdCountskey℗I bought it in August brand new . The screen was fine yesterday and it wasn't in water℗bought!screen!water!new!brand!yesterday
+tweet.train.tok.en-392-CrowdCountskey℗well me & her ..℗her
+tweet.train.tok.en-387-CrowdCountskey℗Protester had 4 men tackle her down , cop just watched ? I knew Chief of police in my city , corrupt as hell I'm re- joining today℗police!corrupt!Protester!tackle!Chief!men
+tweet.train.tok.en-540-CrowdCountskey℗Q : So , if I may ask , how would we " meet you ... A : Lol . I have no clue and yes I would , i ... : ,℗meet!clue!no!ask
+tweet.train.tok.en-555-CrowdCountskey℗women music and pineapple What are three things you guys just cant live without ?℗pineapple!women!music!live!guys!things
+tweet.train.tok.en-708-CrowdCountskey℗: Cancer sexuality is primarily directed toward the satisfaction of their partner < so true ;) .℗satisfaction!Cancer!sexuality!partner
+tweet.train.tok.en-154-CrowdCountskey℗4 points .... 17 assists℗assists!#Rondo!points
+tweet.train.tok.en-141-CrowdCountskey℗Want To Make $200 Per Day ? , ... internet marketing seminars℗marketing!seminars!internet!Day!Make!$200
+tweet.train.tok.en-309-CrowdCountskey℗Unffffffff John Stamos unfffffffff℗John!Stamos
+tweet.train.tok.en-690-CrowdCountskey℗this girl makes me smile .℗girl!smile
+tweet.train.tok.en-685-CrowdCountskey℗: : Sexual Conversation before sex , increases the chance of both partners enjoying the romantic encounter .℗Conversation!Sexual!sex!enjoying!increases
+tweet.train.tok.en-40-CrowdCountskey℗lmfao℗@EnKore03!lmfao
+tweet.train.tok.en-55-CrowdCountskey℗stop praying to GOD like a genie he don't give you what you want he gives you what you need℗praying!you!need!stop!genie!want
+tweet.train.tok.en-284-CrowdCountskey℗Audio : WARREN G FT NATE DOGG-REGULATE ,℗NATE!Audio!DOGG-REGULATE
+tweet.train.tok.en-291-CrowdCountskey℗Backed : ' Pedestals ' will never get old . If you haven't yet , GET THE FUCK INTO IT℗Pedestals!old!!
+tweet.train.tok.en-969-CrowdCountskey℗: I Think your Sexy as shit ... you gotta know I'm talking about YOU â¢ I know lls thanks℗Sexy!talking!shit
+tweet.train.tok.en-432-CrowdCountskey℗I LOVE MY CELTICS℗!!!
+tweet.train.tok.en-983-CrowdCountskey℗KOBE WILL BE MVP THIS YEAR℗YEAR!MVP
+tweet.train.tok.en-996-CrowdCountskey℗Can you please follow ? (= he's a really talented singer Thanksss℗singer!talented!please!follow!@JoshGoldenMusic
+tweet.train.tok.en-779-CrowdCountskey℗Homework time îîî ℗Homework!time
+tweet.train.tok.en-524-CrowdCountskey℗Word I'm about to holla at her via twitter : - im tryna fucc nikki minaj lol℗nikki!minaj!twitter!holla!Word!fucc
+tweet.train.tok.en-531-CrowdCountskey℗its the sixers getting it 2gether now ...℗#miamiheat!sixers
+tweet.train.tok.en-8-CrowdCountskey℗: Lady Gaga - Bad Romance ,℗Lady!Romance!Bad!Gaga
+tweet.train.tok.en-378-CrowdCountskey℗I just took " You walk in a shop you see a boy in only boxers , what happens when this ... " and got : Part 1 Try it : ,℗boxers!shop!boy!happens
+tweet.train.tok.en-895-CrowdCountskey℗Check this out -> High Impact Multimedia on Konfessions of a Dangerous Mind -> ,℗Multimedia!Mind!Dangerous!Impact!Konfessions
+tweet.train.tok.en-880-CrowdCountskey℗, Streaming Live ,℗Streaming!#BattleoftheSexes!Live
+tweet.train.tok.en-130-CrowdCountskey℗Can I come ?℗come
+tweet.train.tok.en-125-CrowdCountskey℗: : : There are no excuses for US soldiers to not have the ballets to vote . Where is the ...℗excuses!soldiers!vote!ballets!no!is
+tweet.train.tok.en-24-CrowdCountskey℗Yup , 63 - 53 ...℗53!@TaylorFly!63
+tweet.train.tok.en-31-CrowdCountskey℗aim me cahh℗aim!cahh!@TweetWithChinky
+tweet.train.tok.en-918-CrowdCountskey℗, - Hooray for museums and such Haha De Young Museum ...℗museums!Hooray
+tweet.train.tok.en-428-CrowdCountskey℗hotels.com Weekly Last Minute Deal Boston from $188 Travel by October 31 , 2010 ,℗Deal!Minute!Boston!Last!hotels.com!Weekly!$188
+tweet.train.tok.en-675-CrowdCountskey℗Red wine in beautiful china ....℗china!wine!Red!beautiful
+tweet.train.tok.en-660-CrowdCountskey℗Now that's a site to fight for : , <<----- OMG℗site!fight
+tweet.train.tok.en-999-CrowdCountskey℗anyone else really missing Jesse and the Rippers right about now ?℗Rippers!Jesse!missing!right!really
+tweet.train.tok.en-261-CrowdCountskey℗Here's a link to our suggestion of liking Art Reach . ,℗Reach!suggestion!Art!link!liking!#SanDiego
+tweet.train.tok.en-274-CrowdCountskey℗And Uh Next VIdeo Shoot in The Hood Holla at A Nigga Ju Heard ??℗VIdeo!Shoot!Hood!Holla!Heard!Next
+tweet.train.tok.en-814-CrowdCountskey℗Fwd : Crvena Zvezda vs Borac Cacak Prediction In Serbian Lav Cup Â« Hollywood Picker - ... ,℗Borac!Crvena!Serbian!Zvezda!Cacak!Hollywood!Prediction!Picker
+tweet.train.tok.en-801-CrowdCountskey℗Just got done at the post office .... So ... many ... cookies ...℗post!office!cookies
+tweet.train.tok.en-7-CrowdCountskey℗: LMBO This man filed an EMERGENCY Motion for Continuance on account of the Rangers game tonight Â« Wow lmao℗Rangers!game!Motion!Continuance!tonight!account
+tweet.train.tok.en-763-CrowdCountskey℗Bored at work . Looking like another 8 hour day . Talk to me℗Bored!Talk!hour!work!day
+tweet.train.tok.en-776-CrowdCountskey℗: : Vid & footage of Daytona Commish getting busted for Ballot fraud . ,℗busted!Commish!fraud!Daytona!footage!Ballot
+tweet.train.tok.en-377-CrowdCountskey℗" all * that * flirting , can a nigga stab that ?? " ;-p℗nigga!flirting!#nowplaying!stab
+tweet.train.tok.en-362-CrowdCountskey℗lol℗lol!!
+tweet.train.tok.en-902-CrowdCountskey℗Uh oh . One of our cats has figured out how to open the fridge . Surely world domination is next .℗domination!fridge!open!figured
+tweet.train.tok.en-917-CrowdCountskey℗Lol ... aren't I though . But uhhh I really hope you are not basing your success off that analogy ... you might want a back up℗analogy!success!basing
+tweet.train.tok.en-611-CrowdCountskey℗damn when are you coming back to school ?℗school!coming!@Chelseeirene__
+tweet.train.tok.en-604-CrowdCountskey℗: I wish someone would have told me that it's okay to cry over nothing and everything for a little while .℗cry
+tweet.train.tok.en-459-CrowdCountskey℗à¸à¸¹ coffee prince so cute â℗prince!coffee!cute
+tweet.train.tok.en-205-CrowdCountskey℗- " whip appeal " by babyface℗appeal!whip!babyface
+tweet.train.tok.en-210-CrowdCountskey℗Good morning sexy one℗morning!Good!sexy
+tweet.train.tok.en-789-CrowdCountskey℗lol℗@Mechelle_mybell!lol!@LeighaChew!!
+tweet.train.tok.en-870-CrowdCountskey℗Who this prof think he is . I came to get educated℗educated!prof
+tweet.train.tok.en-865-CrowdCountskey℗: spinoff for Clarice : How I Met Your 2 Mothers and 3 Fathers . -- LOL℗spinoff!Mothers!#Caprica!Clarice!Fathers!Met
+tweet.train.tok.en-388-CrowdCountskey℗: No such thing . : to all the happy couples I got so much admiration and love for yall .℗couples!happy!admiration!love
+tweet.train.tok.en-707-CrowdCountskey℗: ICYMI New Podcast : Taxpayers Pay and Pay for Fannie and Freddie with Dir . of Studies Mark Calabria : , ...℗Pay!Taxpayers!Podcast!Mark!Fannie!Calabria!Studies!Freddie
+tweet.train.tok.en-712-CrowdCountskey℗The Evaporator 10 LB . Desiccant Air Dryer â Now $379 Plus Freight â Use code T102610 through 11/01/10 . www.ToolsUSA.com℗Dryer!Air!Evaporator!Desiccant!Freight
+tweet.train.tok.en-313-CrowdCountskey℗Niggas be thirstyyyyyyyy℗Niggas!thirstyyyyyyyy
+tweet.train.tok.en-306-CrowdCountskey℗ran 2.3 mi on 10/27/2010 at 6:40 AM ,℗ran!2.3
+tweet.train.tok.en-966-CrowdCountskey℗: Before you fall , make sure it's 4 someone brave enough to catch you . Otherwise , keep standing & wait 4 the one who IS ...℗brave!catch!fall
+tweet.train.tok.en-973-CrowdCountskey℗: âDream as if you'll live forever , live as if you'll die today . â℗die!live!forever!today
+tweet.train.tok.en-296-CrowdCountskey℗: 10 Republican Lies About the Bush Tax Cuts ,℗Bush!Republican!Lies!Tax!Cuts
+tweet.train.tok.en-283-CrowdCountskey℗Video Lesson of the Week : Over Troubled Waters ,℗Video!Lesson!Waters!Week
+tweet.train.tok.en-52-CrowdCountskey℗: somebody should text me :)℗text!@basilBronson
+tweet.train.tok.en-47-CrowdCountskey℗know his only championship is ' slam dunk ' .℗dunk!slam!championship!#LebronShould!know
+tweet.train.tok.en-682-CrowdCountskey℗: -& I would like to think I could be on my own , but I can't bare to be alone & hearts ;℗bare!own!alone
+tweet.train.tok.en-697-CrowdCountskey℗Holla for℗#humpday
+tweet.train.tok.en-146-CrowdCountskey℗Yall sholl is quiet SPEAK UP lol : We Still Here .... lol℗Here!quiet!sholl
+tweet.train.tok.en-153-CrowdCountskey℗Wats that : Jasmin are you gonna be at the SEMA Show ??℗be!Jasmin!Show!@JasminCalle
+tweet.train.tok.en-552-CrowdCountskey℗: Lately I've been going to bed and waking up with one thing on my mind℗bed!mind!waking!thing!@PrettiYungTing
+tweet.train.tok.en-547-CrowdCountskey℗very relaxxxingg walk home today ..℗walk!home!today!relaxxxingg
+tweet.train.tok.en-878-CrowdCountskey℗: Last day of school tomorrow before the 3-day weekend℗school!Last!day!3-day!weekend!tomorrow
+tweet.train.tok.en-380-CrowdCountskey℗in town , dropped off photos , now having lunch℗lunch!photos!dropped!town
+tweet.train.tok.en-395-CrowdCountskey℗: It's humid as hell out here℗humid!hell
+tweet.train.tok.en-794-CrowdCountskey℗people are crazy to leave the party now℗crazy!people!party!leave!#moviesondemand
+tweet.train.tok.en-781-CrowdCountskey℗U needed direction And I don't see you that much anyway so ... ha I guess sister I guess℗direction!needed!@chrisjamesmr773!@kfryer2012
+tweet.train.tok.en-218-CrowdCountskey℗Oh loblaws you kill me , 4-8℗loblaws!kill
+tweet.train.tok.en-619-CrowdCountskey℗Welcome to our twitter page Here we will update you with our weekly specials and monthly giveaways℗specials!monthly!twitter!weekly!giveaways!update!Welcome
+tweet.train.tok.en-444-CrowdCountskey℗follow me back yo℗follow
+tweet.train.tok.en-451-CrowdCountskey℗: why are you always ragging on my driving .. its not thaaaat bad Â»Â»Â» its pretty bad lol℗bad!ragging
+tweet.train.tok.en-36-CrowdCountskey℗nowFOLLOWiNG letme give him a quick s\o Ladies follow him he's hey chris℗Ladies!#teamfollowback!@youngstunna336!letme!chris!follow
+tweet.train.tok.en-23-CrowdCountskey℗: ... And how many lives ( and family providers ) would have been saved with faster warning & response .℗#cholera!warning!response!faster!#haiti!saved!lives
+tweet.train.tok.en-122-CrowdCountskey℗would you watch a sappy movie with Kim if she asked you to ? â I've watched sappy movies with kim several times . ,℗sappy!movie!times!watch!kim
+tweet.train.tok.en-137-CrowdCountskey℗Lmao : : That cheerleader was not attractive .. lmao << you would hit though Lol℗cheerleader!attractive
+tweet.train.tok.en-887-CrowdCountskey℗collegiategrief : OMFB SHUT UP , LIES . TAYLORâS IS THE BIGGEST XD ,℗XD!TAYLORâS
+tweet.train.tok.en-892-CrowdCountskey℗If Health & Safety is common sense , why do so many people get hurt at work ...... Stupidity . Don't let it happen . ,℗Health!Safety!Stupidity!hurt
+tweet.train.tok.en-536-CrowdCountskey℗Check this out : Menthol Madness%3A Why Ban Blacks%27 Preferred Cigarette%3F ,℗Cigarette%3F!Menthol!Madness%3A!Ban!Preferred!Blacks%27
+tweet.train.tok.en-523-CrowdCountskey℗People in school thought my shoes were so sick today . alala . Robert wanted to take them :)) and Jack and Craig tried to wear it . fun day .℗shoes!sick!school!People!take!fun!wanted!day
+tweet.train.tok.en-809-CrowdCountskey℗: to she is a dang fool ... Gotta love her doe , myyyyyyyyyy niggggggaaaaaa for life Â« -yes â¥ you℗love!dang!life
+tweet.train.tok.en-991-CrowdCountskey℗because , sad to say , that isnt his team anymore℗team!sad!@moneydesignz!say
+tweet.train.tok.en-984-CrowdCountskey℗Photo : ,℗Photo!:
+tweet.train.tok.en-269-CrowdCountskey℗Good posture can help avoid back problems - so sit up straight . You might also try restorative exercises . ,℗exercises!posture!problems!straight!avoid!Good!restorative!sit
+tweet.train.tok.en-420-CrowdCountskey℗: This girl breath next to me is on 10 --- Its probably yours you smell℗breath!smell!girl
+tweet.train.tok.en-435-CrowdCountskey℗: : This election is too important . until itâs too late . ,℗election!important!late!@BarackObama!@HarryReid
+tweet.train.tok.en-668-CrowdCountskey℗thanks for following℗thanks!@wimiddleton!following
+tweet.train.tok.en-618-CrowdCountskey℗Bob and Larry are my new best friends at work ,℗Larry!Bob!friends!work
+tweet.train.tok.en-450-CrowdCountskey℗Laughing Matter = Me being serious . Just watch . Be encouraged , via℗Laughing!serious
+tweet.train.tok.en-445-CrowdCountskey℗: Its little bumbs around her lip and she swear its her lipgloss < bumps * typo *℗lipgloss!lip!bumbs
+tweet.train.tok.en-219-CrowdCountskey℗: God is providing water in the desert place He's getting ready to wet your life U ought 2 just bless him for it℗God!desert!water!wet!@TheTiffanyShow!place!bless!life
+tweet.train.tok.en-780-CrowdCountskey℗yes℗yes
+tweet.train.tok.en-795-CrowdCountskey℗Restaurant deal : Wah Sing Chinese Restaurant - $25 Gift Certificate , Your Price $2 With Promo Code " TREAT " ,℗Restaurant!Chinese!Gift!deal!Certificate!Sing!Promo!Code!Wah
+tweet.train.tok.en-381-CrowdCountskey℗What are your plans for Halloween ?? I still haven't decided .. :-/℗plans!Halloween!decided
+tweet.train.tok.en-879-CrowdCountskey℗your avatar is spooky Adam Lol℗avatar!Adam!spooky
+tweet.train.tok.en-546-CrowdCountskey℗I don't see how a pumpkin patch can be more sincere than this one℗pumpkin!patch!sincere
+tweet.train.tok.en-553-CrowdCountskey℗I want Brazilian food℗Brazilian!food
+tweet.train.tok.en-152-CrowdCountskey℗-lol im jk ahah its okay ...℗@belieber4ever24
+tweet.train.tok.en-147-CrowdCountskey℗I would like to know why my lightbulb is behaving in such a manner . The thing wn't turn on . Forces me to leave ma room to read . Chah℗lightbulb!read!manner!turn!room!behaving!leave!Forces
+tweet.train.tok.en-46-CrowdCountskey℗: Hello , I'm at ' is home with and :)℗home!@oxsy!@ratihreno
+tweet.train.tok.en-53-CrowdCountskey℗LOOLLL I was lying gem℗lying!gem
+tweet.train.tok.en-696-CrowdCountskey℗ambien Ambien Ambien Do it Do it℗ambien
+tweet.train.tok.en-683-CrowdCountskey℗OMG is a filling for eatpraylovecollab :D℗eatpraylovecollab!filling
+tweet.train.tok.en-282-CrowdCountskey℗eh yeah I'll be fine , just annoyed℗fine!annoyed
+tweet.train.tok.en-297-CrowdCountskey℗: The truth is , we're not going to sell the white iPhone 4 . Ever . Because white phones are girly .℗white!iPhone!truth!sell!phones!girly
+tweet.train.tok.en-434-CrowdCountskey℗okay so we are cool I wasn't sure Smh I have people saying ridiculous stuff all day :( so sorry℗ridiculous!stuff!cool!day!people!saying
+tweet.train.tok.en-421-CrowdCountskey℗Need someone to cheers me up such as you :)℗cheers!Need
+tweet.train.tok.en-669-CrowdCountskey℗being sick reallyyyyyyyyyyyyyyyyyyyyyyy fucking sucks .℗sick!sucks
+tweet.train.tok.en-268-CrowdCountskey℗: : : : * am : OPEN FOLLOW ~ f ...℗...!f
+tweet.train.tok.en-985-CrowdCountskey℗I've never seen you name-drop before . I guess it's a pretty intense situation .℗@EmilyOptimism!pretty!name-drop!situation!intense
+tweet.train.tok.en-990-CrowdCountskey℗Barbuzzo .... nomnomnom . Seafood pansit-esque dish with chorizo will have me craving℗Seafood!craving!chorizo!Barbuzzo
+tweet.train.tok.en-808-CrowdCountskey℗Nightmare banner : Gud night all sweet dreams . . Or dream of me .. Hagh_hagh℗night!dreams!sweet!Nightmare!dream!Gud
+tweet.train.tok.en-522-CrowdCountskey℗rape-the unlawful compelling of a woman through physical force or duress to have sexual intercourse .℗intercourse!sexual!woman!force!have!physical!unlawful!duress
+tweet.train.tok.en-537-CrowdCountskey℗wouldn't that be fucked up if they added a year to Lil Wayne's jail sentence ? lol℗sentence!Wayne's!fucked!jail!lol!year
+tweet.train.tok.en-136-CrowdCountskey℗17℗17!@HisCedesBENZ
+tweet.train.tok.en-123-CrowdCountskey℗GURRRL HE WON'T BE ABLE TO HELP . ~ RUHYPNOL℗~!@josaypoo
+tweet.train.tok.en-893-CrowdCountskey℗yeah I'm trippin and I got practice tomorrow℗practice!trippin
+tweet.train.tok.en-886-CrowdCountskey℗Its time to make big changes ...℗changes!big!time!make
+tweet.train.tok.en-22-CrowdCountskey℗Man , Heat need Tahj on the court .℗Tahj!Heat!court!need
+tweet.train.tok.en-37-CrowdCountskey℗What are currently least satisfied with in their trade show display ,℗#exhibitors!trade!satisfied!display!show!#exhbiting
+tweet.train.tok.en-916-CrowdCountskey℗can you handle the quirk ? âÂ launch of ' Native Trees of Canada ' by Leanne Shapton : ,℗Canada!Native!Trees!quirk!Shapton!Leanne!handle
+tweet.train.tok.en-903-CrowdCountskey℗I wanna go to a bar .... not to drink though ..... just to get out the house℗bar!drink!house
+tweet.train.tok.en-363-CrowdCountskey℗LIMEWIRE .... NO℗!!!!!!!NO
+tweet.train.tok.en-376-CrowdCountskey℗Man the have a fucking all-star squad fuck with it℗#Lakers!squad!all-star
+tweet.train.tok.en-6-CrowdCountskey℗I may have to get minecraft after watching videos of it℗minecraft!videos!watching
+tweet.train.tok.en-777-CrowdCountskey℗Traffic is about to start looking real nasty on this damn freeway℗Traffic!nasty!freeway
+tweet.train.tok.en-762-CrowdCountskey℗Good luck trying to find it . BTW , Let the family have their peace .℗family!peace!luck!trying!find!Good
+tweet.train.tok.en-800-CrowdCountskey℗Cousin probably mad i woke her up SORRY℗Cousin!mad!her!woke
+tweet.train.tok.en-815-CrowdCountskey℗Tonight's show can be streamed here over at ,℗streamed!show!@phishtube!Tonight's
+tweet.train.tok.en-275-CrowdCountskey℗We are always getting invited and you can't say no : )℗invited!say
+tweet.train.tok.en-260-CrowdCountskey℗I NEVER meet a BITCH that didn't need a little guidance , so I dismiss her past until she disappoints your hieness℗guidance!hieness!dismiss!meet!disappoints
+tweet.train.tok.en-998-CrowdCountskey℗hmm iono what game to buy -_- .. any suggestions .. box℗game!buy!suggestions
+tweet.train.tok.en-429-CrowdCountskey℗Y do I procastinate sooo much -__- still sitting here doing this damn homework℗procastinate
+tweet.train.tok.en-661-CrowdCountskey℗What kind of sick individual enjoys doing practice questions for the Quantitative Reasoning section of the GRE ? Oh , yeah , that'd be me .℗Reasoning!Quantitative!section!sick!practice!me!individual
+tweet.train.tok.en-674-CrowdCountskey℗: , DOWNLOAD NOW " Sideways " - Follow My Nigga . This record is a Banger℗record!Banger!Follow!@djgeronimo
+tweet.train.tok.en-972-CrowdCountskey℗hahahah I'm 5'1 in a half rofl . wby ?℗half!5'1
+tweet.train.tok.en-967-CrowdCountskey℗thanx sister love yeah lots℗love!sister!thanx!lots!yeah
+tweet.train.tok.en-307-CrowdCountskey℗the giants pitchers hair is as long as mine . Ha℗pitchers!hair!giants!long
+tweet.train.tok.en-312-CrowdCountskey℗that fallout vegas game looks neat℗game!vegas!fallout!neat!looks
+tweet.train.tok.en-713-CrowdCountskey℗: How so ? I told you why I didn't come .... [* MOREHOUSE *]℗come!told!@keeyen12
+tweet.train.tok.en-706-CrowdCountskey℗You and Me Always and Forever The Wannadies â¥â¡â¥℗Forever!Wannadies
+tweet.train.tok.en-389-CrowdCountskey℗Hashy kiss my a ** lol℗kiss
+tweet.train.tok.en-864-CrowdCountskey℗Lately- Jodeci's version . Loves the throwback joints . i want a high-top fade wig so I can be Play ( Kid and ' Play ) for halloween℗Play!Jodeci's!halloween!throwback
+tweet.train.tok.en-871-CrowdCountskey℗Can't get enough of Moby ; here is Porcelain ,℗Porcelain!Moby!#song
+tweet.train.tok.en-788-CrowdCountskey℗(( alright , alright . Take away my fun * pouts *))℗pouts!@CityDetective!@MILFCatwoman!fun
+tweet.train.tok.en-211-CrowdCountskey℗Ok thank you :) I will check it outâ¥℗check!@HipHopBillboard
+tweet.train.tok.en-204-CrowdCountskey℗why not ?℗not
+tweet.train.tok.en-605-CrowdCountskey℗jk one more . ,℗jk
+tweet.train.tok.en-610-CrowdCountskey℗Talking points ? has a new idea to bring to City of Toronto politics : saving money instead of wasting it .℗money!Toronto!politics!#RobFord!idea!City!saving!new!bring
+tweet.train.tok.en-458-CrowdCountskey℗: : This is my favorite screen shot from ;) ---> ,℗screen!favorite!shot!from
+tweet.train.tok.en-968-CrowdCountskey℗iigt ; the door unlock ; come on in℗unlock!door
+tweet.train.tok.en-290-CrowdCountskey℗: Austin Commercial Real Estate Market Out Strides National Market ... : While the rest of the country is seeing their ... http ...℗Market!Estate!Real!Commercial!Austin!National!country!Strides
+tweet.train.tok.en-285-CrowdCountskey℗boom like an 808℗808!like
+tweet.train.tok.en-684-CrowdCountskey℗: Christopher Nolan reveals the villain for " The Dark Knight Rises " : The Cavity Creeps℗Christopher!villain!Dark!Knight!Nolan!Rises!Cavity!Creeps
+tweet.train.tok.en-691-CrowdCountskey℗glee cast - poker face℗face!poker!cast!glee
+tweet.train.tok.en-54-CrowdCountskey℗lmao I was waiting for you to say something after the barely pulled it out ....... they still weak as hell though lol℗weak!waiting!pulled!hell
+tweet.train.tok.en-41-CrowdCountskey℗: Helppp meeeee . I'mmm meltiiinngggg --> ,℗Helppp!meeeee
+tweet.train.tok.en-140-CrowdCountskey℗Uh-oh : Time to trim the twitter following tree℗twitter!trim!tree!Time
+tweet.train.tok.en-155-CrowdCountskey℗Serious : Lmao That's sad ... : Id be a virgin : men got pregnant instead of women ?℗pregnant!virgin!men!sad!women
+tweet.train.tok.en-308-CrowdCountskey℗: Awwww Shit Just heard the commercial on 101.1℗commercial!heard!on!101.1
+tweet.train.tok.en-554-CrowdCountskey℗lol you're lame ;)℗lame
+tweet.train.tok.en-541-CrowdCountskey℗Umm took away my favorites and my Dm's from Aaron Lol Naw this is serious and slackness .℗Aaron!favorites!@Twitter!serious!Dm's
+tweet.train.tok.en-709-CrowdCountskey℗follow me6℗follow!me6
+tweet.train.tok.en-386-CrowdCountskey℗glad is keeping you happy℗happy!#Virgin!keeping
+tweet.train.tok.en-393-CrowdCountskey℗HAHA I know ... I said that school was gonna go down the hole after we left℗school!hole
+tweet.train.tok.en-792-CrowdCountskey℗I know you can't bring every one you meet home℗home!bring!meet
+tweet.train.tok.en-787-CrowdCountskey℗ha , well not really I keep thinking it will dry up , but then I get soaked when I walk outside℗soaked!dry!thinking!@Melinda559!walk!really
+tweet.train.tok.en-442-CrowdCountskey℗hey Jream , where will the after party be at ?℗party!Jream
+tweet.train.tok.en-457-CrowdCountskey℗' Let me not reflect on the old shit . On to my new act . On to the new script . '℗new!script!reflect!act!shit!old
+tweet.train.tok.en-919-CrowdCountskey℗they can insult me and think I'm stupid all they want , I don't care℗stupid!insult!care
+tweet.train.tok.en-30-CrowdCountskey℗I would throw subs at her like it was no tomorrow -_-℗throw!subs!#IfMyMomsHadATwitter!it
+tweet.train.tok.en-25-CrowdCountskey℗Needs to focus NOW .℗focus
+tweet.train.tok.en-881-CrowdCountskey℗good morning for you honey℗morning!good!honey
+tweet.train.tok.en-894-CrowdCountskey℗said I look like I've been in the gym ... YES Thanks to my little bro/trainer Jhermz , lol℗bro/trainer!gym
+tweet.train.tok.en-379-CrowdCountskey℗ha it does feel windier the gusts are longer i had to slide all breakables as far from edge as possible ha℗feel!breakables!windier!slide!gusts
+tweet.train.tok.en-124-CrowdCountskey℗lmao℗lmao
+tweet.train.tok.en-131-CrowdCountskey℗: Stop fooling yourself with ' it'll be different this time ' , its just different shades of the same℗fooling!shades!Stop
+tweet.train.tok.en-778-CrowdCountskey℗I fucks with the charms blood lol ,℗blood!charms!fucks
+tweet.train.tok.en-9-CrowdCountskey℗: When you have a good thing , hold it , squeeze it , never let it go .℗good!squeeze!thing!hold!@cheriexamor
+tweet.train.tok.en-530-CrowdCountskey℗hey girl you awake ?????? And I did thanks℗awake!girl!thanks
+tweet.train.tok.en-525-CrowdCountskey℗I'm at Scopa ( 109A Plaza St. , Healdsburg Ave ., Healdsburg ) . ,℗Scopa
+tweet.train.tok.en-997-CrowdCountskey℗Mortgage loan originator Direct Mail Marketing that works . ,℗loan!Mortgage!Direct!Marketing!Mail!works
+tweet.train.tok.en-982-CrowdCountskey℗Guys are such wining little baby℗wining!Guys!baby!little
+tweet.train.tok.en-426-CrowdCountskey℗It's Been Coldd :/ iGuess It's Better Than Beingg Hot Tho . Where Do Yuhh Live At ?℗Coldd!Hot!Beingg!Than
+tweet.train.tok.en-433-CrowdCountskey℗any bitch born in the 9o's & me℗born!9o's!#badcombination
+tweet.train.tok.en-673-CrowdCountskey℗10/30's killer line-up features , , ... , 3pm Ricochet's free , oh my℗killer!free!line-up!Ricochet's!10/30's
+tweet.train.tok.en-666-CrowdCountskey℗So now , I'm on social service and SSI , getting medicaid , free housing - better yet a state mental facility where I get 3 squares and hobby time℗social!service!housing!medicaid!and!free!facility!hobby
+tweet.train.tok.en-267-CrowdCountskey℗lmfao that different℗different!@alaxico
+tweet.train.tok.en-272-CrowdCountskey℗knows what's up . And what's up is my penis .℗penis
+tweet.train.tok.en-812-CrowdCountskey℗Why does the wifi on my boyfriend & ; is macbook professional have speed ... : We were trying to figure out why download sp ... ,℗boyfriend!wifi!macbook!speed!download!professional
+tweet.train.tok.en-807-CrowdCountskey℗: it is what it is brother ... lol . < Lol but the cost of his knees though ? Y cnt you just wait until he gets old & retires℗knees!retires!cost!old!brother!wait!@CallMeKingDom
+tweet.train.tok.en-765-CrowdCountskey℗: Tonight you won't want to miss with Hollis Brown . Show is only $10 - doors are at 9:30 pm . See you there℗Brown!Hollis!miss!@TheMoondoggies!$10!want
+tweet.train.tok.en-770-CrowdCountskey℗I'm at Kalamazoo Gazette ( 401 S . Burdick St. , at Lovell St. , Kalamazoo ) . ,℗Kalamazoo!Gazette!Lovell
+tweet.train.tok.en-1-CrowdCountskey℗I predict I won't win a single game I bet on . Got Cliff Lee today , so if he loses its on me : Texas ( continued ) ,℗single!game!Lee!Texas!win!bet!today
+tweet.train.tok.en-538-CrowdCountskey℗Having lunch at lp with 2 great & funny people &&℗lunch!people!funny!great!@princessrae123
+tweet.train.tok.en-889-CrowdCountskey℗: The link again because you asked : Free Prequel to EDGE OF SIGHT is up at , Enjoy℗Free!Prequel!link!at
+tweet.train.tok.en-371-CrowdCountskey℗: Thanks Toby , someone posted a recap link here , , but I made it out injury free and feel g ...℗recap!injury!link!free
+tweet.train.tok.en-364-CrowdCountskey℗Audio : âº Lupe Fiasco - The show goes on âº âº 1st SingleâOff âLasersâsâ Album ,℗Lupe!Fiasco!Album!goes!show
+tweet.train.tok.en-139-CrowdCountskey℗I LOVE YOU MORE℗MORE
+tweet.train.tok.en-38-CrowdCountskey℗of course she can come℗@mercedesjay06!course
+tweet.train.tok.en-904-CrowdCountskey℗Yea Heat needs a timeout Wow℗timeout!Heat
+tweet.train.tok.en-911-CrowdCountskey℗Macworld : Review : Social for iPad ,℗iPad!Social!Macworld!Review
+tweet.train.tok.en-617-CrowdCountskey℗Have pros noticed this like pros have ? : Is HR morphing into PR ? Read and comment : ,℗:!morphing!pros!@MarkRaganCEO
+tweet.train.tok.en-602-CrowdCountskey℗: When life gives you a hundred reasons to cry , stay strong Show life that you have a thousand reasons to smile . -Unknown℗reasons!smile!cry!strong!hundred!life!stay!thousand
+tweet.train.tok.en-203-CrowdCountskey℗hiding from this tornado . How was that hibachi ? I got a taste for some℗tornado!taste!hibachi!hiding
+tweet.train.tok.en-216-CrowdCountskey℗: Forget that I'm ready for your U.S. tour in April and May of 2011 Hell to the yes℗U.S.!tour!2011!@kylieminogue!ready!@PerezHilton!Forget
+tweet.train.tok.en-876-CrowdCountskey℗: Who's the real Joe Miller ? Janine Turner & I provide Northern Exposure tomorrow night Anchorage rally 2 expose truth ...℗Miller!Joe!Turner!Janine!Northern!Exposure!night!real
+tweet.train.tok.en-863-CrowdCountskey℗Sauna ( Y )℗Sauna
+tweet.train.tok.en-549-CrowdCountskey℗PSP .... PHONE ... OHMYGOODLORD TECHNOLOGY WHY ARE YOU SO GREAT . its also an Ericsson which means will just HAVE to buy it . ; 3℗to!Ericsson!it!buy!3
+tweet.train.tok.en-701-CrowdCountskey℗I'm sorry . Hope it's not my fault .℗sorry!fault
+tweet.train.tok.en-714-CrowdCountskey℗: LA TONIGHT WAS CRAZY USHER , JADEN , SEAN , and even my little sister WILLOW SMITH WE SHUT LA DOWN LOVE YALL℗sister!even!and!@justinbieber!my
+tweet.train.tok.en-148-CrowdCountskey℗Andrew - check out more tracks from the upcoming albums : , & , :) .℗tracks!albums!@Weezer!Andrew!check
+tweet.train.tok.en-315-CrowdCountskey℗My overriding ambition in life , right now , is to play a game of Artemis ,℗ambition!game!Artemis!overriding!play!life
+tweet.train.tok.en-300-CrowdCountskey℗I've got to release this lazy spirit ...℗lazy!spirit!release
+tweet.train.tok.en-699-CrowdCountskey℗Note to self : gotta check out Justified in feb . FX℗Justified!FX!check
+tweet.train.tok.en-49-CrowdCountskey℗... when will you come out to the field :)℗field!@LelandBChapman
+tweet.train.tok.en-960-CrowdCountskey℗wow hahaha so classy of him ... and they said chivalry is dead . Lmao℗classy!chivalry!dead
+tweet.train.tok.en-975-CrowdCountskey℗The whold fucking 300 wing smells like cinnamon bunzzzz . Thanks culinary arts . High five .℗cinnamon!culinary!arts!300!wing!smells!bunzzzz!whold!fucking
+tweet.train.tok.en-298-CrowdCountskey℗bieber is an alien :O he went down to earth .℗bieber!alien!earth!went
+tweet.train.tok.en-476-CrowdCountskey℗FOLLOWED BACK (:℗(:
+tweet.train.tok.en-463-CrowdCountskey℗: me to shid : WHAT CHU END UP GOIN WIT .... SWINE MY ( continued ) ,℗shid!)
+tweet.train.tok.en-60-CrowdCountskey℗Its feeling like a second chance , and its the first impression .℗impression!chance!second!feeling
+tweet.train.tok.en-75-CrowdCountskey℗" Don't move on from the Gospel , move into the Gospel " Todd Friel℗Gospel!Friel!Todd!move
+tweet.train.tok.en-949-CrowdCountskey℗Glee is doing Rocky Horror Picture Show starting now Super excited℗Horror!Picture!Rocky!Glee!excited!Show
+tweet.train.tok.en-560-CrowdCountskey℗Deputy pulls over FL man , naked teen in backseat ... ,℗naked!teen!man!Deputy!backseat!pulls
+tweet.train.tok.en-575-CrowdCountskey℗miss yhuuuu℗miss
+tweet.train.tok.en-728-CrowdCountskey℗Invitation , cocktail with monsieur louboutin . Wow . ,℗louboutin!monsieur!cocktail!Invitation
+tweet.train.tok.en-174-CrowdCountskey℗I wanted to tell him to sat his old ass down somewhere , doing the most ....℗ass!old
+tweet.train.tok.en-161-CrowdCountskey℗Lets smoke one and put the past and present bullshit behind us℗smoke!bullshit!present!us
+tweet.train.tok.en-329-CrowdCountskey℗devoured it lol℗devoured
+tweet.train.tok.en-412-CrowdCountskey℗we are ON IT ,℗#teamnevertoobusytotweet!we
+tweet.train.tok.en-407-CrowdCountskey℗LmaOooo LIL BUNZ℗!!
+tweet.train.tok.en-489-CrowdCountskey℗HA damn auto spellcheck * rondo * LMBO℗spellcheck!auto!damn
+tweet.train.tok.en-11-CrowdCountskey℗Just watched the Jersey Shore episode of Southpark . Really don't like South park , but that was hilarious℗episode!Jersey!Shore!hilarious!South!Southpark!park!watched
+tweet.train.tok.en-938-CrowdCountskey℗: My dog peed on my research for tomorrows show . My dog hates facts . My dog is a peebagger .℗dog!research!peed!peebagger!facts
+tweet.train.tok.en-759-CrowdCountskey℗okay no more spending :/ I gotta get a new car lol , but I know that God will make a way for me , he always does :)℗car!new!spending!God
+tweet.train.tok.en-504-CrowdCountskey℗do you know how to speak in well structured , thought out , complete sentences ? no ? didnt think so .℗sentences!speak
+tweet.train.tok.en-511-CrowdCountskey℗HIGHHHHHH :)℗:)!@danielaameoww
+tweet.train.tok.en-358-CrowdCountskey℗The Heat have used up all they time outs in the first-half .℗Heat!time!outs!first-half!used
+tweet.train.tok.en-110-CrowdCountskey℗: : ii love how this nigga kome in with the singing on - ...℗singing!@glynnaustinn!@koloradolane!#random!kome
+tweet.train.tok.en-105-CrowdCountskey℗Whaddup pimpin ken . Ha℗pimpin!ken
+tweet.train.tok.en-345-CrowdCountskey℗Thanks : : i need some motivation right now fml smfhÂ«Â«Â« YOU CAN DO ITTTTTT Lol℗motivation!right!fml!need!@LiloJay
+tweet.train.tok.en-350-CrowdCountskey℗Hey You℗Hey
+tweet.train.tok.en-118-CrowdCountskey℗8% of usa has masters ...℗masters!usa!8%
+tweet.train.tok.en-751-CrowdCountskey℗: killing Hot for Teacher ,℗Teacher!Hot!@caliretheory!killing
+tweet.train.tok.en-519-CrowdCountskey℗in Bham I & TeamEl_AL will be in full effect 4 10/30/10℗Bham!TeamEl_AL!effect!full
+tweet.train.tok.en-930-CrowdCountskey℗I Know Right I did the Animal Cell℗Animal!Cell!Right
+tweet.train.tok.en-925-CrowdCountskey℗â : quit hatin keenonâ that's one thing I don't do ms berry < okay then , temporarily leave me alone lol℗thing!hatin
+tweet.train.tok.en-481-CrowdCountskey℗Off to grind ... ugh℗grind
+tweet.train.tok.en-19-CrowdCountskey℗Great Review on :// jbspins.blogspot.com/2010/10/fandom-love-saturday-nightmares.html℗Review!Great!#JBSpinshttp
+tweet.train.tok.en-494-CrowdCountskey℗i've always had my eye on this one particular guy .... i was too shy , so i decided to write℗shy!guy!eye!write!decided
+tweet.train.tok.en-253-CrowdCountskey℗We R Who We R - Keeeeshaa | Only Girl - Rihanna | Shake - Jesse McCartney .... :)℗Rihanna!McCartney!Jesse!Shake!Keeeeshaa!Girl!Who
+tweet.train.tok.en-246-CrowdCountskey℗Based upon the competition's vocals or absence of ( Barbara Streisand song ) so far Adam should win℗Adam!competition's!song!Barbara!vocals!Streisand!win!Based
+tweet.train.tok.en-647-CrowdCountskey℗Seriously ? Hang in there .℗Hang
+tweet.train.tok.en-652-CrowdCountskey℗Great Gizmos Indoor Garden Green Pots ( Green ) Â£ 13.94 [ SAVE Â£ 6.05 ] >> , 10.27 . 10℗Garden!Pots!Green!Indoor!Gizmos!Â£!Great
+tweet.train.tok.en-97-CrowdCountskey℗are very useful in a fight cause a hoodrat will put a jordan stamp and hole in your dome lls℗useful!stamp!lls!#jordanheels!jordan
+tweet.train.tok.en-82-CrowdCountskey℗Who you twitter banging ? Since the chances of you getting for real is " 0 " . Me Jada Pinkett Smith . Sorry Will . Just a little twit adultery . :)℗twitter!Jada!Smith!Pinkett!adultery!twit
+tweet.train.tok.en-183-CrowdCountskey℗awesome ... I'm still working on the website℗website!working
+tweet.train.tok.en-196-CrowdCountskey℗What was that dance Nicki just did I was cracking up℗Nicki!dance!cracking
+tweet.train.tok.en-826-CrowdCountskey℗: : Our hearts go out to the people of Merapi & Jakarta Indonesia ,℗Merapi!Indonesia!hearts!people
+tweet.train.tok.en-833-CrowdCountskey℗hipster hitler : , .... funny or too far ?℗hipster!funny!hitler
+tweet.train.tok.en-597-CrowdCountskey℗Playing Kate Nash and closing my eyes made it seem more like a laundrette in Finsbury Park or Crouch End℗Kate!Nash!Park!Finsbury!Playing!Crouch!End!laundrette!eyes
+tweet.train.tok.en-582-CrowdCountskey℗I wanna see and do a colab together , who's with me ?℗#drake!#llcoolj!colab
+tweet.train.tok.en-169-CrowdCountskey℗I got some inking done on him this morning . Not long now .℗inking!@Chief_Inspector
+tweet.train.tok.en-321-CrowdCountskey℗Vance Breshears , Jeff Otero and Cathy Hutchison are speaking at in Atlanta next week . If you are planning to be there , let us know℗Atlanta!Breshears!Vance!Hutchison!Otero!Cathy!speaking!Jeff!If!next!week!planning
+tweet.train.tok.en-334-CrowdCountskey℗Guanabee | Zapata Beer Will Revolutionize The Way You Stop ... ,℗Beer!Stop!Zapata!Revolutionize
+tweet.train.tok.en-568-CrowdCountskey℗These gaps really motivate me to make things happen ...℗motivate!gaps!happen!things
+tweet.train.tok.en-735-CrowdCountskey℗Home sweet home ... (@ Tracy's Turf ) ,℗home!sweet
+tweet.train.tok.en-720-CrowdCountskey℗Im bored℗bored
+tweet.train.tok.en-954-CrowdCountskey℗You hit the ground running , but you may run out of steam before ... More for Aries ,℗hit!ground!steam!run!Aries
+tweet.train.tok.en-941-CrowdCountskey℗Judge grants injunction vs new Mass . obscenity law - Yahoo News ,℗injunction!obscenity!law!Judge!Mass
+tweet.train.tok.en-68-CrowdCountskey℗I've been singing a new tune a long time ago you just weren't listening ... now maybe you'll pay better attention℗tune!new!singing!attention!listening!pay
+tweet.train.tok.en-237-CrowdCountskey℗but it's healthy because it has spinach ;)℗spinach!healthy!@Harmalicious
+tweet.train.tok.en-222-CrowdCountskey℗eh , idk ... I think I could do it , but to actually GET there , you hafta be a groupie .. unless leBron walks through my front door℗leBron!front!door!walks
+tweet.train.tok.en-623-CrowdCountskey℗Cut it out joey ... * talking to myself *℗joey!out
+tweet.train.tok.en-636-CrowdCountskey℗troy smith is about to finish the rest of the season for the 49ers ... he's gonna get them a win this week℗smith!troy!finish!season!week!win
+tweet.train.tok.en-842-CrowdCountskey℗Omg im feeling itt lol smh℗feeling!Omg
+tweet.train.tok.en-857-CrowdCountskey℗i swear i haven checked my facebook messages in like 2/3 weeks lol ... its all spam℗facebook!messages!spam!checked!haven!weeks!swear
+tweet.train.tok.en-166-CrowdCountskey℗remember if your in htown or visiting this weekend , we are headed to the drag show 2020 join us℗show!drag!htown!headed!visiting
+tweet.train.tok.en-173-CrowdCountskey℗I KNOW BUT IT'S LONG . It feels like math class .℗class!math!like!feels
+tweet.train.tok.en-572-CrowdCountskey℗come bring me lunch℗lunch!bring
+tweet.train.tok.en-567-CrowdCountskey℗Aha I didn't think it'd be that funny .℗funny
+tweet.train.tok.en-72-CrowdCountskey℗Clinton is the reason for financial mess . All this " Bad Credit OK " started when he was in office .℗Clinton!Credit!Bad!mess!financial!reason
+tweet.train.tok.en-67-CrowdCountskey℗FREAKY LIKE MY LADY PYRAMID℗LADY!PYRAMID
+tweet.train.tok.en-238-CrowdCountskey℗Yes DM an email address to send the link to℗email!address!!!link!send
+tweet.train.tok.en-639-CrowdCountskey℗Forgiveness cannot be given for those who choose to use Comic Sans in a business web application .℗Comic!application!Forgiveness!business!web
+tweet.train.tok.en-464-CrowdCountskey℗ha night me 2℗night
+tweet.train.tok.en-471-CrowdCountskey℗US Chamber of Commerce Litigation Machine : Hypocrisy at Its Worst .... ,℗Commerce!Chamber!Its!Hypocrisy!Machine!Litigation
+tweet.train.tok.en-858-CrowdCountskey℗how many tats do you have love ?℗tats!love
+tweet.train.tok.en-102-CrowdCountskey℗sup shirt off℗shirt!@WaddleandSilvy
+tweet.train.tok.en-117-CrowdCountskey℗: 8 days until they . Shoutout all day everyday until he's home //FREE LIL WAYNE℗#FreeWeezy!day!everyday!home
+tweet.train.tok.en-516-CrowdCountskey℗A truly Innovative way to Michael Owen . : Manchester Uniteds injury plagued striker Michael Owen looks set to miss ... ,℗Owen!Michael!Uniteds!Innovative!injury
+tweet.train.tok.en-503-CrowdCountskey℗SEE 2010 Agenda - This year SEE 2010 will feature four dynamic tracks , allowing the community to share its experie ... ,℗2010!Agenda!tracks!the!dynamic!community
+tweet.train.tok.en-16-CrowdCountskey℗-is bored out of my MIND because fallout doesn't work on my computer . - It keeps CRASHING℗fallout!computer!work!bored
+tweet.train.tok.en-249-CrowdCountskey℗I learned to knit so I could make wool soakers℗wool!learned!knit!soakers
+tweet.train.tok.en-98-CrowdCountskey℗Great Mornin Beautiful People Have a good one℗Great!Mornin!Beautiful!People!good
+tweet.train.tok.en-400-CrowdCountskey℗Marathon while I write my papers .℗Marathon!papers!#HarryPotter!write
+tweet.train.tok.en-415-CrowdCountskey℗All the more reason to move to CA Humidity is virtually nonexistent℗Humidity!move!reason!@RachelMrsP!nonexistent
+tweet.train.tok.en-648-CrowdCountskey℗Im Bout to eat something real quick℗eat!real!quick
+tweet.train.tok.en-829-CrowdCountskey℗LMAO .. aye young Jedi be smooth hahaha℗young!smooth!hahaha
+tweet.train.tok.en-199-CrowdCountskey℗I am how much lol what kind lol pod touch for sale letme know if you looking for one℗pod!sale!touch!looking
+tweet.train.tok.en-598-CrowdCountskey℗probably wasnt℗wasnt!probably
+tweet.train.tok.en-585-CrowdCountskey℗noo ... Sostar℗Sostar
+tweet.train.tok.en-590-CrowdCountskey℗: Lakers game won't start until they get those rings right ? See you at 10:45℗Lakers!rings!game!right
+tweet.train.tok.en-834-CrowdCountskey℗we should hang out since we live in the same fucking hood lol℗hang!hood!live!fucking
+tweet.train.tok.en-821-CrowdCountskey℗: Because of the crisis in Haiti , I must now turn down the volume . We are one people . Let us find a way to show our human ...℗crisis!Haiti!volume!people
+tweet.train.tok.en-191-CrowdCountskey℗CNS News : Congressional Report Casts Doubt on Constitutionality of Obamacare's Individual Mandate ,℗Report!Obamacare's!Congressional!Mandate!Constitutionality!Individual!Doubt
+tweet.train.tok.en-184-CrowdCountskey℗hi internet <3℗internet
+tweet.train.tok.en-85-CrowdCountskey℗Debating if i should go to this bar and watch this game or just chill hmmm .. decisions decisions .℗bar!game!Debating!chill!decisions!watch
+tweet.train.tok.en-90-CrowdCountskey℗Having consistently aged daily for many years , I am finding that my curmudgeonly traits are becoming more prevalent .℗aged!curmudgeonly!traits!prevalent
+tweet.train.tok.en-408-CrowdCountskey℗: anyone here who wants to talk ? >>> =D℗talk!@FUCK_U_THhater
+tweet.train.tok.en-655-CrowdCountskey℗that's ladybug℗ladybug
+tweet.train.tok.en-640-CrowdCountskey℗I forgot just how good Molson Golden truly is ...... Thanks TIm O℗Molson!Golden!good
+tweet.train.tok.en-241-CrowdCountskey℗and I just came to a conclusion that ...℗conclusion!#topsecret
+tweet.train.tok.en-254-CrowdCountskey℗Hahaha That's just what my sister was saying to me like , two days ago . They're pointless Blow to where ? Why have them ? LOL℗sister!pointless!@CarlySmithson
+tweet.train.tok.en-493-CrowdCountskey℗thanks℗thanks
+tweet.train.tok.en-486-CrowdCountskey℗Imma Jump Through Your Fruit Loops =]℗Fruit!Loops!Jump!Imma
+tweet.train.tok.en-922-CrowdCountskey℗: : : : I want to hear from the teachers out there- if you're a teacher so I can follow .℗hear
+tweet.train.tok.en-937-CrowdCountskey℗can we please stop with the gourd please i was embarrassed enough when it happened ( live on , )℗gourd!stop!embarrassed!please
+tweet.train.tok.en-743-CrowdCountskey℗Wheee (@ California Screamin ' ) ,℗Wheee!California!Screamin
+tweet.train.tok.en-756-CrowdCountskey℗shout out to my nigga mike for making varsity his freshman year congratulations brother℗freshman!varsity!mike!year!nigga!making!congratulations!shout
+tweet.train.tok.en-357-CrowdCountskey℗: Coordinatard , walking behind the couple during the grand entrance staring at your phone looks fucking magical in picture ...℗phone!grand!entrance!magical!couple!staring!Coordinatard!@bitterwedphotog
+tweet.train.tok.en-342-CrowdCountskey℗Sure wish I could ride to my meeting tomorrow dang tire℗tire!ride!dang!meeting!tomorrow
+tweet.train.tok.en-850-CrowdCountskey℗lol lol he might think he styling on them℗styling
+tweet.train.tok.en-845-CrowdCountskey℗That's on fleury but just a little interference ?℗fleury!interference!little
+tweet.train.tok.en-631-CrowdCountskey℗same here : { I think you have to ask them about it℗ask
+tweet.train.tok.en-624-CrowdCountskey℗oh nasty pervert lol℗nasty!@MircndaKerr
+tweet.train.tok.en-479-CrowdCountskey℗hates being sick im on the verge of fever grrr℗sick!fever
+tweet.train.tok.en-225-CrowdCountskey℗: Same . Itd go like this : Random Chick : I love RDJ Me : No you don't . Random Chick : Yeah , I do . Me : NO , YO ...℗Chick!Random!do!love!like
+tweet.train.tok.en-230-CrowdCountskey℗Video : damnmartin58 : ,℗:!Video!damnmartin58
+tweet.train.tok.en-946-CrowdCountskey℗lol damn now the script has flipped . i was just calling you 1 when i was gonna go and you wanted to move to ohio lol℗script!flipped!move!wanted!ohio
+tweet.train.tok.en-953-CrowdCountskey℗Win or lose if this doesn't prove how good miami COULD b on any given night then ya'll just not keeping it real℗miami!prove!good!lose!Win!night!real
+tweet.train.tok.en-727-CrowdCountskey℗yeah you need 2 check . Ask too℗need!check
+tweet.train.tok.en-732-CrowdCountskey℗: It's like wherever LeBron goes , he sucks the ability from his teammates . It's weird . Like some kind of disease or sometime ...℗LeBron!disease!teammates!sucks!weird
+tweet.train.tok.en-333-CrowdCountskey℗: : Text you soon as you leave the club asking for some pictures . <- of what ... aha ?℗club!leave!Text!pictures!@QueenVida
+tweet.train.tok.en-326-CrowdCountskey℗Heh . Can't go wrong at minimum wage .℗minimum!wage!wrong
+tweet.train.tok.en-343-CrowdCountskey℗Another timeout by teenager in a suit . The Miami Heat HAVE A LOT OF WORK TO DO .℗.!timeout!Heat!teenager!Miami!suit
+tweet.train.tok.en-356-CrowdCountskey℗In one of the worst moods ever .℗moods
+tweet.train.tok.en-757-CrowdCountskey℗: you and my life , my everything .. follow me please℗@TheCodySimpson!follow!life
+tweet.train.tok.en-742-CrowdCountskey℗S/O to the dude who just busted his ass in front of me tryna jump over a puddle . Next time bra . LMAO . Funniest ish I've seen all day .℗puddle!busted!dude!jump!Funniest!tryna!front!Next!time!day!who
+tweet.train.tok.en-936-CrowdCountskey℗: There is a difference between making love and having sex .℗sex!love!difference!making
+tweet.train.tok.en-923-CrowdCountskey℗Gerard Way looks like a younger Shane Dawson ... which is scary cus Shane is WAY younger than Gerard .℗Gerard!Shane!younger!Dawson
+tweet.train.tok.en-487-CrowdCountskey℗: Check out the hot new LA artist music . His New Mixtape " No Turning Back " = ==}} , ...℗artist!@nycetheprince!new!music!hot!Mixtape
+tweet.train.tok.en-492-CrowdCountskey℗Lmao oh okay i was like where is she at℗like!Lmao!@ShesKaia
+tweet.train.tok.en-255-CrowdCountskey℗: I really enjoy reading or watching him , but I can't just listen lol℗reading!enjoy!watching!listen!@sierramjones
+tweet.train.tok.en-240-CrowdCountskey℗whats good witcha Mr. Law ?℗Law!good!Mr.
+tweet.train.tok.en-91-CrowdCountskey℗lol I know ...℗know
+tweet.train.tok.en-409-CrowdCountskey℗Always caring about other muhfckers feelings℗caring!muhfckers!feelings
+tweet.train.tok.en-84-CrowdCountskey℗pull out a gold magnum condom while packing a 4 inch penis ----- LMFAO ... ...℗condom!magnum!penis!a
+tweet.train.tok.en-641-CrowdCountskey℗the one you said you was gonna make . the one i bought everything for and have been waiting for ?℗waiting!make!bought!said
+tweet.train.tok.en-654-CrowdCountskey℗kinda like that . making a difference in someones life .℗making!difference!like!life!someones
+tweet.train.tok.en-820-CrowdCountskey℗Va Man Charged In Fake Bomb Plot Against DC Subway : A Virginia man was arrested Wednesday and charged with trying ... ,℗man!Bomb!Fake!Plot!Virginia!Subway!charged!arrested
+tweet.train.tok.en-835-CrowdCountskey℗Shannon actually finally putting some work in .℗Shannon!work!finally!putting
+tweet.train.tok.en-185-CrowdCountskey℗im home :)℗home!im
+tweet.train.tok.en-190-CrowdCountskey℗I'm for the women with the breast cancer thing my mom had alittle bit please keep up on it for real℗cancer!women!breast!mom!keep!please!real!bit
+tweet.train.tok.en-591-CrowdCountskey℗So I told I was gonna tweet from my gate , this is my tweet , there's some cute guys in here . Hollaaaaa℗tweet!guys!cute
+tweet.train.tok.en-584-CrowdCountskey℗: That has to kill your self esteem . You can't even afford a barn .℗esteem!kill!afford!barn!#16andpregnant
+tweet.train.tok.en-327-CrowdCountskey℗sekarang lagi di bis . and you know what ? This is more than just HOT .℗what!sekarang
+tweet.train.tok.en-332-CrowdCountskey℗SMH You will NEVER learn LOL ...℗learn!@JCDmusic
+tweet.train.tok.en-733-CrowdCountskey℗We are deleting this account . Please follow for all StarShine Magazine related news . Thanks :)℗StarShine!Magazine!deleting!news!account!follow
+tweet.train.tok.en-726-CrowdCountskey℗Ahh ... Bayou State Politics . Charlie Melancon and David Vitter have divergent strategies in Louisiana Senate race : ,℗Politics!Senate!race!State!Charlie!Melancon!David!Louisiana!Vitter!Bayou
+tweet.train.tok.en-952-CrowdCountskey℗: Saturday ............ please come faster -℗Saturday!faster!please
+tweet.train.tok.en-947-CrowdCountskey℗: hey my â¥ | omg , i just tweeted you .℗tweeted!@sweetlifeofmeme
+tweet.train.tok.en-231-CrowdCountskey℗ugh i hate bitches who talk shit they dumb assface telling sumone we know like we ain fina hear . i think its time to start calling fades℗bitches!calling!hate!fades!dumb!shit!start!talk
+tweet.train.tok.en-224-CrowdCountskey℗somebody broke yeah gshock ? ? Oh no I am completely offended -_-℗gshock!offended!broke
+tweet.train.tok.en-625-CrowdCountskey℗condoms smell so bad℗condoms!smell!bad
+tweet.train.tok.en-630-CrowdCountskey℗: The Red Bandana : An Argument for Walking - TribLocal ,℗Red!Bandana!Argument
+tweet.train.tok.en-478-CrowdCountskey℗ha , are you from Slovenia , Croatia , Serbia ?℗Serbia!Slovenia!Croatia
+tweet.train.tok.en-844-CrowdCountskey℗sup fool℗sup!fool
+tweet.train.tok.en-851-CrowdCountskey℗You're never too old My friend had an english degree and just recently went back and got a nursing degree .℗degree!english!friend!old!nursing
+tweet.train.tok.en-859-CrowdCountskey℗Hear this mental case lol smh : yes you better watch team going HAMMM because we coming back for them℗case!team!#boston!#lakers!Hear
+tweet.train.tok.en-638-CrowdCountskey℗thanks .℗thanks
+tweet.train.tok.en-470-CrowdCountskey℗Sad that we get bad news followed by ... echoing silence from the production team . Any encouragement , ?℗bad!news!silence!echoing
+tweet.train.tok.en-465-CrowdCountskey℗I don't even have ta talk shit anymore to you heat fans ... the score is speaking for itself .℗heat!talk!fans!score!shit
+tweet.train.tok.en-239-CrowdCountskey℗okay peanut mommyy's ready to not be pregnant anymore . my body is hurting .℗pregnant!peanut!hurting
+tweet.train.tok.en-66-CrowdCountskey℗hey easy on my dude Bron Bron . its early you know better ...℗Bron!dude!early
+tweet.train.tok.en-73-CrowdCountskey℗Home is where I'd like to be right now My mom feeding me more than what I need . :) the best℗mom!Home!feeding!best
+tweet.train.tok.en-566-CrowdCountskey℗because it itches ? Lol℗itches
+tweet.train.tok.en-573-CrowdCountskey℗I ain't cheat I played the hand I dealt℗cheat!dealt!played
+tweet.train.tok.en-172-CrowdCountskey℗This " Christian " " chapel " ignores Matthew's Gospel : Pathetic Muslim preaches at Oxford college chapel ( From Oxford Mail ) ,℗college!Gospel!Christian!Matthew's!chapel!Muslim!Pathetic
+tweet.train.tok.en-167-CrowdCountskey℗* fingers crossed *℗crossed!fingers
+tweet.train.tok.en-599-CrowdCountskey℗I think I need to stay with a blackberry . I just confirmed my haircut appointment through bbm lol℗blackberry!haircut!appointment!stay!need
+tweet.train.tok.en-828-CrowdCountskey℗Guys try do a geordie accent , ohhhh I hear a door open has Harry finisehed on the toilet now :) ( live on , )℗accent!Harry!geordie!door!toilet!open!finisehed
+tweet.train.tok.en-198-CrowdCountskey℗Microwaved Grilled Cheese / The Getto Grilled Cheese Sandwhich / They're Made With Real Cheese℗Cheese!Grilled!Real!Microwaved!Sandwhich
+tweet.train.tok.en-414-CrowdCountskey℗Lol , thanks . Why you say that though ? Haha℗thanks!@Luigidiestoo
+tweet.train.tok.en-99-CrowdCountskey℗: No you're not twinn : I'm Ugly .℗Ugly!twinn
+tweet.train.tok.en-401-CrowdCountskey℗I do now . I play hard in nyc℗nyc!@MeekMill!play!hard
+tweet.train.tok.en-649-CrowdCountskey℗> _ > okay℗okay
+tweet.train.tok.en-248-CrowdCountskey℗Glue our lips together with that black gunk℗lips!Glue!black!gunk
+tweet.train.tok.en-17-CrowdCountskey℗calm heechul .. ^^ : , HHHHHHHHHHHHHHHHHHHHHHi ~ â℗calm!heechul
+tweet.train.tok.en-502-CrowdCountskey℗Sprint Shares Get Slammed - Wall Street Journal ( blog ) ,℗Wall!Street!Sprint!Journal!Shares!Slammed
+tweet.train.tok.en-517-CrowdCountskey℗eVeRyBODy DiCK SUCKiN MiAMi CAUSe THey DRAFTeD leBRON BUT THAT NiGGA AiNT DOiNT SHiT they traded for lebron no drafte℗lebron!drafte!no!traded!MiAMi
+tweet.train.tok.en-116-CrowdCountskey℗when do You start your job ?℗job!start
+tweet.train.tok.en-103-CrowdCountskey℗She got 2b good looking because she so hard 2 please℗hard!looking!good!please
+tweet.train.tok.en-583-CrowdCountskey℗Why D Wade so jealous of LeBron . Just except it LeBron owns south beach℗LeBron!Wade!jealous!south
+tweet.train.tok.en-596-CrowdCountskey℗because i can never have what i want℗want!@PinkstarBarbie
+tweet.train.tok.en-197-CrowdCountskey℗: The Only Thing That Comes to A Sleeping Man is Dreams ..℗Dreams!Sleeping!Thing!Man
+tweet.train.tok.en-182-CrowdCountskey℗lmaoo ohhh yeah he the one that came to the car gbr and she like I'm rena with the " e "℗car!rena!gbr
+tweet.train.tok.en-832-CrowdCountskey℗i thought of you 2day & realized i still loved you & i said Even if i fall in love again with someone new it could never be the way i loved you :(℗love!loved!fall!realized
+tweet.train.tok.en-827-CrowdCountskey℗90s pop music suuuuuuucks .℗music!90s!pop
+tweet.train.tok.en-653-CrowdCountskey℗Figurative speech help me out : " Twenty sails came into the harbor " is an example of_____________ ? What figurative type ?℗figurative!speech!harbor!sails!type!help!Twenty
+tweet.train.tok.en-646-CrowdCountskey℗alright ... hold on .. and l0l ... I saw the My Girl video .. they all look so cute .. specially ma Ray-Ray ;)℗Girl!video!Ray-Ray!cute
+tweet.train.tok.en-83-CrowdCountskey℗Follow & win CA$H playing your favorite video games℗games!video!playing!favorite!#gamersaloon!win!CA$H
+tweet.train.tok.en-96-CrowdCountskey℗wow Deja_fckn_Vu i had a dream just like what just happened to me just now , shit is spooky-wierd℗dream!spooky-wierd!happened!Deja_fckn_Vu!shit
+tweet.train.tok.en-247-CrowdCountskey℗tinkerbell IS a good movie but from $1 rental to $32 buy ? No thanks . They are " researching "℗movie!good!tinkerbell!researching
+tweet.train.tok.en-252-CrowdCountskey℗don expect any prominant dem like Rham E to be on stand my guess O told blago take the fall & I will pardon jan 1℗Rham!pardon!expect!blago
+tweet.train.tok.en-495-CrowdCountskey℗rod stewart's " if you think i'm sexy "℗stewart's!sexy!rod
+tweet.train.tok.en-480-CrowdCountskey℗Rain rain go away <-- our song is on I kid you not 107.5℗rain!song
+tweet.train.tok.en-18-CrowdCountskey℗that hurts℗hurts!@BettyMcSweets
+tweet.train.tok.en-924-CrowdCountskey℗Yakiiin .. : I don't mind .. : ( .. : If i never see you face again (Â¬_Â¬ " ) ,℗mind!face
+tweet.train.tok.en-931-CrowdCountskey℗I'm definitely gonna try I have something at 7 & work at 9 but I'm gonna try to suck it up & live like it's 3 years ago when I was young℗try!young!suck!like!years
+tweet.train.tok.en-745-CrowdCountskey℗OH : 9:20 PM and she's waking up from a nap .... Smh I need a new sitter ... A strict one , ... ,℗sitter!need!waking!new!@BombdiggyTee!nap
+tweet.train.tok.en-750-CrowdCountskey℗I taught my brother what herpes is cause one of my names for a game I play is mouthherpes . xDD℗mouthherpes!brother!game!herpes!names!taught!play
+tweet.train.tok.en-518-CrowdCountskey℗they say uncontrollably shaking is an early signs of parkinsons℗parkinsons!shaking!signs!early!uncontrollably
+tweet.train.tok.en-351-CrowdCountskey℗Vacation With the Sony HDR-XR350V Review & Giveaway | My Reality Tech ,℗Sony!HDR-XR350V!Review!Vacation!Giveaway!@myrealitytech
+tweet.train.tok.en-344-CrowdCountskey℗: Man loses everything in elaborate âFonzieâ scheme . ,℗scheme!loses!elaborate!âFonzieâ!Man
+tweet.train.tok.en-119-CrowdCountskey℗Islamic Jihad militant killed near Gaza border ,℗Jihad!killed!Gaza!militant!Islamic
+tweet.train.tok.en-856-CrowdCountskey℗: you no you cant sing but you and d choir at church -- Every muh`fuggah at a Baptist church -_- smh℗church!Baptist!choir!sing!muh`fuggah
+tweet.train.tok.en-843-CrowdCountskey℗lol you right℗right
+tweet.train.tok.en-637-CrowdCountskey℗its sad that im just now watching the Britney episode , smh℗Britney!watching!#Glee
+tweet.train.tok.en-622-CrowdCountskey℗Check out Cooking How-To : Homemade Frisco Melts on Tales of a midwestern Housewife ,℗Frisco!Housewife!Cooking!midwestern!Homemade!Melts
+tweet.train.tok.en-223-CrowdCountskey℗Did a little cleaning Around the house . Took a nice HOT shower Now about to chill on here for about 15/30 minutes who knows℗cleaning!shower!chill!house!who
+tweet.train.tok.en-236-CrowdCountskey℗. Lakers we coming for you .℗Lakers!coming!#TeamCeltics
+tweet.train.tok.en-69-CrowdCountskey℗The last retweet was for . lol℗retweet!@MaxBurke!last
+tweet.train.tok.en-940-CrowdCountskey℗pin : 22B9FB5D Add Me℗Add
+tweet.train.tok.en-955-CrowdCountskey℗SOME NEW UPDATES ---->>> , and ,℗and
+tweet.train.tok.en-569-CrowdCountskey℗MATCHES YA FACE SO YOU COOL . : its growing but its at this ugly stage :(℗stage!:(!this!growing!ugly
+tweet.train.tok.en-721-CrowdCountskey℗: generally represents the calmness of the human personality . They do not panic that easily .℗#Taurus!calmness!personality!represents!panic
+tweet.train.tok.en-734-CrowdCountskey℗i have one :) so blah with your no longer being generous .℗generous!@mygirlthursday
+tweet.train.tok.en-168-CrowdCountskey℗: if a Gay dude drinking ' Kool-Aid ... socks another Gay dude drinking ' Kool-Aid ... is that Fruit Punch ? < -____-℗Gay!dude!Kool-Aid!drinking!Fruit!Punch!socks
+tweet.train.tok.en-335-CrowdCountskey℗Hey sexy love ... how are you ?℗love!sexy!you
+tweet.train.tok.en-320-CrowdCountskey℗Got admissions questions ? Ask them tonight during I'm looking forward to advice from ,℗advice!questions!#college!admissions!#CampusChat!forward!tonight!looking
+tweet.train.tok.en-160-CrowdCountskey℗lmaooo iit was my mans .. iit wasn't hurt at first but now I feel that shit℗feel!hurt!shit!mans!lmaooo!@NikzSweets
+tweet.train.tok.en-175-CrowdCountskey℗ewww I hate that nasty shit℗hate!nasty!shit
+tweet.train.tok.en-328-CrowdCountskey℗: we don't believe in paying an arm & leg for printer ink . that's why we sell inks for 60-80% Off retail price℗printer!ink!paying!believe!retail!60-80%!price!sell!inks!arm!leg
+tweet.train.tok.en-574-CrowdCountskey℗nerp Wish I could℗nerp!Wish
+tweet.train.tok.en-561-CrowdCountskey℗Bengie Molina considers retirement after World Series ,℗Series!Molina!retirement!Bengie!#baseball
+tweet.train.tok.en-729-CrowdCountskey℗Exit 5 menit℗Exit!menit
+tweet.train.tok.en-948-CrowdCountskey℗: Job Of The Day : Senior Creative Director GrubHub , Chicago GrubHub is looking for a Senior Creative Director to lea ... http ...℗Director!Creative!Senior!GrubHub!Chicago!Job
+tweet.train.tok.en-74-CrowdCountskey℗: retweet if you hate when your eyes are watery and everyone thinks you're crying℗watery!eyes!crying!hate
+tweet.train.tok.en-61-CrowdCountskey℗yeah that was the funniest thing that has ever said℗said!thing!@cotyjohnson!funniest
+tweet.train.tok.en-462-CrowdCountskey℗: I'm not insulted , at all , trust me . I'm seeking to understand you & your video . :)℗insulted!understand!video!seeking
+tweet.train.tok.en-477-CrowdCountskey℗I'm selling my snorkel , text me for details .℗snorkel!selling
+tweet.train.tok.en-359-CrowdCountskey℗yay dad got me starbucks : P he knows me so well ^_^℗starbucks!dad!well!knows
+tweet.train.tok.en-104-CrowdCountskey℗I just took " ( ALL PAS ) You're an absolutely normal girl and one day you saw Jazmyn Bi ... " and got : Part 6 Try it : ,℗normal!Jazmyn!girl
+tweet.train.tok.en-111-CrowdCountskey℗: If U R a scuba diver U must read Barracuda . This novel has more thrills than JAWS 57 reviews 4stars , ...℗scuba!Barracuda!has!read!thrills!than!novel
+tweet.train.tok.en-758-CrowdCountskey℗ha℗ha!@Zeitlos90
+tweet.train.tok.en-510-CrowdCountskey℗benadryl is your friend lol℗benadryl!friend
+tweet.train.tok.en-505-CrowdCountskey℗wearing my high school track hoodie ...℗school!hoodie!track!high!#memories
+tweet.train.tok.en-939-CrowdCountskey℗Workout time℗Workout!time
+tweet.train.tok.en-488-CrowdCountskey℗get the new macbook air℗macbook!air!new
+tweet.train.tok.en-10-CrowdCountskey℗Texas Rangers are in the World Series Go Rangers ,℗Rangers!Texas!Series
+tweet.train.tok.en-406-CrowdCountskey℗lmfaoooooo℗#heats
+tweet.train.tok.en-413-CrowdCountskey℗: THANK YOU & ONYX FOR MAKING A DIFFERENCE WALK ,℗WALK!@Somwa!#AIDS
+tweet.train.tok.en-723-CrowdCountskey℗So many Lakers bandwagoners in New Orleans . I think they all should just accept it . Everyone always has their " reason " why LA is their favorite℗Lakers!New!Orleans!bandwagoners!accept!is!favorite
+tweet.train.tok.en-736-CrowdCountskey℗Are you kidding me , an 18 point Boston lead , we all got excited for this ????℗Boston!excited!point
+tweet.train.tok.en-337-CrowdCountskey℗I just took " ALL PAS SO FAR TO : U Have An A ... " and got : part 7 - You Can't Always Get What You Want Try it : ,℗part!Want
+tweet.train.tok.en-322-CrowdCountskey℗I'm at Mr. Mikes . ,℗Mr.
+tweet.train.tok.en-942-CrowdCountskey℗she was worried because she would have to tell them he was like not mentally stable .℗stable!worried
+tweet.train.tok.en-957-CrowdCountskey℗A lot of people flex for twitter ... idk why though .℗flex!people!twitter
+tweet.train.tok.en-635-CrowdCountskey℗Wont let that ruin my night though ... im not℗night!ruin
+tweet.train.tok.en-620-CrowdCountskey℗Me too , me too , me too i hope you come i hope you come i hope you come℗hope!@_EasyA!@ray_boyaka45cal
+tweet.train.tok.en-468-CrowdCountskey℗-_- a hole℗hole
+tweet.train.tok.en-221-CrowdCountskey℗: Please pray , unite and learn from what has happened in Indonesia . My prayers go to the survivors and the loved ones they lost℗Indonesia!pray!survivors!loved!learn!Please!happened
+tweet.train.tok.en-234-CrowdCountskey℗If you're happy and you know it , SUCK MY DICK .℗happy!it!.
+tweet.train.tok.en-854-CrowdCountskey℗I missed them in Milwaukee . :( Enjoy : Getting out work and off to the Hot Chip + LCD Soundsystem show℗Milwaukee!missed!Hot!Chip!work!Soundsystem!and
+tweet.train.tok.en-841-CrowdCountskey℗I am well up for or something of the sort .℗#inappropriatesongsfortwitter!sort!well
+tweet.train.tok.en-747-CrowdCountskey℗GM ..℗..!@manique79
+tweet.train.tok.en-752-CrowdCountskey℗I don't see why a consumer should care about how much effort went into a product , they pay for what they get out of it .℗consumer!care!@timhaines!effort
+tweet.train.tok.en-353-CrowdCountskey℗I'm here are the game But not with the tickets from your brother . Lol℗tickets!game!brother!@RadioKillah3
+tweet.train.tok.en-346-CrowdCountskey℗on my way ... Lol℗way
+tweet.train.tok.en-497-CrowdCountskey℗: We just started this online petition . See how loved you all are :) http :/ ...℗petition!online!started!loved
+tweet.train.tok.en-482-CrowdCountskey℗HTB Sneaker Expo Dec18th at 330 Ritch in SF from 6pm to 10pm 18&over . From L.A. 2 the Bay please , Thanks you coming ?℗Sneaker!Expo!?!Ritch!to!330!Dec18th!Bay!coming
+tweet.train.tok.en-926-CrowdCountskey℗Trends : Caucus : The Caucus : Alaska Senate Candidate Once Disciplined for Computer â¦ : Joe Miller , a Republican Sen. .. ,℗Candidate!Senate!Caucus!Alaska!Computer!Joe!Disciplined!Miller
+tweet.train.tok.en-933-CrowdCountskey℗thanx , & you were the only person that knew lol℗person!knew
+tweet.train.tok.en-81-CrowdCountskey℗monica singing from the heart in this song℗singing!monica!heart!song
+tweet.train.tok.en-419-CrowdCountskey℗Low blow : cody Billiot ? I need to go follow him℗Billiot!blow!follow!@jamesmayberry!cody
+tweet.train.tok.en-94-CrowdCountskey℗Inspired after a yummy lunch with . Thanks℗lunch!yummy!Inspired
+tweet.train.tok.en-651-CrowdCountskey℗going through my flicker .. just thought id re-share my favorite picture of from toronto warped . , <3℗toronto!flicker!picture!favorite!re-share!@therocketsummer
+tweet.train.tok.en-644-CrowdCountskey℗LMAOoooo℗LMAOoooo!!
+tweet.train.tok.en-245-CrowdCountskey℗Another glorious morning that Jesus blessed us with .℗glorious!morning!Jesus!blessed!us
+tweet.train.tok.en-250-CrowdCountskey℗viewing party at Stick & Stein in El Segundo Who's with me ??℗party!Segundo!Stick!Stein!with!viewing
+tweet.train.tok.en-581-CrowdCountskey℗no ma'am . i'z for real .℗real!ma'am!no!@eclecticwhatnot
+tweet.train.tok.en-594-CrowdCountskey℗with there boycotts and the way they betrayed the country in ww1 they were right in there assessment℗boycotts!ww1!country!assessment
+tweet.train.tok.en-830-CrowdCountskey℗i feel like_________ .... yeah that℗feel!i!that
+tweet.train.tok.en-825-CrowdCountskey℗Gripping his umbrella like a club , he cautiously walked home , unaware of what stalked ahead ...℗umbrella!walked!Gripping!stalked!home!cautiously
+tweet.train.tok.en-195-CrowdCountskey℗14:14℗14:14
+tweet.train.tok.en-180-CrowdCountskey℗oh yeah goodmorning℗goodmorning
+tweet.train.tok.en-838-CrowdCountskey℗LOL W/E WHY ARE YOU UP ?℗?
+tweet.train.tok.en-188-CrowdCountskey℗Photo : thosefourrightchords : ,℗thosefourrightchords!Photo
+tweet.train.tok.en-589-CrowdCountskey℗: of the day : " Fear is just as contagious as courage . Your choice . "℗courage!Fear!contagious!#Quote!choice
+tweet.train.tok.en-258-CrowdCountskey℗lakers all day day℗lakers!day
+tweet.train.tok.en-404-CrowdCountskey℗Thanks you to everyone who wished me happy birthday today -love y'all℗birthday!happy!Thanks!-love!today
+tweet.train.tok.en-89-CrowdCountskey℗wessss keep metal hjahah \m/ : Metal℗metal!keep!wessss
+tweet.train.tok.en-659-CrowdCountskey℗: Baby worshiping ,℗worshiping!Baby
+tweet.train.tok.en-12-CrowdCountskey℗Gradpics Today <3℗Gradpics!Today
+tweet.train.tok.en-106-CrowdCountskey℗fiNna gO tO cHeErleAdiN pRactiCe ... yaY℗#cheer!cHeErleAdiN!pRactiCe
+tweet.train.tok.en-113-CrowdCountskey℗no you really do though . Ur like on your 6 picture ,℗really!picture
+tweet.train.tok.en-512-CrowdCountskey℗has no sense LOL℗sense!no
+tweet.train.tok.en-507-CrowdCountskey℗give him my love℗love!give
+tweet.train.tok.en-849-CrowdCountskey℗Let it be known that I hate the holidays . Not ready for the responsibilities it brings with work :-P℗holidays!hate!responsibilities
+tweet.train.tok.en-229-CrowdCountskey℗why ? whats wrong with dancing℗dancing!wrong
+tweet.train.tok.en-628-CrowdCountskey℗Don't call it a comeback 31 for good game℗comeback!game!@KingJames!good!31
+tweet.train.tok.en-460-CrowdCountskey℗Instant Business Letter Kit . : Comprehensive Business Letter-writing How To Style Manual , With Over ... ,℗#business!Letter!Kit!Instant!Manual!Style
+tweet.train.tok.en-475-CrowdCountskey℗Calculus after 2 hours of sleep is like getting punched by mayweather with brass knuckles .℗Calculus!punched!sleep!hours!mayweather!like!brass
+tweet.train.tok.en-76-CrowdCountskey℗Go get it boy Warriors℗Warriors
+tweet.train.tok.en-63-CrowdCountskey℗( 1/2 ) ' d cmichele1231 hi . ' okay . whatever i don lie . thats against Jesus . maybe i don wanna be friends with you . you thought pooja see ...℗Jesus!lie!friends
+tweet.train.tok.en-162-CrowdCountskey℗I have them in my fridge right now , but they should be fine , I could freeze them if yeah like .℗freeze!fridge
+tweet.train.tok.en-177-CrowdCountskey℗: i love how people on can admit to crying over pokemon movies . ( ngl , i did too )℗pokemon!movies!#subeta
+tweet.train.tok.en-576-CrowdCountskey℗perhaps℗perhaps
+tweet.train.tok.en-563-CrowdCountskey℗If you haven seen â âTrading Placesâ [ Video ] then your missing out on some dope shit ,℗missing!Placesâ!dope!shit!@LepBogusBoys
+tweet.train.tok.en-846-CrowdCountskey℗www.clientsfromhell.net℗www.clientsfromhell.net
+tweet.train.tok.en-853-CrowdCountskey℗: nice meeting you last night < you 2℗meeting!last!nice!night
+tweet.train.tok.en-233-CrowdCountskey℗The Modern Vacation : With Exâs and New Partners ,℗Vacation!Partners!Modern!New!Exâs
+tweet.train.tok.en-226-CrowdCountskey℗I need a shower I just got finished cooking in my hospitality & culinary arts class . I smell like a kitchen℗class!shower!hospitality!culinary!cooking!arts!kitchen!smell!finished
+tweet.train.tok.en-627-CrowdCountskey℗: Check out my new blog :) Candy Corn Eyes ,℗Candy!blog!Eyes!Corn!new
+tweet.train.tok.en-632-CrowdCountskey℗Docs : Remove Creative Suite 5 and CS5 point products | Windows , Mac OS : The Adobe Applicati ... ,℗Creative!Remove!CS5!Suite!Windows!Mac!Adobe!Applicati!products!#Photoshop!:
+tweet.train.tok.en-950-CrowdCountskey℗: Procrastination is the thief of time .... Lions Den up and running ... ROAR℗Procrastination!Lions!thief!time
+tweet.train.tok.en-945-CrowdCountskey℗Climate Change Dispatch - A Challenge to the " Warmists " ,℗Climate!Warmists!Change!Challenge!Dispatch
+tweet.train.tok.en-79-CrowdCountskey℗Sad You called me a liar when I was searous . You know you were my bottom bitch : ahahha liar How are you ?℗bottom!searous!Sad
+tweet.train.tok.en-178-CrowdCountskey℗PS : Hearing the The Early Show cast get outraged by Four Loko was hilarious . Made my morning and subsequent day .℗Loko!Early!Show!cast!hilarious
+tweet.train.tok.en-325-CrowdCountskey℗,℗http://tiny.cc/kdlmf
+tweet.train.tok.en-330-CrowdCountskey℗, ayeeeeee this beat was everything lol℗beat!lol
+tweet.train.tok.en-579-CrowdCountskey℗Heading to Rock and Rave but can the bus driver find it ? -n-Rave , check it out '℗Rock!Rave!Heading!bus!driver
+tweet.train.tok.en-731-CrowdCountskey℗Let me know when you wanna get me wasted lol : Happy Birthday lovely girl enjoy and keep me posted ( continued ) ,℗Birthday!Happy!wasted!posted!girl!lovely!enjoy
+tweet.train.tok.en-724-CrowdCountskey℗: I'm declaring today Nina Dobrev Day because I just watched a cut where she KILLED it . The girl can do no wrong .℗Dobrev!Nina!Day!declaring!wrong
+tweet.train.tok.en-187-CrowdCountskey℗Perogies at PYT Bacon Cheeseburger Perogies ? YUP . Pumpkin Perogies with brown sugar & ice cream ? YUP . , ( via )℗Perogies!Pumpkin!cream!Cheeseburger!ice!Bacon!sugar!at!brown
+tweet.train.tok.en-192-CrowdCountskey℗- $20 in advance via , $25 at the door- Party with Chicago's elite- Network opportunities℗Network!advance!$20!Party!elite-!opportunities
+tweet.train.tok.en-822-CrowdCountskey℗:( : Mark Lowe , not Dustin Nippert , on World Series roster . Clay Rapada out .℗Series!Rapada!Lowe!Dustin!Mark!roster!Nippert!Clay
+tweet.train.tok.en-837-CrowdCountskey℗I posted a new photo to Facebook ,℗photo!Facebook!new!posted
+tweet.train.tok.en-593-CrowdCountskey℗Self control application again . Geniusness .℗control!Geniusness!application
+tweet.train.tok.en-586-CrowdCountskey℗reading harry potter in bed waiting for the new south park to come on℗harry!potter!south!park!new!reading!waiting
+tweet.train.tok.en-257-CrowdCountskey℗Philharmonic Renews Effort to Visit Cuba ,℗Philharmonic!Cuba!Renews
+tweet.train.tok.en-242-CrowdCountskey℗I love you more than songs can say .℗love!songs!say
+tweet.train.tok.en-643-CrowdCountskey℗yeah I'm fine :)℗fine
+tweet.train.tok.en-656-CrowdCountskey℗On eve of UFC debut , James Toney learned of IRS lien , fight purse withheld ,℗purse!James!Toney!of!debut!withheld
+tweet.train.tok.en-93-CrowdCountskey℗mo-tivation , mo-tivation . Get up get going , make something of your day MO-TIVATION . I just made this up to not be lazy . okay . bye .℗mo-tivation!lazy!day
+tweet.train.tok.en-86-CrowdCountskey℗Photo : ,℗Photo!:
+tweet.train.tok.en-934-CrowdCountskey℗Not sure . Trying to find out if Liz has talked to the Mom yet .℗talked!Mom!Liz!find
+tweet.train.tok.en-921-CrowdCountskey℗and favorite line from thursday's : " Give me some chocolate or I'll cut you . "℗chocolate!cut!#Glee!Give!line
+tweet.train.tok.en-485-CrowdCountskey℗Where the beautiful ladies at ?℗beautiful!ladies
+tweet.train.tok.en-490-CrowdCountskey℗Where's the video & took of me ?? EXACTLY Lmao℗video!@BarbarianCello!@thatszach
+tweet.train.tok.en-341-CrowdCountskey℗Photo : ,℗Photo!:
+tweet.train.tok.en-354-CrowdCountskey℗Celtics 1-0 Heat 0-1 now that is how you start off the season :)℗Celtics!Heat!start!season!1-0!0-1
+tweet.train.tok.en-109-CrowdCountskey℗I had forgotten how much i love coffee cake Yup I Love Coffee Cake . Y Que ?℗coffee!cake!love
+tweet.train.tok.en-755-CrowdCountskey℗welcome out of hibernation .℗hibernation!welcome
+tweet.train.tok.en-740-CrowdCountskey℗as the great would say ... " Another day another Dollar , 50 cents after taxes "℗taxes!cents!Dollar!50!day
+tweet.train.tok.en-508-CrowdCountskey℗Does it feel like Summer to you ? It does in Myrtle Beach , South Carolina its 85 degrees℗Myrtle!Summer!South!Carolina!85!degrees
+tweet.train.tok.en-748-CrowdCountskey℗: CHRIS BROWN FANS U GUYS ARE THE BEST I SEE ALL KINDS OF AMAZING THINGS HAPPENING WITH YOUR HEAS ALL OVER IT℗!!!
+tweet.train.tok.en-500-CrowdCountskey℗them breast is flirting with me boo smh℗breast!flirting!boo
+tweet.train.tok.en-515-CrowdCountskey℗yeah I already had close to 160gig so I'm probably at close to 190Gig now℗160gig!190Gig!close
+tweet.train.tok.en-349-CrowdCountskey℗I told him to hide stuff because of your problem℗stuff!hide!problem!told
+tweet.train.tok.en-114-CrowdCountskey℗: Flyboys James franco don't die , I love you℗James!franco!love!die!Flyboys
+tweet.train.tok.en-101-CrowdCountskey℗Where is punk ass , Tonite < Honestly who cares ?? :-P℗ass!@Pretty_Girl1908
+tweet.train.tok.en-498-CrowdCountskey℗: Going to Atlanta instead of ny for vaca legoo > BOOOOOO℗Atlanta!@Chanellady24!vaca!legoo
+tweet.train.tok.en-15-CrowdCountskey℗Calgary 1980 PONTIAC TRANS AM T TOPS $ 4,900 . 00 OVER 175 CARS TRUCKS AND SUV'S 90 DAY WARRENTY ... ,℗...!Calgary!90!1980!SUV'S!175
+tweet.train.tok.en-929-CrowdCountskey℗Oh thanks dear Lol I was lost for 2.5 seconds : yeah fool℗lost!dear!seconds
+tweet.train.tok.en-416-CrowdCountskey℗awesome can't wait to hear about it℗wait!awesome!hear
+tweet.train.tok.en-403-CrowdCountskey℗: Khadr's time in GTMO used against him ? ,℗him!time!Khadr's!against
+tweet.train.tok.en-564-CrowdCountskey℗I wanted it , I made it . ,℗wanted!made
+tweet.train.tok.en-571-CrowdCountskey℗Wow deep lyrics " when you smile I smile "℗smile!lyrics!deep
+tweet.train.tok.en-739-CrowdCountskey℗Get out of the gross weather and come tour Stadium View We have some great spaces available and would love to help you secure yours℗Stadium!weather!gross!View!spaces!secure
+tweet.train.tok.en-170-CrowdCountskey℗hey lady ... It sure is .℗lady!@MsTara10
+tweet.train.tok.en-165-CrowdCountskey℗Looking for new lover send interest's to DM lol℗lover!new!Looking!interest's
+tweet.train.tok.en-338-CrowdCountskey℗western fries℗fries!western
+tweet.train.tok.en-64-CrowdCountskey℗to the nigga that just walked by me and I thought it was a white girl talking ..℗girl!white!nigga!talking!#shoutout!walked!thought
+tweet.train.tok.en-71-CrowdCountskey℗Ayeee , fuck you .℗fuck
+tweet.train.tok.en-958-CrowdCountskey℗Owen suffers fresh injury blow - ,℗injury!suffers!Owen!blow!fresh
+tweet.train.tok.en-472-CrowdCountskey℗Your Nose Tastes Like Cute : Submitted by : Unknown Pictures - My First Fail ,℗Nose!Cute!Tastes!Pictures!Like
+tweet.train.tok.en-1000-CrowdCountskey℗Thankyou for following me today , my followers XD℗Thankyou!followers!today
+tweet.train.tok.en-467-CrowdCountskey℗are july august or you can take classes over the whole four months(we like to complicated things ) fall is september to christmas .℗classes!christmas!take
+tweet.train.tok.en-402-CrowdCountskey℗Haha the lady in the library just said " i love your last name " I always wonder why she always called me by it℗library!lady!last!love!name!wonder
+tweet.train.tok.en-417-CrowdCountskey℗Hal Sparks tonight For tickets , and enter the promo code JUICE℗code!promo!tonight
+tweet.train.tok.en-928-CrowdCountskey℗Great kitchens and bathrooms start with a dream , what is your dream bathroom and kitchen remodel ?℗dream!kitchens!remodel!kitchen!Great!bathroom
+tweet.train.tok.en-14-CrowdCountskey℗Next week - TWO morning Zumba classes with me if you're interested - Monday Nov 1st at 8:30 am and Wednesday at ... ,℗classes!Zumba!morning!interested
+tweet.train.tok.en-499-CrowdCountskey℗i remember when you had like a thousand . You got the juice now .℗thousand!juice!remember
+tweet.train.tok.en-348-CrowdCountskey℗It's raining . I don have an umbrella . I'm not going to class .℗umbrella!class
+tweet.train.tok.en-100-CrowdCountskey℗is all about Pennsylvania Polka by Lawrence Welk℗Pennsylvania!Lawrence!Polka!Welk
+tweet.train.tok.en-115-CrowdCountskey℗Journalists and Social Media experts alike will appreciate this spoof out of Dallas : ,℗Media!Dallas!spoof!Social!appreciate!Journalists!experts
+tweet.train.tok.en-749-CrowdCountskey℗Uhm ?? >> " this also means more lettters in words and overexcsesive puncutatoin . Yo're welcome . <333 " << Was I speaking English ?℗lettters!overexcsesive!puncutatoin!English!words!speaking!welcome
+tweet.train.tok.en-514-CrowdCountskey℗I posted 11 photos on Facebook in the album " October 26 , 2010 " ,℗photos!Facebook!posted!album
+tweet.train.tok.en-501-CrowdCountskey℗Jewellery shopping . Damn this eye is HUGE N its MINE wooo℗Jewellery!shopping!eye!wooo
+tweet.train.tok.en-466-CrowdCountskey℗I checked in at Dunkin Donuts ( 1 Congress St ) on ,℗Donuts!Dunkin!checked
+tweet.train.tok.en-473-CrowdCountskey℗CFA Risk Mgmt . - Corporate Governance of Asian Companies ,℗Companies!Asian!of!Corporate!Governance!Mgmt!Risk
+tweet.train.tok.en-959-CrowdCountskey℗[ VIP ] ââºâ Å¦ÃÅÅÃW&Ç¤ÎÃÅââ]ââº x5℗x5!@Fresh32Prince89
+tweet.train.tok.en-70-CrowdCountskey℗lol . Awe℗Awe
+tweet.train.tok.en-65-CrowdCountskey℗Yll wis you live in MIAMI℗in!live
+tweet.train.tok.en-164-CrowdCountskey℗A Womans will never die/ Lmbo℗#Love!die/!Womans!Lmbo
+tweet.train.tok.en-171-CrowdCountskey℗I'm following just about anyone who follows me , but if you DM me afterward trying to promote your stuff , I'll follow . Thank you .℗promote!stuff
+tweet.train.tok.en-339-CrowdCountskey℗Working on my column for DWM .℗column!Working!.
+tweet.train.tok.en-570-CrowdCountskey℗: d-town℗d-town
+tweet.train.tok.en-565-CrowdCountskey℗I'm good you need 2 see this meat.org : " : I can remember whennnn we had ... " -- ... ,℗remember!good!need
+tweet.train.tok.en-738-CrowdCountskey℗Naughty Little Bitch ;) I Got You On Check . I & ; am Daddy HeHeHe℗Naughty!Daddy!Little!Check
+tweet.train.tok.en-578-CrowdCountskey℗I hate how I am sometimes , it really sucks and I over think .℗hate!sucks
+tweet.train.tok.en-725-CrowdCountskey℗â(Ë_Ë' l ) : ( â£Ì_â£Ì) : ( ? ) : : ( continued ) ,℗)
+tweet.train.tok.en-730-CrowdCountskey℗Hey Jessica , we can't wait to have you here on our stage :)℗stage!wait!Jessica
+tweet.train.tok.en-179-CrowdCountskey℗Having a good laugh on my ï£«m Cc :℗good!laugh
+tweet.train.tok.en-331-CrowdCountskey℗otay℗otay
+tweet.train.tok.en-324-CrowdCountskey℗So I'm hungry and pissed off I have the worse luck ever in the history of luck℗hungry!pissed!luck!worse!history
+tweet.train.tok.en-78-CrowdCountskey℗have you ever seen a stud who wear micros .℗micros!stud!wear
+tweet.train.tok.en-944-CrowdCountskey℗I'm at Five Below ( 640 West Dekalb Pk ., Ste . 2221 , King of Prussia Mall , King of Prussia ) . ,℗King!Prussia
+tweet.train.tok.en-951-CrowdCountskey℗We'll see℗see
+tweet.train.tok.en-633-CrowdCountskey℗o_o lol I Herd You Was Good With Themm Softt Lips℗Lips!Softt!Good
+tweet.train.tok.en-626-CrowdCountskey℗Ugh i need a new phone > : I ay℗phone!new!need
+tweet.train.tok.en-227-CrowdCountskey℗Wow One of your best self portraits ever ,℗portraits
+tweet.train.tok.en-232-CrowdCountskey℗Young K-pop idols fulfill citizen duties in regional elections . - Girlsâ Generation member Yoona casts her ... ,℗K-pop!elections!regional!Yoona!citizen!idols!Young!Generation!casts!Girlsâ
+tweet.train.tok.en-852-CrowdCountskey℗Daily Manna from the Net for Wednesday , October 27 , 2010 [ Matthew 18:1 -6 ]: At that time the disciples came to ... ,℗Daily!Manna!disciples!Wednesday!Net!27!2010
+tweet.train.tok.en-847-CrowdCountskey℗fun ;) ha℗ha!fun
+tweet.train.tok.en-741-CrowdCountskey℗Whats up fucker℗fucker
+tweet.train.tok.en-754-CrowdCountskey℗wind D: ewww , gotta put my hair up -___-℗hair!put
+tweet.train.tok.en-509-CrowdCountskey℗Lol welcome to Twitter℗Twitter!welcome
+tweet.train.tok.en-355-CrowdCountskey℗James Cameron confirms next projects will be PÌ¶oÌ¶cÌ¶aÌ¶hÌ¶oÌ¶nÌ¶tÌ¶aÌ¶sÌ¶ AVATAR 2+3 , with release dates of December 2014 ... ,℗James!dates!Cameron!projects!2+3!next!2014!confirms
+tweet.train.tok.en-340-CrowdCountskey℗Falling asleep with this caprisun in my mouth℗caprisun!mouth!asleep!Falling
+tweet.train.tok.en-108-CrowdCountskey℗nice℗nice!@adamkotsko
+tweet.train.tok.en-491-CrowdCountskey℗i hate this part -- pussycat dolls <3℗hate!pussycat!dolls!part
+tweet.train.tok.en-484-CrowdCountskey℗lol thanks℗thanks!@iamjustmike
+tweet.train.tok.en-920-CrowdCountskey℗maybe more willing is more accurate than better . Kd doesn't have nearly any deficiency ( continued ) ,℗deficiency!accurate!than
+tweet.train.tok.en-935-CrowdCountskey℗:℗#prayforindonesia
+tweet.train.tok.en-657-CrowdCountskey℗where are you℗@vera_leigh22
+tweet.train.tok.en-642-CrowdCountskey℗.. hey no shine .. lol jk .. how been brother ?℗shine!brother!no
+tweet.train.tok.en-87-CrowdCountskey℗Yahoo HotJobs : NIGHT AUDITOR-Hotel Association of Nort-Duncanville , TX- ,℗of!#jobs!Association!Nort-Duncanville!HotJobs
+tweet.train.tok.en-92-CrowdCountskey℗oh , home again ... The shooting was awesome℗shooting!awesome!home
+tweet.train.tok.en-243-CrowdCountskey℗I've wanted one since eating the juiciest meat from one at a Moroccan restaurant last year .℗restaurant!meat!Moroccan!juiciest!eating!wanted!last!year
+tweet.train.tok.en-256-CrowdCountskey℗Dingdong℗Dingdong
+tweet.train.tok.en-587-CrowdCountskey℗: I rather watch water boil ......℗watch!water!boil
+tweet.train.tok.en-592-CrowdCountskey℗Not too bad for missing two labs before that℗labs!missing!bad
+tweet.train.tok.en-193-CrowdCountskey℗Early Bird Special : Conscious Capitalism , New Business Model for 21st Century in Online MasterClass - ,℗Capitalism!Business!MasterClass!Model!Early!Conscious!New!Century!Bird!Online
+tweet.train.tok.en-186-CrowdCountskey℗, <-- 257 Trinity Ave , Downtown Atlanta ... Party This Wednesday℗Party!Atlanta!Wednesday
+tweet.train.tok.en-836-CrowdCountskey℗Celebration dinner with my best friend and then going to b's game℗dinner!Celebration!friend!game
+tweet.train.tok.en-823-CrowdCountskey℗any new tatts ? Where's your tattoo artist ?℗tattoo!artist!tatts!new
+tweet.train.tok.en-506-CrowdCountskey℗Excited for rough cut screening of tonight . Then season premier of Friday Night Lights at the Man-sion . Yessirr .℗screening!Night!Lights!premier!Friday!season!cut!Man-sion
+tweet.train.tok.en-513-CrowdCountskey℗: Just seen one of my favorite people ... I love her I swear . Muah ** awwyyy Me heart you 4x more loveeee℗people!favorite!love
+tweet.train.tok.en-112-CrowdCountskey℗Haha . My producer said UV vodka is a bad situation waiting to happen , i said℗vodka!i!bad!producer!situation!said
+tweet.train.tok.en-107-CrowdCountskey℗: People believed everything that they " heard " about me .. -dumb fuckers .℗People!fuckers!-dumb!believed
+tweet.train.tok.en-13-CrowdCountskey℗hell yeah℗yeah!hell!@Uncrownd_Prince
+tweet.train.tok.en-88-CrowdCountskey℗looking good in the picture you put up℗picture!looking!good!@MzChocolatae
+tweet.train.tok.en-410-CrowdCountskey℗AMBER ALE : 15 year old MI Girl who was Abducted 10.27 . 10 Look at her and the suspect , do you recognize them ? ,℗her!Girl!Abducted!15!year!old!suspect!recognize
+tweet.train.tok.en-405-CrowdCountskey℗If I write on the wall of a business's page , why doesn't it tell me if someone comments on it ?℗business's!page!write!comments!wall
+tweet.train.tok.en-658-CrowdCountskey℗Pretty simple actually . Â The DataContext will tunnel down to controls below it in the tree . Â The ListBox ... ,℗DataContext!controls!ListBox!tunnel!Pretty
+tweet.train.tok.en-259-CrowdCountskey℗These refs are being paid off by the Canucks ....℗paid!Canucks!refs
+tweet.train.tok.en-588-CrowdCountskey℗when is butt pride ? cause i got a big ol trunk with junk it it℗pride!butt!trunk!big!junk!ol
+tweet.train.tok.en-839-CrowdCountskey℗-sees ' runaway ' on itunes- ' OH I HAVE RUNAWAY FROM KANYE ? ' -checks again- ' oh , it's dbsk from trick . __ . '℗on!itunes-
+tweet.train.tok.en-189-CrowdCountskey℗Jax baby ..℗baby!Jax
+tweet.train.tok.en-562-CrowdCountskey℗:D℗:D!@DemiCaughtMe
+tweet.train.tok.en-577-CrowdCountskey℗My book trailer - WORST SINGING EVER YAY : ,℗book!:!trailer
+tweet.train.tok.en-176-CrowdCountskey℗smh ... can somebody guard james fucking jones℗james!jones!fucking
+tweet.train.tok.en-163-CrowdCountskey℗Danilo Gallinari℗Gallinari!Danilo
+tweet.train.tok.en-62-CrowdCountskey℗people are really scalping wiz khalifa tickets for more than $100 in AZ , shit is fucking ludicrous℗khalifa!tickets!wiz!scalping!is!$100
+tweet.train.tok.en-77-CrowdCountskey℗: jim courier new davis cup captain .... great choice℗captain!cup!courier!davis!jim!new!great
+tweet.train.tok.en-629-CrowdCountskey℗what's going on ? :( I love you <3℗love
+tweet.train.tok.en-474-CrowdCountskey℗Got work to do but you betta believe I'm tuning in to this game℗game!work!tuning!believe
+tweet.train.tok.en-461-CrowdCountskey℗its .℗#humpdayyy!.
+tweet.train.tok.en-228-CrowdCountskey℗yeah from 7-to 1 lol℗7-to!lol
+tweet.train.tok.en-848-CrowdCountskey℗SILLY SILLY MAN Lmao OK about work out℗!!!Lmao!work
+tweet.train.tok.en-840-CrowdCountskey℗: If today's wind gets any stronger it's going to start running as a tea party candidate .℗wind!tea!candidate!stronger!party!start
+tweet.train.tok.en-855-CrowdCountskey℗Photo : ,℗Photo!:
+tweet.train.tok.en-235-CrowdCountskey℗what's new ? Lol℗new!@SigmaChiPeepers
+tweet.train.tok.en-220-CrowdCountskey℗: Chicago Jacques℗Chicago!Jacques
+tweet.train.tok.en-621-CrowdCountskey℗New NC Highway Signs Welcome Motorists To " Most Military Friendly State " : New signs going up on the major highways ... ,℗highways!Military!signs!Friendly!State!Motorists!Welcome!major
+tweet.train.tok.en-634-CrowdCountskey℗that's a tight score .℗score!tight
+tweet.train.tok.en-469-CrowdCountskey℗my back is sooo fucked .℗fucked
+tweet.train.tok.en-956-CrowdCountskey℗: The Sixers should trade Elton Brand and his contract to Turkey for Iverson and a six pack .℗Brand!Elton!Sixers!trade!Turkey!Iverson!contract
+tweet.train.tok.en-943-CrowdCountskey℗Omfg .. Wtf are they doing .? Nigga get the reply and put that bitch in .℗bitch!Nigga
+tweet.train.tok.en-323-CrowdCountskey℗: ROCKETS fans SO I KNOW WHO U ARE ..... LOL <<℗fans!<<
+tweet.train.tok.en-336-CrowdCountskey℗momma's bringing me food from sakura YEEEE℗sakura!food!bringing!momma's
+tweet.train.tok.en-737-CrowdCountskey℗Really bad first impression miami . lebron use your teammates , there's no I in team℗impression!miami!lebron!teammates!bad!team
+tweet.train.tok.en-722-CrowdCountskey℗idk felt personal lmao℗personal
+tweet.train.tok.en-824-CrowdCountskey℗Let me find out shannon brown been working on his jumpshot lmfao℗brown!jumpshot!shannon!find!working!#TheLakeShow
+tweet.train.tok.en-831-CrowdCountskey℗pays the cost of developer breakfast back to feed 100,000 children through WeFeedback℗developer!to!breakfast!feed!pays!children!WeFeedback!#xinnovate!cost
+tweet.train.tok.en-181-CrowdCountskey℗.... : Freestylin the whole Mo City Don Freestyle with Ro ...℗City!Freestylin
+tweet.train.tok.en-194-CrowdCountskey℗hello , I miss you , I love you â¥℗miss!love
+tweet.train.tok.en-595-CrowdCountskey℗you tell me fool smoke sumthin℗smoke
+tweet.train.tok.en-580-CrowdCountskey℗Alaska judge's order deals blow to Murkowski's write-in bid ,℗Alaska!judge's!write-in!Murkowski's!order!blow
+tweet.train.tok.en-251-CrowdCountskey℗I have always and forever will hate the℗hate!#celtics!forever
+tweet.train.tok.en-244-CrowdCountskey℗HAPPY HAPPY BIHDAY îîî from me & i love you baby brother î 20 x℗baby!brother!love
+tweet.train.tok.en-95-CrowdCountskey℗: Lebron in beast mode℗beast!mode!Lebron
+tweet.train.tok.en-80-CrowdCountskey℗: Better late than never , but never late is better -Drake <3℗late!-Drake
+tweet.train.tok.en-418-CrowdCountskey℗: JOHN YOU STILL GOT IT BUDDY HOLY CRAAAAAAAAAAAAAP℗HOLY!#GLEE!@vanessarae1
+tweet.train.tok.en-645-CrowdCountskey℗And these lights aint making it anyyyyyyy bwtter℗lights!bwtter
+tweet.train.tok.en-650-CrowdCountskey℗Good Morning℗Good!Morning
+tweet.train.tok.en-932-CrowdCountskey℗Photo : why the guy on his tippy toes just wonderingâ¦is he dating a 12 foot model chick with small feet ha ,℗toes!tippy!dating!model!guy!foot!chick!12!small!feet
+tweet.train.tok.en-927-CrowdCountskey℗Global food crisis forecast as prices reach record highs - ,℗food!crisis!Global!record!prices
+tweet.train.tok.en-483-CrowdCountskey℗Richard won that hand .℗won!hand!Richard
+tweet.train.tok.en-496-CrowdCountskey℗: 1793 : " pretty soon it's just gonna affect everyone . Everyone in the world is gonna have Bieber Fever " - J ...℗Bieber!Fever!pretty!affect
+tweet.train.tok.en-347-CrowdCountskey℗hehehe its gonna b a good day℗day!good
+tweet.train.tok.en-352-CrowdCountskey℗I'm about to punch the girl behind me like Helga on used to punch the kid that wheezed .℗punch!Helga!girl!wheezed!#HeyArnold!kid
+tweet.train.tok.en-753-CrowdCountskey℗it's pretty funny though℗funny!pretty
+tweet.train.tok.en-746-CrowdCountskey℗Tanger Outlet Centers Announces Expanded Technology Advances and Social Media ... - MarketWatch ( press release ) ,℗Tanger!Centers!Technology!Social!Advances!Media!Outlet!Expanded!MarketWatch
