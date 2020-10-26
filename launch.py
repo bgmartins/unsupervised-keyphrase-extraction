@@ -6,7 +6,6 @@ from swisscom_ai.research_keyphrase.model.input_representation import InputTextO
 from swisscom_ai.research_keyphrase.model.method import MMRPhrase
 from swisscom_ai.research_keyphrase.preprocessing.postagging import PosTaggingCoreNLP
 from swisscom_ai.research_keyphrase.preprocessing.postagging import PosTaggingSpacy
-from swisscom_ai.research_keyphrase.preprocessing.postagging import PosTaggingStanza
 from swisscom_ai.research_keyphrase.util.fileIO import read_file
 
 def extract_keyphrases(embedding_distrib, ptagger, raw_text, N, lang, beta=0.55, alias_threshold=0.7):
