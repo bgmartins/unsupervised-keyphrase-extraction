@@ -35,7 +35,7 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
 
     if post_processing:
         aux = np.array( list(doc_embedd) + list(X) )
-        PVN_dims = 5
+        PVN_dims = int(min(aux.shape[0], aux.shape[1] / 50, 300))
         aux = aux - np.mean(aux, axis=0)
         pca = PCA(n_components=min(aux.shape[0], aux.shape[1], 300))
         pca.fit(aux)
@@ -44,11 +44,11 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
         X = []
         for i, x in enumerate(aux):
             for j,u in enumerate(U1[0:PVN_dims]):
-                ratio = (explained_variance[j]-explained_variance[PVN_dims]) / explained_variance[j]
+                ratio = (explained_variance[j]-explained_variance[PVN_dims - 1]) / explained_variance[j]
                 x = x - ratio * np.dot(u.transpose(),x) * u
             X.append(x)
         aux = np.asarray(X)
-        aux = (aux + np.min(aux, axis=0))
+        #aux = (aux + np.min(aux, axis=0))
         doc_embedd = [aux[0]]
         X = aux[1 : len(X) + 1,:]
 
