@@ -12,9 +12,6 @@ import logging
 import torch
 from torch import nn
 import logging
-from transformers import BertConfig, BertForPreTraining, load_tf_weights_in_bert, RobertaConfig
-from transformers import RobertaTokenizer
-from .bertkpe import networks, config_class
 from transformers import AutoModel, AutoConfig, AutoModelWithLMHead, AutoTokenizer
 from nltk.tokenize import sent_tokenize
 
