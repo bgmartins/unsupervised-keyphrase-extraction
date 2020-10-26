@@ -6,7 +6,7 @@ import os
 import codecs
 import numpy as np
 from nltk.stem import PorterStemmer
-from indicadores import indicadores
+from swisscom_ai.research_keyphrase.util.evaluation import eval_metrics
 import string
 
 #set de variaveis de entrada -tipo do dataset e lingagem
@@ -14,7 +14,7 @@ tipo_dataset = "DUC"
 lang = 'en'
 
 #pasta onde estao localizados os arquivos
-dataset = '../' + tipo_dataset + '/dataset.txt'
+dataset = './datasets/' + tipo_dataset + '/dataset.txt'
 
 #gerar listas para comparacao na rotina de indicadores
 keyphases_verdadeiras = {}
@@ -71,4 +71,4 @@ for line in raw_text:
 			
 #acionamento da funcao de indicadores
 print ("-----------------")
-indicadores(keyphases_verdadeiras,keyphases_extraídas)
+eval_metrics(keyphases_verdadeiras, keyphases_extraídas, lang=lang)
