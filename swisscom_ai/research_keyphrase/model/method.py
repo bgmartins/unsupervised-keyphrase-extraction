@@ -42,9 +42,9 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
         explained_variance = pca.explained_variance_
         aux = []
         for i, x in enumerate(np_vector):
-	    for j,u in enumerate(U1[0:PVN_dims]):
-		ratio = (explained_variance[j]-explained_variance[PVN_dims]) / explained_variance[j]
-		x = x - ratio * np.dot(u.transpose(),x) * u
+            for j,u in enumerate(U1[0:PVN_dims]):
+                ratio = (explained_variance[j]-explained_variance[PVN_dims]) / explained_variance[j]
+                x = x - ratio * np.dot(u.transpose(),x) * u
         aux.append(x)
         aux = np.asarray(aux)
         #aux = (aux + np.min(aux, axis=0))
