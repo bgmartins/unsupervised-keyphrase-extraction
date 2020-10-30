@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import normalize
 from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, extract_doc_embedding, extract_sent_candidates_embedding_for_doc
 
-def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.0, post_processing=True):
+def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.2, post_processing=True):
     """
     Core method using Maximal Marginal Relevance in charge to return the top-N candidates
 
@@ -31,51 +31,55 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     """
     N = min(N, len(candidates))
     doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding    
-    # Pos-processing from https://arxiv.org/abs/1808.06305
 
+    # Post-processing from https://arxiv.org/abs/1808.06305
     if post_processing:
         aux = np.array( list(doc_embedd) + list(X) )
-        PVN_dims = int(min(aux.shape[0], aux.shape[1] / 50, 300))
-        aux = aux - np.mean(aux, axis=0)
-        pca = PCA(n_components=min(aux.shape[0], aux.shape[1], 300))
-        pca.fit(aux)
-        U1 = pca.components_
-        explained_variance = pca.explained_variance_
-        X = []
-        for i, x in enumerate(aux):
-            for j,u in enumerate(U1[0:PVN_dims]):
-                ratio = (explained_variance[j]-explained_variance[PVN_dims - 1]) / explained_variance[j]
-                x = x - ratio * np.dot(u.transpose(),x) * u
-            X.append(x)
-        aux = np.asarray(X)
-        #aux = (aux + np.min(aux, axis=0))
+#        PVN_dims = int(min(aux.shape[0], aux.shape[1] / 50, 300))
+#        aux = aux - np.mean(aux, axis=0)
+#        pca = PCA(n_components=min(aux.shape[0], aux.shape[1], 300))
+#        pca.fit(aux)
+#        U1 = pca.components_
+#        explained_variance = pca.explained_variance_
+#        X = []
+#        for i, x in enumerate(aux):
+#            for j,u in enumerate(U1[0:PVN_dims]):
+#                ratio = (explained_variance[j]-explained_variance[PVN_dims - 1]) / explained_variance[j]
+#                x = x - ratio * np.dot(u.transpose(),x) * u
+#            X.append(x)
+#        aux = np.asarray(X)
+        aux = (aux + np.min(aux, axis=0)) 
+        aux = aux / np.std(aux, axis=0)
         doc_embedd = [aux[0]]
         X = aux[1 : len(X) + 1,:]
 
     doc_sim = cosine_similarity(X, doc_embedd)
-    doc_sim_norm = doc_sim/np.max(doc_sim)
+    doc_sim_norm = doc_sim / np.max(doc_sim)
     doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)
     sim_between = cosine_similarity(X)
     np.fill_diagonal(sim_between, np.NaN)
     sim_between_norm = sim_between / np.nanmax(sim_between, axis=0)
     sim_between_norm = 0.5 + (sim_between_norm - np.nanmean(sim_between_norm, axis=0)) / np.nanstd(sim_between_norm, axis=0)
 
-    if alpha > 0:
+    # Post-processing with TextRank
+    if alpha > 0.0:
         graph = nx.DiGraph()
         aux = []
         for pos1, w in enumerate(candidates):
-            for pos2, y in enumerate(candidates): 
-                if pos1 != pos2: aux.append((w,y, 1.0 + (sim_between_norm[pos1,pos2])))
+            for pos2, y in enumerate(candidates):
+                if pos1 != pos2 and sim_between_norm[pos1,pos2] > 0.6: 
+                    aux.append((w,y, sim_between_norm[pos1,pos2]))
+                    aux.append((y,w, sim_between_norm[pos1,pos2]))
         graph.add_weighted_edges_from(aux)
         aux = { }
-        for pos, w in enumerate(candidates): aux[w] = 1.0 + doc_sim_norm[pos]
+        for pos, w in enumerate(candidates): aux[w] = 0.0 + doc_sim_norm[pos]
         try:
             pr = nx.pagerank(graph, personalization=aux, alpha=alpha, max_iter=500, tol=1e-06)
             for pos, w in enumerate(candidates):
                 doc_sim[pos] = pr[w]
                 doc_sim_norm[pos] = pr[w]
         except: doc_sim = doc_sim
-    
+
     selected_candidates = []
     unselected_candidates = [c for c in range(len(candidates))]    
     j = np.argmax(doc_sim)

@@ -9,10 +9,8 @@ import re
 import nltk
 import spacy
 
-nlp = spacy.load("en_core_web_sm", entity=False)
-
 GRAMMAR_EN = """  NP:
-        {<PROPN|NOUN|ADJ>*<PROPN|NOUN>+<ADJ>*}  
+        {<PROPN|NOUN|ADJ>*<PROPN|NOUN>+<ADJ>*}
         """
 
 GRAMMAR_DE = """
@@ -49,20 +47,15 @@ GRAMMAR_FR = """  NP:
          """
 
 GRAMMAR_PT = """  NP:
-    {(<NOUN>+ <ADJ>* <PREP>*)? <NOUN>+ <ADJ>*}
+    {(<PROPN|NOUN>+ <ADJ>* <PREP>*)? <PROPN|NOUN>+ <ADJ>*}
     """
 
 def get_grammar(lang):
-    if lang == 'en':
-        grammar = GRAMMAR_EN
-    elif lang == 'de':
-        grammar = GRAMMAR_DE
-    elif lang == 'pt':
-        grammar = GRAMMAR_PT
-    elif lang == 'fr':
-        grammar = GRAMMAR_FR
-    else:
-        raise ValueError('Language not handled')
+    if lang == 'en': grammar = GRAMMAR_EN
+    elif lang == 'de': grammar = GRAMMAR_DE
+    elif lang == 'pt': grammar = GRAMMAR_PT
+    elif lang == 'fr': grammar = GRAMMAR_FR
+    else: grammar = GRAMMAR_EN
     return grammar
 
 def extract_candidates(text_obj, no_subset=False):
@@ -73,8 +66,13 @@ def extract_candidates(text_obj, no_subset=False):
     :param lang: language (currently en, fr and de are supported)
     :return: list of candidate phrases (string)
     """
+    if text_obj.lang == 'en': nlp = spacy.load("en_core_web_sm")
+    elif text_obj.lang == 'pt': nlp = spacy.load("pt_core_news_sm")
+    elif text_obj.lang == 'fr': nlp = spacy.load("fr_core_news_sm")
+    elif text_obj.lang == 'de': nlp = spacy.load("de_core_news_sm")
+    elif text_obj.lang == 'es': nlp = spacy.load("es_core_news_sm")
+    else: nlp = spacy.load("xx_ent_wiki_sm")
     keyphrase_candidate = set()
-
     np_parser = nltk.RegexpParser(get_grammar(text_obj.lang))  # Noun phrase parser
     trees = np_parser.parse_sents(text_obj.pos_tagged)  # Generator with one tree per sentence       
     for tree in trees:
@@ -82,11 +80,10 @@ def extract_candidates(text_obj, no_subset=False):
             # Concatenate the token with a space
             keyphrase_candidate.add(' '.join(word for word, tag in subtree.leaves()))
     doc = nlp(text_obj.rawtext)
-    labes = ['PERSON','NORP','FAC','ORG','GPE','LOC','PRODUCT','EVENT','WORK_OF_ART','LAW']
+    labels = ['PERSON','NORP','FAC','ORG','GPE','LOC','PRODUCT','EVENT','WORK_OF_ART','LAW']
     for ent in doc.ents:
-        if ent.label_ in labes:
-            keyphrase_candidate.add(ent.text.replace('\n',' '))
-    keyphrase_candidate = {kp for kp in keyphrase_candidate if len(kp.split()) <= 10}
+        if ent.label_ in labels: keyphrase_candidate.add(ent.text.replace('\n',' '))
+    keyphrase_candidate = { kp for kp in keyphrase_candidate if len(kp.split()) <= 10 }
     if no_subset: keyphrase_candidate = unique_ngram_candidates(keyphrase_candidate)
     else: keyphrase_candidate = list(keyphrase_candidate)
     return keyphrase_candidate

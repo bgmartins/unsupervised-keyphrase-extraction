@@ -193,11 +193,7 @@ class PosTaggingSpacy(PosTagging):
             Implementation of abstract method from PosTagging
             @see PosTagging
         """
-        
-        #mudei
-#        print (text)
         def spacy_tokenizer(text_spacy):
-
             # modify tokenizer infix patterns
             infixes = (
                 LIST_ELLIPSES
@@ -213,21 +209,15 @@ class PosTaggingSpacy(PosTagging):
                     r"(?<=[{a}0-9])[:<>=/](?=[{a}])".format(a=ALPHA),
                 ]
             )
-
             infix_re = compile_infix_regex(infixes)
             self.nlp.tokenizer.infix_finditer = infix_re.finditer
             doc = self.nlp(text_spacy)
-            return [(t.text, t.pos_) for t in doc]
-        
-        
+            return [(t.text, t.pos_) for t in doc]        
         # This step is not necessary int the stanford tokenizer.
         # This is used to avoid such tags :  ('      ', 'SP')
         text = re.sub('[ ]+', ' ', text).strip()  # Convert multiple whitespaces into one
-
         doc = self.nlp(text)
-                
-        if as_tuple_list:
-            return [(spacy_tokenizer(str(sent))) for sent in doc.sents]
+        if as_tuple_list: return [(spacy_tokenizer(str(sent))) for sent in doc.sents]
         return '[ENDSENT]'.join(' '.join(self.separator.join([token.text, token.tag_]) for token in sent) for sent in doc.sents)
 
 class PosTaggingCoreNLP(PosTagging):
@@ -258,9 +248,6 @@ class PosTaggingCoreNLP(PosTagging):
             return tagged_text
         return '[ENDSENT]'.join(
             [' '.join([tuple2str(tagged_token, self.separator) for tagged_token in sent]) for sent in tagged_text])
-        
-
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Write POS tagged files, the resulting file will be written'
