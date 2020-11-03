@@ -14,8 +14,6 @@ from torch import nn
 import logging
 from transformers import AutoModel, AutoConfig, AutoModelForMaskedLM, AutoTokenizer
 from nltk.tokenize import sent_tokenize
-from swisscom_ai.research_keyphrase.embeddings.utils import aggregate_embedding
-#from swisscom_ai.research_keyphrase.embeddings.laser_embed import SentenceEncoder
 
 class EmbeddingDistributorLocal(EmbeddingDistributor):
 
@@ -23,11 +21,7 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
     Concrete class of @EmbeddingDistributor using a local installation of sent2vec
     https://github.com/epfml/sent2vec    
     """
-    def __init__(self, fasttext_model):
-        # LASER embeddingss
-        #self.model = SentenceEncoder("/home/bgmartins/keyphrases/LASER/models/bilstm.93langs.2018-12-26.pt")
-        #self.model_type = 3
-        
+    def __init__(self, fasttext_model):        
         # Original implementation with sent2vec
         #self.model = sent2vec.Sent2vecModel()
         #self.model.load_model(fasttext_model)
@@ -46,7 +40,7 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
         #
         self.model = "sentence-transformers/bert-base-nli-stsb-mean-tokens"
         self.tokenizer = AutoTokenizer.from_pretrained(self.model)
-        self.model = AutoModelForMaskedLM.from_pretrained(self.model)
+        self.model = AutoModel.from_pretrained(self.model)
         self.model_type = 1
         
     def seq_in_seq(self, subseq, seq):
@@ -78,14 +72,26 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
             doc = sent_tokenize(doc)
         for pos, w in enumerate(sents):
             inputs = self.tokenizer( [w] , padding=True, truncation=True, return_tensors="pt", max_length=512)
-            with torch.no_grad(): sequence_output, _ = self.model(**inputs, output_hidden_states=True)
-            embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy().copy()
+            with torch.no_grad(): sequence_output, _ = self.model(**inputs, output_hidden_states=False)
+            embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
             #with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
-            #embeddings = aggregate_embedding(masks=inputs["attention_mask"].detach().numpy()).dissecting(torch.stack(sequence_output[1]).permute(1, 0, 2, 3).numpy()).copy()
-            tmp = [ embeddings[0] ]
-            if not(doc is None):
+            #embeddings = aggregate_embedding(masks=inputs["attention_mask"].detach().numpy()).dissecting(torch.stack(sequence_output[1]).permute(1, 0, 2, 3).numpy())
+            tmp = [ embeddings[0].copy() ]
+            tmp_weights = [ 1.0 ]
+            if doc is None:            
+                w2 = sent_tokenize(w)
+                if len(w) > 2:
+                    for pos2, s in enumerate(w2):
+                        inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
+                        with torch.no_grad(): sequence_output, _ = self.model(**inputs, output_hidden_states=False)
+                        embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
+                        #with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
+                        #embeddings = aggregate_embedding(masks=inputs["attention_mask"].detach().numpy()).dissecting(torch.stack(sequence_output[1]).permute(1, 0, 2, 3).numpy())                       
+                        tmp.append( embeddings[0].copy() )
+                        tmp_weights.append( 0.1 )
+            else:
                 w2 = " \"" + w + "\" "
-                for s in doc:
+                for pos2, s in enumerate(doc):
                     if not(w in s): continue
                     s = s.replace(w,w2)
                     inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
@@ -96,12 +102,12 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
                         for i in range(last,aux): inputs["attention_mask"][0][i] = 0
                         last = aux+len(inputs_aux)
                     for i in range(last, len(inputs_aux2)): inputs["attention_mask"][0][i] = 0
-                    with torch.no_grad(): sequence_output, _ = self.model(**inputs, output_hidden_states=True)
-                    embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9))[0].detach().numpy()
+                    with torch.no_grad(): sequence_output, _ = self.model(**inputs, output_hidden_states=False)
+                    embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
                     #with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
-                    #embeddings = aggregate_embedding(masks=inputs["attention_mask"].detach().numpy()).dissecting(torch.stack(sequence_output[1]).permute(1, 0, 2, 3).numpy())[0].copy()
-                    if not( np.isnan(embeddings).any() ):
-                        tmp.append( embeddings.copy() )
-                        tmp.append( tmp[0].copy() )
-            saida.append( np.mean(np.array(tmp), axis=0) )
+                    #embeddings = aggregate_embedding(masks=inputs["attention_mask"].detach().numpy()).dissecting(torch.stack(sequence_output[1]).permute(1, 0, 2, 3).numpy())
+                    if not( np.isnan(embeddings[0]).any() ):
+                        tmp.append( embeddings[0].copy() )
+                        tmp_weights.append( 0.1 )
+            saida.append( np.average(np.array(tmp), weights=tmp_weights, axis=0) )
         return saida

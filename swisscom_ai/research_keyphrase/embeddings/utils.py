@@ -15,43 +15,23 @@ class aggregate_embedding():
         self.masks = masks
         self.embed = switcher.get(embed_method, 'Not a valide method index.')
 
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    # 'ave_last_hidden': self.ave_last_hidden,
     def ave_last_hidden(self, all_layer_embedding):
-        """
-            Average the output from last layer
-        """
-        unmask_num = np.sum(self.masks, axis=1) - 1 # Not considering the last item
-        embedding = []
-        for i in range(len(unmask_num)):
-            sent_len = unmask_num[i]
-            hidden_state_sen = all_layer_embedding[i][-1,:,:]
-            embedding.append(np.mean(hidden_state_sen[:sent_len,:], axis=0))
-        embedding = np.array(embedding)
-        return embedding
+        """ Average the output from last layer """
+        return self.ave_one_layer( all_layer_embedding, layer=-1 )
 
-
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    # 'ave_last_hidden': self.ave_last_hidden,
-    def ave_one_layer(self, all_layer_embedding):
-        """
-            Average the output from last layer
-        """
+    def ave_one_layer(self, all_layer_embedding, layer=4):
+        """ Average the output from one layer """
         unmask_num = np.sum(self.masks, axis=1) - 1 # Not considering the last item        
         embedding = []
         for i in range(len(unmask_num)):
             sent_len = unmask_num[i]
-            hidden_state_sen = all_layer_embedding[i][4,:,:]
+            hidden_state_sen = all_layer_embedding[i][layer,:,:]
             embedding.append(np.mean(hidden_state_sen[:sent_len,:], axis=0))
         embedding = np.array(embedding)
         return embedding
 
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    # 'CLS': self.CLS,
     def CLS(self, all_layer_embedding):
-        """
-            CLS vector as embedding
-        """
+        """ CLS vector as embedding """
         unmask_num = np.sum(self.masks, axis=1) - 1 # Not considering the last item        
         embedding = []
         for i in range(len(unmask_num)):
@@ -61,14 +41,10 @@ class aggregate_embedding():
         embedding = np.array(embedding)
         return embedding
 
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    # 'dissecting': self.dissecting,
-    def dissecting(self, all_layer_embedding):
-        """
-            dissecting deep contextualized model
-        """
+    def dissecting(self, all_layer_embedding, layer=6):
+        """ Dissecting deep contextualized model """
         unmask_num = np.sum(self.masks, axis=1) - 1 # Not considering the last item
-        all_layer_embedding = np.array(all_layer_embedding)[:,4:,:,:] # Start from 4th layers output
+        all_layer_embedding = np.array(all_layer_embedding)[:,layer:,:,:] # Start from a given layer's output
         embedding = []
         # One sentence at a time
         for sent_index in range(len(unmask_num)):
@@ -77,7 +53,6 @@ class aggregate_embedding():
             # Process each token
             for token_index in range(sentence_feature.shape[1]):
                 token_feature = sentence_feature[:,token_index,:]
-                # 'Unified Word Representation'
                 token_embedding = self.unify_token(token_feature)
                 one_sentence_embedding.append(token_embedding)
             one_sentence_embedding = np.array(one_sentence_embedding)
@@ -86,11 +61,7 @@ class aggregate_embedding():
         embedding = np.array(embedding)
         return embedding
 
-    def unify_token(self, token_feature):
-        """
-            Unify Token Representation
-        """
-        window_size = 1
+    def unify_token(self, token_feature, window_size = 1):
         alpha_alignment = np.zeros(token_feature.shape[0])
         alpha_novelty = np.zeros(token_feature.shape[0])        
         for k in range(token_feature.shape[0]):
@@ -102,8 +73,7 @@ class aggregate_embedding():
             r = R[:, -1]
             alpha_alignment[k] = np.mean(normalize(R[:-1,:-1],axis=0),axis=1).dot(R[:-1,-1]) / (np.linalg.norm(r[:-1]))
             alpha_alignment[k] = 1/(alpha_alignment[k]*window_matrix.shape[0]*2)
-            alpha_novelty[k] = abs(r[-1]) / (np.linalg.norm(r))        
-        # Sum Norm
+            alpha_novelty[k] = abs(r[-1]) / (np.linalg.norm(r))
         alpha_alignment = alpha_alignment / np.sum(alpha_alignment) # Normalization Choice
         alpha_novelty = alpha_novelty / np.sum(alpha_novelty)
         alpha = alpha_novelty + alpha_alignment        
@@ -112,9 +82,6 @@ class aggregate_embedding():
         return out_embedding
 
     def unify_sentence(self, sentence_feature, one_sentence_embedding):
-        """
-            Unify Sentence By Token Importance
-        """
         sent_len = one_sentence_embedding.shape[0]
         var_token = np.zeros(sent_len)
         for token_index in range(sent_len):

@@ -8,12 +8,19 @@ import warnings
 import numpy as np
 import networkx as nx
 import sklearn
+import torch
 from sklearn.decomposition import FastICA, PCA, TruncatedSVD
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances, manhattan_distances
 from sklearn.preprocessing import normalize
 from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, extract_doc_embedding, extract_sent_candidates_embedding_for_doc
 
-def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.2, post_processing=True):
+def smooth_l1_distances(X, Y=None, threshold=0.5):
+    aux = manhattan_distances(X,Y)
+    flag = aux > threshold
+    aux = (~flag) * (0.5 * aux ** 2) - (flag) * threshold * (0.5 * threshold - aux)
+    return aux
+
+def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.0, post_processing=False, euclidean=True):
     """
     Core method using Maximal Marginal Relevance in charge to return the top-N candidates
 
@@ -32,31 +39,31 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     N = min(N, len(candidates))
     doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding    
 
-    # Post-processing from https://arxiv.org/abs/1808.06305
+    # Post-processing from https://github.com/vyraun/Half-Size
     if post_processing:
+        pca = PCA(svd_solver="randomized")
         aux = np.array( list(doc_embedd) + list(X) )
-#        PVN_dims = int(min(aux.shape[0], aux.shape[1] / 50, 300))
-#        aux = aux - np.mean(aux, axis=0)
-#        pca = PCA(n_components=min(aux.shape[0], aux.shape[1], 300))
-#        pca.fit(aux)
-#        U1 = pca.components_
-#        explained_variance = pca.explained_variance_
-#        X = []
-#        for i, x in enumerate(aux):
-#            for j,u in enumerate(U1[0:PVN_dims]):
-#                ratio = (explained_variance[j]-explained_variance[PVN_dims - 1]) / explained_variance[j]
-#                x = x - ratio * np.dot(u.transpose(),x) * u
-#            X.append(x)
-#        aux = np.asarray(X)
-        aux = (aux + np.min(aux, axis=0)) 
-        aux = aux / np.std(aux, axis=0)
+        aux = aux - np.mean(aux)
+        pca.fit_transform(aux)
+        Ufit = pca.components_
+        for i in range(len(aux)):
+            for u in Ufit[0:7]: aux[i] = aux[i] - np.dot(u.transpose(),aux[i]) * u
+        pca = PCA(n_components=np.min((300,X.shape[0],X.shape[1])))
+        aux = pca.fit_transform(aux)
+        aux = aux - np.mean(aux)
+        aux = pca.fit_transform(aux)
+        Ufit = pca.components_
+        for i in range(len(aux)):
+            for u in Ufit[0:7]: aux[i] = aux[i] - np.dot(u.transpose(),aux[i]) * u
         doc_embedd = [aux[0]]
         X = aux[1 : len(X) + 1,:]
 
-    doc_sim = cosine_similarity(X, doc_embedd)
+    if euclidean: doc_sim = 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) )
+    else: doc_sim = cosine_similarity(X, doc_embedd)
     doc_sim_norm = doc_sim / np.max(doc_sim)
-    doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)
-    sim_between = cosine_similarity(X)
+    doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)    
+    if euclidean: sim_between = 1.0 / ( 1.0 + smooth_l1_distances(X) )
+    else: sim_between = cosine_similarity(X)
     np.fill_diagonal(sim_between, np.NaN)
     sim_between_norm = sim_between / np.nanmax(sim_between, axis=0)
     sim_between_norm = 0.5 + (sim_between_norm - np.nanmean(sim_between_norm, axis=0)) / np.nanstd(sim_between_norm, axis=0)
