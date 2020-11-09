@@ -83,7 +83,7 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
                 p = p + index + 1
         else: return l
 
-    def check_within( w , s ):
+    def check_within(self, w, s):
         if s.startswith(w + " "): return True
         if s.startswith(w + "."): return True
         if s.startswith(w + "!"): return True
