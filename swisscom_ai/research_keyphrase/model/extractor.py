@@ -8,6 +8,7 @@
 import re
 import nltk
 import spacy
+import glob
 from spacy.matcher import PhraseMatcher
 
 GRAMMAR_EN = """  NP:
@@ -59,6 +60,15 @@ def get_grammar(lang):
     else: grammar = GRAMMAR_EN
     return grammar
 
+def get_matcher( nlp ):
+    matcher = PhraseMatcher(nlp.vocab)
+    terms = [ ]
+    for file in glob.glob("lexicons/*.txt"):
+        with open(file) as f: terms = terms + [ line.rstrip() for line in f if len(line.rstrip()) > 0 ]
+    patterns = [ nlp.make_doc(text) for text in terms ]
+    matcher.add("TerminologyList", None, *patterns)
+    return matcher
+
 def extract_candidates(text_obj, no_subset=False):
     """
     Based on part of speech return a list of candidate phrases
@@ -73,12 +83,7 @@ def extract_candidates(text_obj, no_subset=False):
     elif text_obj.lang == 'de': nlp = spacy.load("de_core_news_sm")
     elif text_obj.lang == 'es': nlp = spacy.load("es_core_news_sm")
     else: nlp = spacy.load("xx_ent_wiki_sm")
-
-    matcher = PhraseMatcher(nlp.vocab)
-    terms = ["Barack Obama", "Angela Merkel", "Washington, D.C."]
-    patterns = [nlp.make_doc(text) for text in terms]
-    matcher.add("TerminologyList", None, *patterns)
-
+    
     keyphrase_candidate = set()
     np_parser = nltk.RegexpParser(get_grammar(text_obj.lang))  # Noun phrase parser
     trees = np_parser.parse_sents(text_obj.pos_tagged)  # Generator with one tree per sentence       
@@ -94,6 +99,7 @@ def extract_candidates(text_obj, no_subset=False):
         if ent.label_ in labels: keyphrase_candidate.add(ent.text.replace('\n',' '))
 
     # Additional candidates from lexicon matches
+    matcher = get_matcher( nlp )
     matches = matcher(doc)
     for match_id, start, end in matches: keyphrase_candidate.add(text_obj.rawtext[start:end].replace('\n',' '))
         

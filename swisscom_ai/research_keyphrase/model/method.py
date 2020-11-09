@@ -20,7 +20,7 @@ def smooth_l1_distances(X, Y=None, threshold=0.5):
     aux = (~flag) * (0.5 * aux ** 2) - (flag) * threshold * (0.5 * threshold - aux)
     return aux
 
-def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.0, post_processing=False, euclidean=True):
+def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.00, smoothl1=False):
     """
     Core method using Maximal Marginal Relevance in charge to return the top-N candidates
 
@@ -39,30 +39,11 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     N = min(N, len(candidates))
     doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding    
 
-    # Post-processing from https://github.com/vyraun/Half-Size
-    if post_processing:
-        pca = PCA(svd_solver="randomized")
-        aux = np.array( list(doc_embedd) + list(X) )
-        aux = aux - np.mean(aux)
-        pca.fit_transform(aux)
-        Ufit = pca.components_
-        for i in range(len(aux)):
-            for u in Ufit[0:7]: aux[i] = aux[i] - np.dot(u.transpose(),aux[i]) * u
-        pca = PCA(n_components=np.min((300,X.shape[0],X.shape[1])))
-        aux = pca.fit_transform(aux)
-        aux = aux - np.mean(aux)
-        aux = pca.fit_transform(aux)
-        Ufit = pca.components_
-        for i in range(len(aux)):
-            for u in Ufit[0:7]: aux[i] = aux[i] - np.dot(u.transpose(),aux[i]) * u
-        doc_embedd = [aux[0]]
-        X = aux[1 : len(X) + 1,:]
-
-    if euclidean: doc_sim = 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) )
+    if smoothl1: doc_sim = 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) )
     else: doc_sim = cosine_similarity(X, doc_embedd)
     doc_sim_norm = doc_sim / np.max(doc_sim)
     doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)    
-    if euclidean: sim_between = 1.0 / ( 1.0 + smooth_l1_distances(X) )
+    if smoothl1: sim_between = 1.0 / ( 1.0 + smooth_l1_distances(X) )
     else: sim_between = cosine_similarity(X)
     np.fill_diagonal(sim_between, np.NaN)
     sim_between_norm = sim_between / np.nanmax(sim_between, axis=0)
@@ -74,7 +55,7 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
         aux = []
         for pos1, w in enumerate(candidates):
             for pos2, y in enumerate(candidates):
-                if pos1 != pos2 and sim_between_norm[pos1,pos2] > 0.6: 
+                if pos1 != pos2 and sim_between_norm[pos1,pos2] > 0.5: 
                     aux.append((w,y, sim_between_norm[pos1,pos2]))
                     aux.append((y,w, sim_between_norm[pos1,pos2]))
         graph.add_weighted_edges_from(aux)
