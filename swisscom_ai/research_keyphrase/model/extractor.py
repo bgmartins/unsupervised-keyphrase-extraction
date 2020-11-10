@@ -77,7 +77,7 @@ def extract_candidates(text_obj, no_subset=False):
     :param lang: language (currently en, fr and de are supported)
     :return: list of candidate phrases (string)
     """
-    if text_obj.lang == 'en': nlp = spacy.load("en_core_web_sm")
+    if text_obj.lang == 'en': nlp = spacy.load("en_core_web_lg")
     elif text_obj.lang == 'pt': nlp = spacy.load("pt_core_news_sm")
     elif text_obj.lang == 'fr': nlp = spacy.load("fr_core_news_sm")
     elif text_obj.lang == 'de': nlp = spacy.load("de_core_news_sm")

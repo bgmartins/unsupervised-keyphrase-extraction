@@ -171,7 +171,7 @@ class PosTaggingSpacy(PosTagging):
             print('Loading Spacy model')
             #mudei
             if lang == 'en':
-                self.nlp = spacy.load("en_core_web_sm")
+                self.nlp = spacy.load("en_core_web_lg")
             elif lang == 'pt':
                 self.nlp = spacy.load("pt_core_news_sm")
             elif lang == 'fr':

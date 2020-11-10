@@ -20,7 +20,7 @@ def smooth_l1_distances(X, Y=None, threshold=0.5):
     aux = (~flag) * (0.5 * aux ** 2) - (flag) * threshold * (0.5 * threshold - aux)
     return aux
 
-def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.00, smoothl1=False):
+def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_threshold, alpha=0.0, smoothl1=False):
     """
     Core method using Maximal Marginal Relevance in charge to return the top-N candidates
 
@@ -56,11 +56,11 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
         for pos1, w in enumerate(candidates):
             for pos2, y in enumerate(candidates):
                 if pos1 != pos2 and sim_between_norm[pos1,pos2] > 0.5: 
-                    aux.append((w,y, sim_between_norm[pos1,pos2]))
-                    aux.append((y,w, sim_between_norm[pos1,pos2]))
+                    aux.append((w,y, 1.0 + sim_between_norm[pos1,pos2]))
+                    aux.append((y,w, 1.0 + sim_between_norm[pos1,pos2]))
         graph.add_weighted_edges_from(aux)
         aux = { }
-        for pos, w in enumerate(candidates): aux[w] = 0.0 + doc_sim_norm[pos]
+        for pos, w in enumerate(candidates): aux[w] = doc_sim_norm[pos]
         try:
             pr = nx.pagerank(graph, personalization=aux, alpha=alpha, max_iter=500, tol=1e-06)
             for pos, w in enumerate(candidates):

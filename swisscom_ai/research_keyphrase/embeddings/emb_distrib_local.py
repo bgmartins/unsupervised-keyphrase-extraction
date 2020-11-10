@@ -55,7 +55,7 @@ class EmbeddingDistributorLocal(EmbeddingDistributor):
         # SpanBERT/spanbert-large-cased"
         # albert-xxlarge-v2
         #
-        self.model = "sentence-transformers/bert-base-nli-stsb-mean-tokens"
+        self.model = "sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens"
         self.tokenizer = AutoTokenizer.from_pretrained(self.model)
         self.model = AutoModel.from_pretrained(self.model)
         self.model_type = 1
