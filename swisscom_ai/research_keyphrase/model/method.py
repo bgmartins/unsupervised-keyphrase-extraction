@@ -9,10 +9,11 @@ import numpy as np
 import networkx as nx
 import sklearn
 import torch
+from sklearn.cluster import OPTICS
 from sklearn.decomposition import FastICA, PCA, TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances, manhattan_distances
 from sklearn.preprocessing import normalize
-from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, extract_doc_embedding, extract_sent_candidates_embedding_for_doc
+from swisscom_ai.research_keyphrase.model.methods_embeddings import extract_candidates_embedding_for_doc, extract_doc_embedding, extract_sent_candidates_embedding_for_doc, get_doc_mask_embedding
 
 def smooth_l1_distances(X, Y=None, threshold=0.5):
     aux = manhattan_distances(X,Y)
@@ -38,9 +39,10 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     """
     N = min(N, len(candidates))
     doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding    
-
-    if smoothl1: doc_sim = 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) )
-    else: doc_sim = cosine_similarity(X, doc_embedd)
+    doc_embedd_mask = np.zeros((1,1536))
+    doc_embedd_mask = get_doc_mask_embedding(embdistrib, text_obj)
+    if smoothl1: doc_sim = 1.0 + ( 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) ) ) - (1.0 * ( 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd_mask) ) ))
+    else: doc_sim = 1.0 + cosine_similarity(X, doc_embedd) - (1.0 * cosine_similarity(X, doc_embedd_mask))
     doc_sim_norm = doc_sim / np.max(doc_sim)
     doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)    
     if smoothl1: sim_between = 1.0 / ( 1.0 + smooth_l1_distances(X) )
@@ -48,18 +50,22 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     np.fill_diagonal(sim_between, np.NaN)
     sim_between_norm = sim_between / np.nanmax(sim_between, axis=0)
     sim_between_norm = 0.5 + (sim_between_norm - np.nanmean(sim_between_norm, axis=0)) / np.nanstd(sim_between_norm, axis=0)
-
+    
+    clusters = OPTICS(min_samples=np.min((5,len(X)))).fit_predict(X)
+        
     # Post-processing with TextRank
     if alpha > 0.0:
         graph = nx.DiGraph()
         aux = []
         for pos1, w in enumerate(candidates):
             for pos2, y in enumerate(candidates):
-                if pos1 != pos2 and sim_between_norm[pos1,pos2] > 0.5: 
+                if pos1 != pos2 and clusters[pos1] == clusters[pos2] and sim_between_norm[pos1,pos2] > 0.0: 
                     aux.append((w,y, 1.0 + sim_between_norm[pos1,pos2]))
                     aux.append((y,w, 1.0 + sim_between_norm[pos1,pos2]))
+            aux.append((w,"<DOC>", 1.0 + doc_sim_norm[pos1]))
+            aux.append(("<DOC>",w, 1.0 + doc_sim_norm[pos1]))
         graph.add_weighted_edges_from(aux)
-        aux = { }
+        aux = { "<DOC>" : 0.0 }
         for pos, w in enumerate(candidates): aux[w] = doc_sim_norm[pos]
         try:
             pr = nx.pagerank(graph, personalization=aux, alpha=alpha, max_iter=500, tol=1e-06)
@@ -86,7 +92,7 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     # Not using normalized version of doc_sim for computing relevance
     relevance_list = max_normalization(doc_sim[selected_candidates]).tolist()
     aliases_list = get_aliases(sim_between[selected_candidates, :], candidates, alias_threshold)
-    return candidates[selected_candidates].tolist(), relevance_list, aliases_list
+    return candidates[selected_candidates].tolist(), relevance_list, aliases_list, clusters[selected_candidates].tolist()
 
 def MMRPhrase(embdistrib, text_obj, beta=0.65, N=20, use_filtered=False, alias_threshold=0.8):
     """

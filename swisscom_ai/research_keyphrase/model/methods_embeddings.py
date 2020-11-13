@@ -7,6 +7,12 @@ import numpy as np
 
 from swisscom_ai.research_keyphrase.model.extractor import extract_candidates, extract_sent_candidates
 
+def get_doc_mask_embedding(embedding_distrib, inp_rpr):
+    candidates = np.array(extract_candidates(inp_rpr))
+    tagged = inp_rpr.pos_tagged
+    tokenized_doc_text = ' '.join(token[0] for sent in tagged for token in sent)
+    return embedding_distrib.get_doc_masked_embedding(candidates,tokenized_doc_text)
+    
 def extract_doc_embedding(embedding_distrib, inp_rpr, use_filtered=False):
     """
     Return the embedding of the full document
