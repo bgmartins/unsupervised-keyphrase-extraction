@@ -68,9 +68,11 @@ class EmbeddingDistributorLocal:
         directory = tempfile.TemporaryDirectory(suffix="transformer")
         dataset = LineByLineTextDataset( tokenizer = self.tokenizer, data = dataset, block_size = 16 )
         data_collator = transformers.DataCollatorForLanguageModeling( tokenizer = self.tokenizer, mlm = True, mlm_probability = 0.15 )
-        training_args = transformers.TrainingArguments( num_train_epochs = 5, per_device_train_batch_size = 2, do_train = True, output_dir = directory.name, prediction_loss_only = True )
+        training_args = transformers.TrainingArguments( num_train_epochs = 2, per_device_train_batch_size = 2, do_train = True, output_dir = directory.name, prediction_loss_only = True )
         trainer = transformers.Trainer( model = self.model, args = training_args, data_collator = data_collator, train_dataset = dataset )
         trainer.train()
+        trainer.save_model()
+        self.model = AutoModel(directory.name)
         directory.cleanup()
 
     def seq_in_seq(self, subseq, seq):
@@ -119,7 +121,7 @@ class EmbeddingDistributorLocal:
             #doc = pattern.sub("[MASK]",doc)
         inputs = self.tokenizer( [doc] , padding=True, truncation=True, return_tensors="pt", max_length=512)
         with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
-        sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-2]), -1)
+        sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-3]), -1)
         embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
         tmp = [ embeddings[0].copy() ]
         tmp_weights = [ 1.0 ]
@@ -127,10 +129,10 @@ class EmbeddingDistributorLocal:
         for pos2, s in enumerate(w2):
             inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
             with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
-            sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-2]), -1)
+            sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-3]), -1)
             embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
             tmp.append( embeddings[0].copy() )
-            tmp_weights.append( 1.0 )
+            tmp_weights.append( 1.0 / ( 2 + pos2 ) )
         return [ np.average(np.array(tmp), weights=tmp_weights, axis=0) ]
     
     def get_tokenized_sents_embeddings(self, sents, doc=None):
@@ -152,7 +154,7 @@ class EmbeddingDistributorLocal:
             inputs = self.tokenizer( [w] , padding=True, truncation=True, return_tensors="pt", max_length=512)
             with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
             #sequence_output = sequence_output[2][-1]
-            sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-2]), -1)            
+            sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-3]), -1)            
             embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
             tmp = [ embeddings[0].copy() ]
             tmp_weights = [ 1.0 ]
@@ -162,7 +164,7 @@ class EmbeddingDistributorLocal:
                     inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
                     with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
                     #sequence_output = sequence_output[2][-1]
-                    sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-2]), -1)
+                    sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-3]), -1)
                     embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
                     tmp.append( embeddings[0].copy() )
                     tmp_weights.append( 1.0 / ( 2 + pos2 ) )
@@ -173,7 +175,7 @@ class EmbeddingDistributorLocal:
                     inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
                     with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
                     #sequence_output = sequence_output[2][-1]
-                    sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-2]), -1)
+                    sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-3]), -1)
                     embeddings_sent = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy().copy()
                     s = s.replace(w, w2)
                     inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
@@ -185,7 +187,7 @@ class EmbeddingDistributorLocal:
                         last = aux + len(inputs_aux)
                     for i in range(last, len(inputs.input_ids.detach().numpy()[0])): inputs["attention_mask"][0][i] = 0
                     #sequence_output = sequence_output[2][-1]
-                    sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-2]), -1)
+                    sequence_output = torch.cat((sequence_output[2][-1], sequence_output[2][-3]), -1)
                     embeddings = (torch.sum( sequence_output * inputs["attention_mask"].unsqueeze(-1), dim=1 ) / torch.clamp(torch.sum(inputs["attention_mask"], dim=1, keepdims=True), min=1e-9)).detach().numpy()
                     if not( np.isnan(embeddings[0]).any() ): 
                         tmp.append( embeddings[0].copy() )

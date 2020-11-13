@@ -41,8 +41,8 @@ def _MMR(embdistrib, text_obj, candidates, X, beta, N, use_filtered, alias_thres
     doc_embedd = extract_doc_embedding(embdistrib, text_obj, use_filtered)  # Extract doc embedding    
     doc_embedd_mask = np.zeros((1,1536))
     doc_embedd_mask = get_doc_mask_embedding(embdistrib, text_obj)
-    if smoothl1: doc_sim = 1.0 + ( 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) ) ) - (1.0 * ( 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd_mask) ) ))
-    else: doc_sim = 1.0 + cosine_similarity(X, doc_embedd) - (1.0 * cosine_similarity(X, doc_embedd_mask))
+    if smoothl1: doc_sim = ( 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd) ) ) - (0.5 * ( 1.0 / ( 1.0 + smooth_l1_distances(X, doc_embedd_mask) ) ))
+    else: doc_sim = cosine_similarity(X, doc_embedd) - (0.5 * cosine_similarity(X, doc_embedd_mask))
     doc_sim_norm = doc_sim / np.max(doc_sim)
     doc_sim_norm = 0.5 + (doc_sim_norm - np.average(doc_sim_norm)) / np.std(doc_sim_norm)    
     if smoothl1: sim_between = 1.0 / ( 1.0 + smooth_l1_distances(X) )
