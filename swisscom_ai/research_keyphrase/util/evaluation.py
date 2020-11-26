@@ -1,11 +1,29 @@
 import numpy as np
 
-from nltk.stem import PorterStemmer
+#from nltk.stem import PorterStemmer
+from nltk.stem.snowball import SnowballStemmer	
 
 def eval_metrics(keyphases_verdadeiras, keyphases_extraídas, lang="en"):
 	lowercase = True
 	stemming = True
-	porter = PorterStemmer()
+
+#	porter = PorterStemmer()
+	
+	if lang == 'en':
+		porter = SnowballStemmer("english")
+	elif lang == 'pt':
+		porter = SnowballStemmer("portuguese")
+	elif lang == 'fr':
+		porter = SnowballStemmer("french")
+	elif lang == 'de':
+		porter = SnowballStemmer("german")
+	elif lang == 'es':
+		porter = SnowballStemmer("spanish")
+	else:
+		porter = SnowballStemmer("english")
+		
+	
+	
 	resultados = { }
 	cont_semcop = 0	
 	for doc, keyphase_extraída in keyphases_extraídas.items():
@@ -16,6 +34,22 @@ def eval_metrics(keyphases_verdadeiras, keyphases_extraídas, lang="en"):
 		if lowercase:
 			keyphase_extraída = [ k.lower() for k in keyphase_extraída ]
 			keyphase_verdadeira = [ k.lower() for k in keyphase_verdadeira ]
+			
+		a = []
+		for w in keyphase_extraída:
+			if w not in a:
+				a.append(w)
+				
+		keyphase_extraída = a
+#		print (a)
+		
+		b = []
+		for w in keyphase_verdadeira:
+			if w not in b:
+				b.append(w)
+				
+		keyphase_verdadeira = b
+#		print(b)
 			
 		if len( [ k for k in keyphase_extraída if k in keyphase_verdadeira ]) == 0: cont_semcop += 1
 		
@@ -74,3 +108,4 @@ def eval_metrics(keyphases_verdadeiras, keyphases_extraídas, lang="en"):
 	print("Normalized Discounted Cumulative Gain - " + repr( np.mean( [ v[18] for k, v in resultados.items() ] ) ) )
 	print('Documents without any correct key-phrase extracted: ', cont_semcop)
 	print('-------------------------------------')
+	

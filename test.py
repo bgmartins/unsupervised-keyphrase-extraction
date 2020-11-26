@@ -10,11 +10,12 @@ from swisscom_ai.research_keyphrase.util.evaluation import eval_metrics
 import string
 
 #set de variaveis de entrada -tipo do dataset e lingagem
-tipo_dataset = "DUC"
+tipo_dataset = "inspec"
 lang = 'en'
 
 #pasta onde estao localizados os arquivos
-dataset = './datasets/' + tipo_dataset + '/dataset.txt'
+#/Users/zuilpirola/Documents/00_Zuil/00_Estudo/03_Doutorado/03_Tarefa_1/01_Datasets
+dataset = '/Users/zuilpirola/Documents/00_Zuil/00_Estudo/03_Doutorado/03_Tarefa_1/01_Datasets/' + tipo_dataset + '/dataset.txt'
 
 #gerar listas para comparacao na rotina de indicadores
 keyphases_verdadeiras = {}
@@ -22,13 +23,20 @@ keyphases_extraídas = {}
 
 #load dos pretrained de embeding e postagging
 embedding_distributor = launch.load_local_embedding_distributor()
-pos_tagger = launch.load_local_corenlp_pos_tagger()
+pos_tagger = launch.load_local_corenlp_pos_tagger(lang)
 
 #caso datase possua blacklist de arquivos indevidos os mesmos devem ser inseridos aqui
 blacklist = ['https://www.goodtherapy.org/blog/married-with-undiagnosed-autism-why-women-who-leave-lose-twice-0420164','https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/w/war-damage-reports/uss-enterprise-cv6-war-history-1941-1945.html','https://www.iwillteachyoutoberich.com/blog/how-to-start-an-online-business/','https://www.judiciaryreport.com/bvc','https://www.judiciaryreport.com/']
 
 #leitura do arquivo
-with open(dataset, 'r') as arquivo: raw_text=arquivo.readlines()
+data_end = ['Cacic','NUS','TeKET','Wicc']
+
+#leitura do arquivo
+if tipo_dataset in data_end:
+	with open(dataset, 'r') as arquivo: raw_text=arquivo.read().split("[end]")
+else:
+	with open(dataset, 'r') as arquivo: raw_text=arquivo.readlines()
+
 	
 #contagem dos arquivos para gerar porcentagem de processamento no print de tela
 cont_total = len(raw_text)
@@ -51,6 +59,7 @@ for line in raw_text:
 			print ("Document", id_url, "without any keyphrases!")
 			cont_cresc = cont_cresc +1
 		else:
+#			print (kp1)
 			keyphases_extraídas[id_url] =  kp1[0]
 			keyphases_verdadeiras[id_url] = data[2].split("!")
 			keyphases_verdadeiras[id_url] = [w.replace('\n','') for w in keyphases_verdadeiras[id_url]]
