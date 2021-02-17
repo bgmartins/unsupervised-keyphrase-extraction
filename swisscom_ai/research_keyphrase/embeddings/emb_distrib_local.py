@@ -54,8 +54,11 @@ class EmbeddingDistributorLocal:
         # xlm-roberta-large
         # SpanBERT/spanbert-large-cased"
         # albert-xxlarge-v2
+#        bert-base-german-cased
+#        self.model_name = "bert-base-german-cased"
+#        self.model_name = "neuralmind/bert-base-portuguese-cased"
         self.model_name = "sentence-transformers/bert-base-nli-stsb-mean-tokens"
-        #self.model_name = "sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens"
+#        self.model_name = "sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens"
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.model = AutoModel.from_pretrained(self.model_name)
         self.model_type = 1
@@ -134,6 +137,7 @@ class EmbeddingDistributorLocal:
             tmp.append( embeddings[0].copy() )
             tmp_weights.append( 1.0 / ( 2 + pos2 ) )
         return [ np.average(np.array(tmp), weights=tmp_weights, axis=0) ]
+#        return [ np.amax(np.array(tmp), axis=0) ]
     
     def get_tokenized_sents_embeddings(self, sents, doc=None):
         """
@@ -145,6 +149,8 @@ class EmbeddingDistributorLocal:
             return self.model.embed_sentences(sents)
         doc_embedd = None
         saida = [ ]
+        new_tpm = []
+#        new_tpm = np.zeros((1,1536))
         if not(doc is None):
             doc_embedd = self.get_tokenized_sents_embeddings( [doc] )
             doc = doc.replace('\n',' ').replace(" 's ", "'s ").replace(" 'll ", "'ll ").replace(" n't ", "n't ").replace(" , ", ", ").replace("  +", " ").strip()
@@ -171,7 +177,12 @@ class EmbeddingDistributorLocal:
             else:
                 w2 = " \"" + w + "\" "
                 s2 = [ s for s in doc if self.check_within( w , s ) ]
+#                print ("-----------------")
+#                print ("Numero sentencas:",len (s2))
+#                print ("s2>>>>>>",s2)
                 for pos2, s in enumerate(s2):
+#                    print ("Sentenca", s)
+                    new_tpm = []
                     inputs = self.tokenizer( [s] , padding=True, truncation=True, return_tensors="pt", max_length=512)
                     with torch.no_grad(): sequence_output = self.model(**inputs, output_hidden_states=True)
                     #sequence_output = sequence_output[2][-1]
@@ -193,5 +204,25 @@ class EmbeddingDistributorLocal:
                         tmp.append( embeddings[0].copy() )
                         weight = cosine_similarity(embeddings_sent, doc_embedd)
                         tmp_weights.append( weight[0][0] * ( 0.5 / len(s2)) )
-            saida.append( np.average(np.array(tmp), weights=tmp_weights, axis=0) )
+
+            
+                    
+#MODIFICACAO PARA ACEITE DO EMBEDDING MAIOR                    
+                aux_cosine = 0
+                aux_position = 0
+                for position_1, cosine_value in enumerate (cosine_similarity(np.array(tmp), doc_embedd)):
+                    if cosine_value > aux_cosine:
+                        aux_cosine = cosine_value
+                        aux_position = position_1
+                
+                new_tpm.append(tmp[position_1])
+                
+            if not(doc is None):
+                saida.append(np.array(new_tpm).reshape(1536))
+                new_tpm = []
+            else:
+                saida.append( np.average(np.array(tmp), weights=tmp_weights, axis=0) )
+                new_tpm = []
+
         return saida
+        
